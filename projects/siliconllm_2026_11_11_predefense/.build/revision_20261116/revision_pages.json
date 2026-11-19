@@ -1,0 +1,219 @@
+[
+  {
+    "old": 1,
+    "title": "Master's Thesis Pre-Defense",
+    "en": "My research is about making local language models faster for code agents.\nToday I will explain the problem, our method, and the current results.",
+    "zh": "我的研究是让本地语言模型在代码 Agent 中运行得更快。\n今天我会介绍研究问题、我们的方法，以及目前的结果。",
+    "number": 1
+  },
+  {
+    "old": 2,
+    "title": "What Is a Local Code Agent?",
+    "en": "A code agent can write code, run tests, and use the results.\nHere, both the model and the tools run on a local computer.\nThis can keep code local, but compute and memory are limited.",
+    "zh": "代码 Agent 可以写代码、运行测试，并利用测试结果。\n这里的模型和工具都在本地电脑运行。\n这样可以让代码留在本地，但计算和内存资源有限。",
+    "number": 2
+  },
+  {
+    "old": 3,
+    "title": "LLM-Based Software Development Workflow",
+    "en": "The agent first generates code and runs tests.\nIf a test fails, it uses the old code and error message to generate a repair.\nIt then runs the tests again.\nThis loop can require several model calls.",
+    "zh": "Agent 先生成代码，再运行测试。\n如果测试失败，它会根据旧代码和报错信息生成修复版本。\n然后再次运行测试。\n这个循环可能需要多次调用模型。",
+    "number": 3
+  },
+  {
+    "old": 4,
+    "title": "Research Problem and Goal",
+    "en": "A repair often generates code that already exists in the history.\nOur goal is to reduce this waiting time while keeping the same greedy output.\nThe question is whether a time-based choice can beat a fixed draft length.\nWe check both model time and the full agent workflow.",
+    "zh": "修复时，模型经常会重新生成历史中已有的代码。\n我们的目标是在保持贪心输出一致的同时，减少这部分等待时间。\n我们想知道，根据预计时间做选择，能否优于固定草稿长度。\n我们同时检查模型耗时和完整 Agent 流程的耗时。",
+    "number": 4
+  },
+  {
+    "old": 5,
+    "title": "Why Repair Offers Reusable Code",
+    "en": "In this example, the repair changes only the last expression.\nThe earlier lines stay the same.\nWe can use the old code as a draft for these unchanged parts.\nThe model still checks the draft before accepting it.",
+    "zh": "这个例子中，修复只改变了最后一个表达式。\n前面的代码保持不变。\n我们可以把旧代码作为这些不变部分的草稿。\n模型仍然要先检查草稿，才能接受它。",
+    "number": 5
+  },
+  {
+    "old": 6,
+    "title": "How an LLM Generates Code",
+    "en": "A token is a small piece of text.\nOrdinary greedy decoding chooses the highest-scoring next token at each step.\nKV cache saves earlier intermediate results.\nIt avoids repeated work, but the model still runs for each new token.",
+    "zh": "Token 是一小段文本。\n普通贪心解码每一步选择得分最高的下一个 token。\nKV cache 保存之前的中间计算结果。\n它能避免重复计算，但每生成一个新 token，模型仍然要执行一步。",
+    "number": 6
+  },
+  {
+    "new": "generation",
+    "title": "mlx-lm Generation Procedure",
+    "en": "mlx-lm first turns the prompt into tokens.\nPrefill builds the cache for the prompt prefix.\nThe model then generates tokens one at a time. Each step reads and updates the cache.\nIt stops at an end token or the output limit.",
+    "zh": "mlx-lm 先把输入转成 token。\nPrefill 为输入前缀建立缓存。\n随后模型逐个生成 token，每一步都会读取并更新缓存。\n遇到结束 token 或达到长度上限时停止。",
+    "number": 7
+  },
+  {
+    "old": 7,
+    "title": "Speculative Decoding",
+    "en": "Speculative decoding uses a fast draft model to propose several tokens.\nThe target model checks them together and keeps the matching prefix.\nThis can save target-model steps.\nIt is faster only when the saved work exceeds the extra costs.",
+    "zh": "投机解码用一个快速的草稿模型提出多个 token。\n目标模型一起检查它们，并保留前面连续匹配的部分。\n这样可以减少目标模型的执行步骤。\n只有省下的工作超过额外成本，最后才会更快。",
+    "number": 8
+  },
+  {
+    "old": 8,
+    "title": "Existing Reuse and Adaptive Methods",
+    "en": "History reuse and adaptive draft length already appear in earlier work.\nOur proposed part is a specific time-based selection rule for local history drafts.\nIt uses step and verification timings, recent acceptance, and an ordinary-decoding option.\nWe test this rule with the other decoding parts held the same.",
+    "zh": "已有工作已经研究了历史复用和动态草稿长度。\n我们提出的部分，是面向本地历史草稿的一套具体时间选择规则。\n它使用普通步和验证的计时、近期接受情况，并允许选择普通解码。\n实验中，其他解码部分保持一致，只比较这套选择规则。",
+    "number": 9
+  },
+  {
+    "old": 9,
+    "title": "Proposed Method: Cost-Aware Selection",
+    "en": "The target is the four-bit Qwen2 1.5B model. We do not train a new language model.\nEarlier code provides draft tokens. The controller chooses whether to use them and how many to check.\nIt compares estimated time per output token for ordinary decoding and lengths of two, four, eight, or sixteen.\nThe target model still verifies the draft.",
+    "zh": "目标模型是四比特 Qwen2 1.5B。我们不训练新的语言模型。\n旧代码提供草稿 token，控制器决定是否使用，以及检查多少个。\n它比较普通解码和长度为 2、4、8、16 的草稿，每产生一个输出 token 的预计耗时。\n草稿仍然由目标模型验证。",
+    "number": 10
+  },
+  {
+    "old": 10,
+    "title": "Historical Draft Retrieval",
+    "en": "History lookup is an existing part of the method.\nWe match recent output against earlier code and retrieve the following tokens.\nThe policy then chooses how many to check.\nIf no earlier code is available, we use ordinary decoding.",
+    "zh": "历史查找是方法中已有的组成部分。\n我们用最近的输出匹配旧代码，再取出它后面的 token。\n然后由策略决定检查多少个。\n如果没有旧代码，就使用普通解码。",
+    "number": 11
+  },
+  {
+    "old": 11,
+    "title": "Estimating Time per Output Token",
+    "en": "A round may take more time but produce several tokens.\nSo we divide its estimated time by its expected output progress.\nVerification includes the use of the KV cache.\nR is the expected replay cost in our current path. The mlx-lm path can trim the cache instead.\nThe formula is a selection score. Its timing accuracy still needs checking.",
+    "zh": "一轮执行可能花更多时间，但也可能产生多个 token。\n因此，我们用预计耗时除以预计的输出进展。\n验证时间已经包含 KV cache 的使用。\nR 表示当前路径中预计的重放成本。mlx-lm 路径可以改用缓存裁剪。\n这个公式用于选择动作，计时预测是否准确仍需检查。",
+    "number": 12
+  },
+  {
+    "old": 12,
+    "title": "Verification Cost by Draft Length",
+    "en": "These numbers are placeholders, not measurements.\nThis page shows the planned comparison of verification time at different draft lengths.\nWe will replace the values with repeated, synchronized timings.\nFor now, this table does not show a measured hardware trend.",
+    "zh": "这些数字是占位值，不是实测结果。\n这一页展示计划如何比较不同草稿长度的验证时间。\n之后会用重复测量并完成同步的计时结果替换。\n目前这张表不能说明硬件上的实际变化规律。",
+    "number": 13
+  },
+  {
+    "old": 13,
+    "title": "Cache Recovery: What We Count",
+    "en": "Before verification, our current path keeps a cache snapshot.\nAfter rejection, it restores that snapshot and replays the retained prefix.\nEarlier checks found numerical cache differences after batch verification.\nReplay was an implementation choice for that issue. It is not a general requirement.\nThe next page shows how mlx-lm handles its target cache.",
+    "zh": "验证之前，当前路径会保留一份缓存快照。\n拒绝草稿后，它恢复快照，再重放需要保留的前缀。\n之前的检查发现，批量验证后缓存存在数值差异。\n重放是针对这一问题采取的实现方式，并不是普遍要求。\n下一页介绍 mlx-lm 怎样处理目标模型缓存。",
+    "number": 14
+  },
+  {
+    "new": "recovery",
+    "title": "mlx-lm Cache Recovery",
+    "en": "Here the draft is A, B, C, and D. The target accepts A and B, but predicts Z instead of C.\nThe target cache keeps the old prefix, x, A, and B. It trims C and D.\nZ becomes the next input.\nThis mlx-lm path keeps the accepted cache entries and does not replay that prefix.",
+    "zh": "这里草稿是 A、B、C、D。目标模型接受 A 和 B，但在 C 的位置预测了 Z。\n目标缓存保留原前缀以及 x、A、B，并裁掉 C 和 D。\nZ 成为下一轮输入。\n这个 mlx-lm 路径会保留已接受部分的缓存，不重放这段前缀。",
+    "number": 15
+  },
+  {
+    "old": 14,
+    "title": "Dynamic Policy: A Worked Example",
+    "en": "This example uses assumed numbers to explain the policy.\nWith low acceptance, it chooses ordinary decoding.\nWith higher acceptance, it chooses four or eight draft tokens here.\nReuse must look at least five percent cheaper.\nThis is a calculation example, not an experimental result.",
+    "zh": "这个例子用假设数字说明策略怎样工作。\n接受率较低时，它选择普通解码。\n接受率较高时，这里会选择 4 个或 8 个草稿 token。\n只有估计成本至少低 5%，才使用草稿。\n这是计算示例，不是实验结果。",
+    "number": 16
+  },
+  {
+    "old": 15,
+    "title": "Experimental Setup",
+    "en": "The reported setup uses four-bit Qwen2 1.5B on Apple Silicon with eighteen GiB of memory.\nThe tasks come from MBPP sanitized and HumanEval. The agent generates code, runs visible tests, and can try two repairs.\nFinal scoring tests never enter the prompt.\nThe main replay has thirty tasks and sixty-four requests. The agent timing uses twenty tasks.\nThe main path uses SiliconLLM. The native model and cache path is a separate test.",
+    "zh": "已报告的设置在 Apple Silicon 上使用四比特 Qwen2 1.5B，统一内存为 18 GiB。\n任务来自 MBPP sanitized 和 HumanEval。Agent 生成代码、运行可见测试，最多进行两次修复。\n最终评分测试不会进入提示。\n主要重放实验有 30 个任务和 64 次请求。Agent 计时使用 20 个任务。\n主要路径使用 SiliconLLM，原生模型和缓存路径另行测试。",
+    "number": 17
+  },
+  {
+    "old": 16,
+    "title": "Baselines and Fair Comparison",
+    "en": "The main baselines are ordinary KV decoding and fixed history with up to sixteen tokens.\nOur adaptive method uses the same model, prompts, history, and verification path.\nThis lets us compare the selection rule itself.\nThese are in-project controls, not full reproductions of AgSpec or other systems.\nThe full stock mlx-lm API comparison remains pending.",
+    "zh": "主要基线是普通 KV 解码，以及最多使用 16 个 token 的固定历史草稿。\n动态方法使用相同的模型、提示、历史和验证路径。\n这样可以比较选择规则本身。\n这些是项目内的受控比较，不是对 AgSpec 等系统的完整复现。\n完整标准 mlx-lm API 的对比仍未完成。",
+    "number": 18
+  },
+  {
+    "new": "metrics",
+    "title": "Evaluation Metrics",
+    "en": "We report model time and agent time separately.\nSpeedup is baseline time divided by method time for the same workload.\nWe also compare the full token sequences and the final tests passed.\nMatching the output does not mean the answer is correct. A faster run does not mean more tasks are solved.\nOverall timing and repair-only timing are separate results.",
+    "zh": "我们分别报告模型耗时和 Agent 耗时。\n加速比是在相同工作量下，基线耗时除以方法耗时。\n我们也比较完整 token 序列，以及最终测试是否通过。\n输出一致不代表答案正确。运行更快也不代表解决了更多任务。\n总体计时和仅修复阶段的计时分别报告。",
+    "number": 19
+  },
+  {
+    "old": 17,
+    "title": "Model-Time Results",
+    "en": "In the reported runs, fixed history reaches 1.45 times the baseline speed.\nDynamic control reaches 1.65 times.\nThat is about fourteen percent faster than fixed history in this queue.\nThe reported runs kept the same complete outputs.",
+    "zh": "在已报告的运行中，固定历史草稿的速度达到基线的 1.45 倍。\n动态控制达到 1.65 倍。\n在这组任务中，动态控制比固定历史草稿快约 14%。\n已报告的运行保持了完整输出一致。",
+    "number": 20
+  },
+  {
+    "old": 18,
+    "title": "Where the Speedup Comes From",
+    "en": "For repair calls alone, fixed history reaches 2.05 times the baseline speed.\nDynamic control reaches about 2.86 times.\nFirst generation stays ordinary, so the overall gain is smaller.\nMuch of the saving comes from repeated code in failed repairs, not more successful repairs.",
+    "zh": "只看修复调用，固定历史草稿的速度达到基线的 2.05 倍。\n动态控制达到约 2.86 倍。\n首次生成仍使用普通解码，所以总体收益较小。\n大量节省来自失败修复中重复的代码，而不是更多修复成功。",
+    "number": 21
+  },
+  {
+    "old": 19,
+    "title": "Agent Workflow Results",
+    "en": "Here we add the mean agent time for each of twenty tasks.\nThe total falls from about 202 seconds to 124 seconds with dynamic control.\nThat is a 1.62-times speedup.\nThis includes visible tests and logging, but excludes loading, warmup, and final scoring.",
+    "zh": "这里把 20 个任务各自的平均 Agent 时间相加。\n动态控制使总和从约 202 秒降到 124 秒。\n对应约 1.62 倍加速。\n计时包含可见测试和日志，但不包含加载、预热及最终评分。",
+    "number": 22
+  },
+  {
+    "old": 20,
+    "title": "Native MLX Model and Cache",
+    "en": "We also have reported results using native mlx-lm model and cache components.\nDynamic control reaches 1.60 times its ordinary baseline speed.\nHowever, this still uses a shared synchronous loop.\nIt does not show that we beat the full stock mlx-lm API.",
+    "zh": "我们也有使用原生 mlx-lm 模型和缓存组件的报告结果。\n动态控制的速度达到该路径普通基线的 1.60 倍。\n但这里仍使用共用的同步解码循环。\n它不能说明我们超过了完整的标准 mlx-lm API。",
+    "number": 23
+  },
+  {
+    "old": 21,
+    "title": "Full mlx-lm API Comparison",
+    "en": "This page is still a placeholder for the full mlx-lm API comparison.\nThe values of one hundred, eighty-five, and seventy-five are assumed, not measured.\nThe earlier procedure pages explain the ordinary generation and cache-trim paths.\nThey do not mean our full API integration or output checks are complete.\nThis page does not yet support a speedup claim.",
+    "zh": "这一页仍然是完整 mlx-lm API 对比的占位页。\n100、85 和 75 是假设值，不是实测结果。\n前面的流程页介绍了普通生成和缓存裁剪。\n这不代表我们已经完成完整 API 的接入和输出检查。\n目前这一页还不能支持加速结论。",
+    "number": 24
+  },
+  {
+    "old": 22,
+    "title": "Limitations and Remaining Checks",
+    "en": "The results cover one model and one machine.\nMost public-task savings come from repeated failed repairs.\nWe still need to validate the cost model, check replay, and complete the standard-engine comparison.\nWe also need longer successful edits and repeated sessions.",
+    "zh": "这些结果只覆盖一个模型和一台机器。\n公共任务中的大部分节省来自重复的失败修复。\n我们仍需验证成本模型、检查重放，并完成标准引擎对比。\n也需要测试更长的成功修改，并跨会话重复实验。",
+    "number": 25
+  },
+  {
+    "old": 23,
+    "title": "Conclusions",
+    "en": "Our method uses estimated time to choose whether and how much history to reuse.\nThe reported results show gains in model time and agent time.\nThe next step is to validate the cost assumptions and test the full standard engine.\nThank you.",
+    "zh": "我们的方法根据预计时间，决定是否复用历史以及复用多少。\n已报告的结果显示，模型耗时和 Agent 耗时都有收益。\n下一步是验证成本假设，并测试完整的标准推理引擎。\n谢谢。",
+    "number": 26
+  },
+  {
+    "old": 24,
+    "title": "Backup: Cost Model Assumptions",
+    "en": "This backup page shows the assumptions behind the score.\nOne acceptance estimate predicts the matching prefix length.\nThe recovery term models replay after rejection.\nThese are simple approximations, so their prediction error and missing overhead still need checking.",
+    "zh": "这张备用页说明评分背后的假设。\n我们用一个接受率估计来预测连续匹配的前缀长度。\n恢复项描述拒绝草稿之后的重放。\n这些只是简单近似，仍需检查预测误差和遗漏的开销。",
+    "number": 27
+  },
+  {
+    "old": 25,
+    "title": "Backup: Fixed-Length Sensitivity",
+    "en": "This separate follow-up compares fixed draft lengths.\nLonger drafts helped within the tested range.\nIt reuses an earlier task group and has its own timing runs.\nWe should not merge it with the main experiment or call sixteen the best length for every workload.",
+    "zh": "这项单独的后续实验比较了不同固定草稿长度。\n在测试范围内，更长的草稿带来了收益。\n它复用了已有任务组，并单独计时。\n因此不能与主实验合并，也不能说 16 对所有任务都是最佳长度。",
+    "number": 28
+  },
+  {
+    "old": 26,
+    "title": "Backup: Fallback Feedback",
+    "en": "On another twenty tasks, the original controller was slower than fixed history.\nA feedback version updates its estimate using the ordinary next token.\nIt needs no extra model call for that feedback.\nThis version improved speed in that queue, but it is a separate method.",
+    "zh": "在另一组 20 个任务中，原控制器比固定历史草稿慢。\n反馈版本利用普通解码已有的下一个 token 更新估计。\n这项反馈不需要额外调用模型。\n该版本在那组任务中提高了速度，但需要作为单独的方法介绍。",
+    "number": 29
+  },
+  {
+    "old": 27,
+    "title": "References (1/2)",
+    "en": "These are the main references for speculative decoding, history reuse, and adaptive draft length.",
+    "zh": "这些是关于投机解码、历史复用和动态草稿长度的主要参考文献。",
+    "number": 30
+  },
+  {
+    "old": 28,
+    "title": "References (2/2)",
+    "en": "This page lists the inference software, task datasets, and implementation base used in the study.",
+    "zh": "这一页列出了研究使用的推理软件、任务数据集和实现基础。",
+    "number": 31
+  }
+]

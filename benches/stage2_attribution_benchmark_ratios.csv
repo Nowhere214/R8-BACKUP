@@ -1,0 +1,5 @@
+ratio_id,ratio_label,model,numerator_engine,denominator_engine,prefill_tps_ratio,decode_tps_ratio,wall_s_ratio,peak_memory_gb_ratio
+stage2_full_context_over_stage1_ref,Stage 2 full-context / Stage 1 ref,qwen2-0.5b,stage2_full_context,stage1_ref_full_context,1.1598614479797786,1.0732296213066999,0.9302178166486812,0.6346538761511752
+stage2_kv_cache_over_stage2_full_context,Stage 2 KV-cache / Stage 2 full-context,qwen2-0.5b,stage2_kv_cache,stage2_full_context,1.0122095792597552,8.54215117397875,0.11984158027562518,0.7776761081477971
+mlx_lm_over_stage2_kv_cache,mlx-lm / Stage 2 KV-cache,qwen2-0.5b,mlx_lm,stage2_kv_cache,1.3825890688432443,2.8855108770805935,0.3623038190676093,0.5727920187178683
+stage2_kv_cache_over_stage1_ref,Stage 2 KV-cache / Stage 1 ref,qwen2-0.5b,stage2_kv_cache,stage1_ref_full_context,1.1740228682592222,9.167689669593797,0.11147877314771971,0.4935551564261599

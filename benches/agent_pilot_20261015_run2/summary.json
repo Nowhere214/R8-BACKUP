@@ -1,0 +1,97 @@
+{
+  "tasks": 5,
+  "llm_calls": 9,
+  "repair_calls": 4,
+  "initial_visible_passes": 3,
+  "final_visible_passes": 3,
+  "final_all_tests_passes": 3,
+  "task_outcomes": [
+    {
+      "task_id": 113,
+      "attempts": 1,
+      "initial_visible_pass": true,
+      "final_visible_pass": true,
+      "heldout": {
+        "status": "passed",
+        "passed": true,
+        "wall_s": 0.05172987503465265
+      },
+      "final_all_tests_pass": true,
+      "agent_wall_s": 0.7614120420184918,
+      "model_wall_s": 0.6617657909519039,
+      "visible_tool_wall_s": 0.09316649998072535
+    },
+    {
+      "task_id": 61,
+      "attempts": 1,
+      "initial_visible_pass": true,
+      "final_visible_pass": true,
+      "heldout": {
+        "status": "passed",
+        "passed": true,
+        "wall_s": 0.029310874990187585
+      },
+      "final_all_tests_pass": true,
+      "agent_wall_s": 1.4840667910175398,
+      "model_wall_s": 1.4439187500393018,
+      "visible_tool_wall_s": 0.03333691699663177
+    },
+    {
+      "task_id": 274,
+      "attempts": 3,
+      "initial_visible_pass": false,
+      "final_visible_pass": false,
+      "heldout": {
+        "status": "failed",
+        "passed": false,
+        "feedback": "AssertionError: even_binomial_Coeff_Sum(6) returned 126; expected 32",
+        "traceback": "Traceback (most recent call last):\n  File \"<string>\", line 22, in <module>\nAssertionError: even_binomial_Coeff_Sum(6) returned 126; expected 32\n",
+        "wall_s": 0.03144304204033688
+      },
+      "final_all_tests_pass": false,
+      "agent_wall_s": 4.778984958946239,
+      "model_wall_s": 4.672528582974337,
+      "visible_tool_wall_s": 0.09864929103059694
+    },
+    {
+      "task_id": 257,
+      "attempts": 1,
+      "initial_visible_pass": true,
+      "final_visible_pass": true,
+      "heldout": {
+        "status": "passed",
+        "passed": true,
+        "wall_s": 0.029664041008800268
+      },
+      "final_all_tests_pass": true,
+      "agent_wall_s": 0.5407022080034949,
+      "model_wall_s": 0.5093242920120247,
+      "visible_tool_wall_s": 0.02899779099971056
+    },
+    {
+      "task_id": 245,
+      "attempts": 3,
+      "initial_visible_pass": false,
+      "final_visible_pass": false,
+      "heldout": {
+        "status": "failed",
+        "passed": false,
+        "feedback": "AssertionError: ",
+        "traceback": "Traceback (most recent call last):\n  File \"<string>\", line 12, in <module>\n  File \"<string>\", line 22, in <module>\nAssertionError\n",
+        "wall_s": 0.03298445901600644
+      },
+      "final_all_tests_pass": false,
+      "agent_wall_s": 19.00933500000974,
+      "model_wall_s": 18.895601042022463,
+      "visible_tool_wall_s": 0.10081166698364541
+    }
+  ],
+  "model_load_s": 1.0070816249935888,
+  "agent_wall_s": 26.574500999995507,
+  "model_wall_s": 26.18313845800003,
+  "visible_tool_wall_s": 0.35496216599131003,
+  "heldout_tool_wall_s": 0.17513229208998382,
+  "repair_repeat_fraction_mean": 1.0,
+  "peak_mlx_memory_gb": 2.8539539501070976,
+  "limitations": "Five-task workflow pilot by default; no speculative decoding, acceptance measurement, speedup comparison or MBPP+ score. Per-turn KV cache is rebuilt; model load/warmup and held-out evaluation are excluded from agent wall time."
+}

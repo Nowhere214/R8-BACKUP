@@ -1,0 +1,13 @@
+No,Filename,Width,Height,AspectRatio,PixelAspectRatio,RatioSource,UsageCount,DisplayRatioVariants,AssetKind,SvgRenderable,PptxNativeSupported,SizeKB,Category,ImageArea_SxS,TextArea_SxS
+1,formal_fig01_evidence_chain.png,2474,1279,1.93,1.93,pixel,1,,bitmap,True,True,188.7,Wide landscape,812x420,328x600
+2,formal_fig01_evidence_chain.tiff,2474,1279,1.93,1.93,pixel,1,,bitmap,True,True,12360.5,Wide landscape,812x420,328x600
+3,formal_fig02_three_engine_decode.png,2513,1611,1.56,1.56,pixel,1,,bitmap,True,True,131.5,Wide landscape,812x521,328x600
+4,formal_fig02_three_engine_decode.tiff,2513,1611,1.56,1.56,pixel,1,,bitmap,True,True,15814.4,Wide landscape,812x521,328x600
+5,formal_fig03_prompt_length_gap.png,2565,1613,1.59,1.59,pixel,1,,bitmap,True,True,162.8,Wide landscape,812x511,328x600
+6,formal_fig03_prompt_length_gap.tiff,2565,1613,1.59,1.59,pixel,1,,bitmap,True,True,16161.7,Wide landscape,812x511,328x600
+7,formal_fig04_stage1_decode_profile.png,2709,1545,1.75,1.75,pixel,1,,bitmap,True,True,167.0,Wide landscape,812x463,328x600
+8,formal_fig04_stage1_decode_profile.tiff,2709,1545,1.75,1.75,pixel,1,,bitmap,True,True,16349.4,Wide landscape,812x463,328x600
+9,formal_fig05_self_reference_parity.png,2557,1590,1.61,1.61,pixel,1,,bitmap,True,True,118.4,Wide landscape,812x505,328x600
+10,formal_fig05_self_reference_parity.tiff,2557,1590,1.61,1.61,pixel,1,,bitmap,True,True,15881.6,Wide landscape,812x505,328x600
+11,formal_fig06_reproducibility_summary.png,2328,1149,2.03,2.03,pixel,1,,bitmap,True,True,159.9,Ultra-wide,812x401,328x600
+12,formal_fig06_reproducibility_summary.tiff,2328,1149,2.03,2.03,pixel,1,,bitmap,True,True,10448.9,Ultra-wide,812x401,328x600

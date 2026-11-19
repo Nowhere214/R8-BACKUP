@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F4EFFA" />
+  <g id="header">
+    <text x="64" y="62" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#6B4CA3" font-weight="700">COST MODEL READING</text>
+    <text x="64" y="102" font-family="Arial, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" fill="#1F1633">Stage 1 pays a measurable cost per context token</text>
+    <path fill="#EDE7F6" d="M72,126 H1208 A8,8 0 0 1 1216,134 V182 A8,8 0 0 1 1208,190 H72 A8,8 0 0 1 64,182 V134 A8,8 0 0 1 72,126 Z" />
+    <text font-size="19" font-family="Arial, Microsoft YaHei, sans-serif" fill="#3E1485" x="88" y="151">The slope is the important signal: full-context decode makes each new token</text><text font-size="19" font-family="Arial, Microsoft YaHei, sans-serif" fill="#3E1485" x="88" y="176">depend on the previous prompt length.</text></g>
+  <g id="purple-titlebar">
+    <rect x="0" y="0" width="1190" height="118" fill="#3E1485" />
+    <rect x="1190" y="0" width="90" height="118" fill="#9E89C2" />
+    <text x="64" y="43" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#FFFFFF" font-weight="700">COST MODEL READING</text>
+    <text x="64" y="84" font-family="Arial, Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">Stage 1 pays cost per context token</text>
+    <text x="1235" y="70" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="27" font-weight="700" fill="#FFFFFF">8</text>
+  </g>
+  <g id="table">
+    <path fill="#FFFFFF" stroke="#D6CBE8" d="M90,216 H794 A8,8 0 0 1 802,224 V528 A8,8 0 0 1 794,536 H90 A8,8 0 0 1 82,528 V224 A8,8 0 0 1 90,216 Z" />
+    <path fill="#E6DEEF" d="M90,216 H794 A8,8 0 0 1 802,224 V266 A8,8 0 0 1 794,274 H90 A8,8 0 0 1 82,266 V224 A8,8 0 0 1 90,216 Z" />
+    <text x="114" y="252" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#1F1633">model</text>
+    <text x="334" y="252" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#1F1633">engine</text>
+    <text x="522" y="252" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" fill="#1F1633">slope ms / ctx token</text>
+    <path d="M82 274 H802" stroke="#D6CBE8" stroke-width="1" />
+    <path d="M302 216 V536" stroke="#D6CBE8" stroke-width="1" />
+    <path d="M490 216 V536" stroke="#D6CBE8" stroke-width="1" />
+    <text x="114" y="324" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#1F1633">Qwen2 0.5B</text>
+    <text x="334" y="324" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#3E1485">Stage 1</text>
+    <text x="522" y="324" font-family="Consolas, Courier New, monospace" font-size="20" font-weight="700" fill="#9E89C2">0.3268</text>
+    <path d="M82 350 H802" stroke="#D6CBE8" stroke-width="1" />
+    <text x="114" y="400" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#1F1633">Qwen2 0.5B</text>
+    <text x="334" y="400" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#6B4CA3">mlx-lm</text>
+    <text x="522" y="400" font-family="Consolas, Courier New, monospace" font-size="20" font-weight="700" fill="#6B4CA3">0.0003</text>
+    <path d="M82 426 H802" stroke="#D6CBE8" stroke-width="1" />
+    <text x="114" y="476" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#1F1633">Qwen2 1.5B</text>
+    <text x="334" y="476" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#3E1485">Stage 1</text>
+    <text x="522" y="476" font-family="Consolas, Courier New, monospace" font-size="20" font-weight="700" fill="#9E89C2">0.9773</text>
+    <path d="M82 502 H802" stroke="#D6CBE8" stroke-width="1" />
+    <text x="114" y="528" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#1F1633">Qwen2 1.5B</text>
+    <text x="334" y="528" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#6B4CA3">mlx-lm</text>
+    <text x="522" y="528" font-family="Consolas, Courier New, monospace" font-size="20" font-weight="700" fill="#6B4CA3">0.0002</text>
+  </g>
+  <g id="interpretation">
+    <path fill="#FFFFFF" stroke="#D6CBE8" d="M858,216 H1208 A8,8 0 0 1 1216,224 V528 A8,8 0 0 1 1208,536 H858 A8,8 0 0 1 850,528 V224 A8,8 0 0 1 858,216 Z" />
+    
+  <g transform="translate(884.0, 252.0) scale(1.4166666666666667)" fill="none" stroke="#9E89C2" stroke-width="2">
+    <path d="M3 12h4l3 8l4 -16l3 8h4" />
+  </g>
+    <text x="932" y="275" font-family="Arial, Microsoft YaHei, sans-serif" font-size="19" font-weight="700" fill="#1F1633">Interpretation</text>
+    <path d="M884 314 H1180" stroke="#D6CBE8" stroke-width="1" />
+    <text font-size="18" font-family="Arial, Microsoft YaHei, sans-serif" fill="#1F1633" x="884" y="366">Stage 1 repeats more work as</text><text font-size="18" font-family="Arial, Microsoft YaHei, sans-serif" fill="#1F1633" x="884" y="396">the context gets longer.</text><text font-size="18" font-family="Arial, Microsoft YaHei, sans-serif" fill="#1F1633" x="884" y="440">mlx-lm is nearly flat in this</text><text font-size="18" font-family="Arial, Microsoft YaHei, sans-serif" fill="#1F1633" x="884" y="470">same reading.</text><path fill="#F4EBDD" d="M890,464 H1174 A6,6 0 0 1 1180,470 V504 A6,6 0 0 1 1174,510 H890 A6,6 0 0 1 884,504 V470 A6,6 0 0 1 890,464 Z" />
+    <text x="904" y="493" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" font-weight="700" fill="#7A4B00">Prompt-1024 projections are not measured.</text>
+  </g>
+  <g id="footer">
+    <text x="64" y="675" font-family="Arial, Microsoft YaHei, sans-serif" font-size="11" fill="#6F6280">Source: decode cost model summary; values are slope estimates from local benchmark logs</text>
+    <text x="1190" y="675" font-family="Arial, Microsoft YaHei, sans-serif" font-size="11" fill="#6F6280">08 / 16</text>
+  </g>
+</svg>

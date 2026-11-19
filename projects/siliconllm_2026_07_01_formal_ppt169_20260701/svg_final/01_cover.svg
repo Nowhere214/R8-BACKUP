@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F4EFFA" />
+  <g id="background-grid">
+    <path d="M70 610 H1210" stroke="#D6CBE8" stroke-width="1" />
+    <path d="M70 110 H1210" stroke="#D6CBE8" stroke-width="1" />
+    <circle cx="1105" cy="180" r="86" fill="#EDE7F6" />
+    <circle cx="1125" cy="200" r="54" fill="#E8E1F1" />
+    <rect x="82" y="122" width="9" height="398" fill="#3E1485" />
+    <rect x="96" y="122" width="9" height="268" fill="#6B4CA3" />
+    <rect x="110" y="122" width="9" height="150" fill="#9E89C2" />
+  </g>
+  <g id="purple-titlebar">
+    <rect x="0" y="0" width="1190" height="118" fill="#3E1485" />
+    <rect x="1190" y="0" width="90" height="118" fill="#9E89C2" />
+    <text x="64" y="43" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#FFFFFF" font-weight="700">FORMAL UPDATE</text>
+    <text x="64" y="84" font-family="Arial, Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">SiliconLLM · 2026-07-01</text>
+    <text x="1235" y="70" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="27" font-weight="700" fill="#FFFFFF">1</text>
+  </g>
+  <g id="title-block">
+    <text x="150" y="210" font-family="Arial, Microsoft YaHei, sans-serif" font-size="64" font-weight="700" fill="#1F1633">
+      Efficient LLM
+    </text>
+    <text x="150" y="286" font-family="Arial, Microsoft YaHei, sans-serif" font-size="64" font-weight="700" fill="#1F1633">
+      Inference on
+    </text>
+    <text x="150" y="362" font-family="Arial, Microsoft YaHei, sans-serif" font-size="64" font-weight="700" fill="#3E1485">
+      Apple Silicon
+    </text>
+    <text x="153" y="414" font-family="Arial, Microsoft YaHei, sans-serif" font-size="23" fill="#4B405D">Formal progress update: decode-gap diagnosis</text>
+    <text x="153" y="444" font-family="Arial, Microsoft YaHei, sans-serif" font-size="23" fill="#4B405D">and baseline validation</text>
+  </g>
+  <g id="meta-block">
+    <path fill="#FFFFFF" stroke="#D6CBE8" d="M158,492 H662 A8,8 0 0 1 670,500 V570 A8,8 0 0 1 662,578 H158 A8,8 0 0 1 150,570 V500 A8,8 0 0 1 158,492 Z" />
+    <text x="180" y="528" font-family="Arial, Microsoft YaHei, sans-serif" font-size="19" font-weight="700" fill="#1F1633">SiliconLLM research progress</text>
+    <text x="180" y="558" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#6F6280">WANG Peiran · 2026-07-01 · Tohoku University</text>
+  </g>
+  <g id="right-kpi">
+    <path fill="#FFFFFF" stroke="#D6CBE8" d="M844,492 H1138 A8,8 0 0 1 1146,500 V570 A8,8 0 0 1 1138,578 H844 A8,8 0 0 1 836,570 V500 A8,8 0 0 1 844,492 Z" />
+    <text x="866" y="522" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#6F6280">Today's main claim</text>
+    <text x="866" y="552" font-family="Arial, Microsoft YaHei, sans-serif" font-size="23" font-weight="700" fill="#6B4CA3">Measure → Explain</text>
+    <text x="866" y="576" font-family="Arial, Microsoft YaHei, sans-serif" font-size="23" font-weight="700" fill="#9E89C2">Validate → Optimize</text>
+  </g>
+  <g id="footer">
+    <text x="70" y="675" font-family="Arial, Microsoft YaHei, sans-serif" font-size="11" fill="#6F6280">Source: local SiliconLLM benchmark logs and formal progress draft</text>
+    <text x="1190" y="675" font-family="Arial, Microsoft YaHei, sans-serif" font-size="11" fill="#6F6280">01 / 16</text>
+  </g>
+</svg>

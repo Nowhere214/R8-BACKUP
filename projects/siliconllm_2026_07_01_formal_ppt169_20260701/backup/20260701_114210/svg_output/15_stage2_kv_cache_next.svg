@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+  <g id="header">
+    <text x="64" y="62" font-family='Arial, Microsoft YaHei, sans-serif' font-size="15" fill="#0F766E" font-weight="700">NEXT STEP</text>
+    <text x="64" y="102" font-family='Arial, Microsoft YaHei, sans-serif' font-size="34" font-weight="700" fill="#0F172A">Stage 2 should remove full-context decode first</text>
+    <rect x="64" y="126" width="1152" height="64" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="88" y="151" font-family='Arial, Microsoft YaHei, sans-serif' font-size="19" fill="#1E3A5F">
+      <tspan x="88" dy="0">The profiler points to KV-cache as the next controlled intervention</tspan>
+      <tspan x="88" dy="25">before lower-level kernel optimization.</tspan>
+    </text>
+  </g>
+  <g id="roadmap">
+    <rect x="82" y="220" width="330" height="260" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <use data-icon="tabler-outline/route" x="118" y="258" width="36" height="36" fill="#1E3A5F" stroke-width="2"/>
+    <text x="118" y="338" font-family='Arial, Microsoft YaHei, sans-serif' font-size="25" font-weight="700" fill="#0F172A">1. Add KV-cache</text>
+    <text x="118" y="394" font-family='Arial, Microsoft YaHei, sans-serif' font-size="18" fill="#475569">
+      <tspan x="118" dy="0">Keep token outputs stable.</tspan>
+      <tspan x="118" dy="30">Check shape and cache state.</tspan>
+    </text>
+    <use data-icon="tabler-outline/arrow-right" x="434" y="332" width="40" height="40" fill="#64748B" stroke-width="2"/>
+    <rect x="496" y="220" width="330" height="260" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <use data-icon="tabler-outline/chart-line" x="532" y="258" width="36" height="36" fill="#0F766E" stroke-width="2"/>
+    <text x="532" y="338" font-family='Arial, Microsoft YaHei, sans-serif' font-size="25" font-weight="700" fill="#0F172A">2. Benchmark again</text>
+    <text x="532" y="394" font-family='Arial, Microsoft YaHei, sans-serif' font-size="18" fill="#475569">
+      <tspan x="532" dy="0">Compare Stage 1 and Stage 2</tspan>
+      <tspan x="532" dy="30">under the same workloads.</tspan>
+    </text>
+    <use data-icon="tabler-outline/arrow-right" x="848" y="332" width="40" height="40" fill="#64748B" stroke-width="2"/>
+    <rect x="910" y="220" width="286" height="260" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <use data-icon="tabler-outline/activity" x="946" y="258" width="36" height="36" fill="#D97706" stroke-width="2"/>
+    <text x="946" y="338" font-family='Arial, Microsoft YaHei, sans-serif' font-size="25" font-weight="700" fill="#0F172A">3. Re-profile</text>
+    <text x="946" y="394" font-family='Arial, Microsoft YaHei, sans-serif' font-size="18" fill="#475569">
+      <tspan x="946" dy="0">Confirm which cost moves</tspan>
+      <tspan x="946" dy="30">after caching is enabled.</tspan>
+    </text>
+  </g>
+  <g id="later">
+    <rect x="190" y="548" width="900" height="58" rx="8" fill="#FEF3C7"/>
+    <text x="224" y="572" font-family='Arial, Microsoft YaHei, sans-serif' font-size="21" font-weight="700" fill="#B45309">
+      <tspan x="224" dy="0">Only after this: quantized matmul, Flash Attention style kernels,</tspan>
+      <tspan x="224" dy="28">and Metal-level tuning.</tspan>
+    </text>
+  </g>
+  <g id="footer">
+    <text x="64" y="675" font-family='Arial, Microsoft YaHei, sans-serif' font-size="11" fill="#64748B">Source: Stage 1 profiling result and planned Stage 2 KV-cache work</text>
+    <text x="1190" y="675" font-family='Arial, Microsoft YaHei, sans-serif' font-size="11" fill="#64748B">15 / 16</text>
+  </g>
+</svg>

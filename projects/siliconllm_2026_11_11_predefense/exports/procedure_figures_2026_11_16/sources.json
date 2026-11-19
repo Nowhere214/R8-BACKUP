@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-16",
+  "status": "Explanatory diagrams only. No new timing data. Reviewed PPT unchanged.",
+  "official_sources": [
+    "https://github.com/ml-explore/mlx-lm/blob/main/mlx_lm/generate.py",
+    "https://github.com/ml-explore/mlx-lm/blob/main/mlx_lm/models/cache.py"
+  ],
+  "official_scope": "Source inspected on this date; not a claim about the unavailable external experiment version.",
+  "local_sources": {
+    "src/tiny_llm/adaptive_decode.py": "3f36755cec1ed531218146b122c5b57b0153fb268844c68de0d45c8e51460203",
+    "src/tiny_llm/native_history.py": "53a65f7a9062852460cadee31e8d9f258eab865b096a129b34f57760ea243c7e"
+  },
+  "worked_example": {
+    "draft_tokens": 4,
+    "accepted_tokens": 2,
+    "target_cache_entries_trimmed": 2,
+    "pending_correction_token": "Z"
+  }
+}

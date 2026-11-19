@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="921.6pt" height="518.4pt" viewBox="0 0 921.6 518.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-16T16:24:56.511033</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 518.4 
+L 921.6 518.4 
+L 921.6 0 
+L 0 0 
+z
+" style="fill: #f4effa"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 0 0 
+L 921.6 0 
+L 921.6 84.96 
+L 0 84.96 
+z
+" clip-path="url(#p07d8bc1967)" style="fill: #3e1485; stroke: #3e1485; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 601.2 238.32 
+L 882.72 238.32 
+L 882.72 365.76 
+L 601.2 365.76 
+z
+" clip-path="url(#p07d8bc1967)" style="fill: #ffffff; stroke: #cabdda; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 38.88 473.76 
+L 882.72 473.76 
+" clip-path="url(#p07d8bc1967)" style="fill: none; stroke: #cabdda; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 25px; font-family: 'Arial'; text-anchor: start; fill: #ffffff" x="37.44" y="48.22875" transform="rotate(-0 37.44 48.22875)">Why Use Time per Output Token?</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 12.5px; font-family: 'Arial'; text-anchor: start; fill: #655875" x="38.88" y="111.958281" transform="rotate(-0 38.88 111.958281)">CURRENT POLICY SCORE  /  Recovery depends on the implementation</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9.5px; font-family: 'Arial'; text-anchor: start; fill: #655875" x="38.88" y="492.778125" transform="rotate(-0 38.88 492.778125)">Local policy: src/tiny_llm/adaptive_decode.py. This explains the score and does not validate its predictions.</text>
+   </g>
+   <g id="text_4">
+    <!-- $C(k) = \frac{V(k) + L + R(k)}{G(k)}$ -->
+    <g style="fill: #3e1485" transform="translate(326.56 164.64)">
+     <text>
+      <tspan x="0" y="-0.0125" style="font-style: oblique; font-size: 32px; font-family: 'DejaVu Sans'; fill: #3e1485">C</tspan>
+      <tspan x="34.828125" y="-0.0125" style="font-style: oblique; font-size: 32px; font-family: 'DejaVu Sans'; fill: #3e1485">k</tspan>
+      <tspan x="22.34375" y="-0.0125" style="font-size: 32px; font-family: 'DejaVu Sans'; fill: #3e1485">(</tspan>
+      <tspan x="53.359375" y="-0.0125" style="font-size: 32px; font-family: 'DejaVu Sans'; fill: #3e1485">)</tspan>
+      <tspan x="72.078125" y="-0.0125" style="font-size: 32px; font-family: 'DejaVu Sans'; fill: #3e1485">=</tspan>
+      <tspan x="105.125" y="-16.98125" style="font-style: oblique; font-size: 22.4px; font-family: 'DejaVu Sans'; fill: #3e1485">V</tspan>
+      <tspan x="129.1875" y="-16.98125" style="font-style: oblique; font-size: 22.4px; font-family: 'DejaVu Sans'; fill: #3e1485">k</tspan>
+      <tspan x="161.125" y="12.990625" style="font-style: oblique; font-size: 22.4px; font-family: 'DejaVu Sans'; fill: #3e1485">G</tspan>
+      <tspan x="178.395312" y="-16.98125" style="font-style: oblique; font-size: 22.4px; font-family: 'DejaVu Sans'; fill: #3e1485">L</tspan>
+      <tspan x="187.221875" y="12.990625" style="font-style: oblique; font-size: 22.4px; font-family: 'DejaVu Sans'; fill: #3e1485">k</tspan>
+      <tspan x="218.371875" y="-16.98125" style="font-style: oblique; font-size: 22.4px; font-family: 'DejaVu Sans'; fill: #3e1485">R</tspan>
+      <tspan x="242.675" y="-16.98125" style="font-style: oblique; font-size: 22.4px; font-family: 'DejaVu Sans'; fill: #3e1485">k</tspan>
+      <tspan x="120.448437" y="-16.98125" style="font-size: 22.4px; font-family: 'DejaVu Sans'; fill: #3e1485">(</tspan>
+      <tspan x="142.159375" y="-16.98125" style="font-size: 22.4px; font-family: 'DejaVu Sans'; fill: #3e1485">)</tspan>
+      <tspan x="155.2625" y="-16.98125" style="font-size: 22.4px; font-family: 'DejaVu Sans'; fill: #3e1485">+</tspan>
+      <tspan x="178.482812" y="12.990625" style="font-size: 22.4px; font-family: 'DejaVu Sans'; fill: #3e1485">(</tspan>
+      <tspan x="195.239062" y="-16.98125" style="font-size: 22.4px; font-family: 'DejaVu Sans'; fill: #3e1485">+</tspan>
+      <tspan x="200.19375" y="12.990625" style="font-size: 22.4px; font-family: 'DejaVu Sans'; fill: #3e1485">)</tspan>
+      <tspan x="233.935937" y="-16.98125" style="font-size: 22.4px; font-family: 'DejaVu Sans'; fill: #3e1485">(</tspan>
+      <tspan x="255.646875" y="-16.98125" style="font-size: 22.4px; font-family: 'DejaVu Sans'; fill: #3e1485">)</tspan>
+     </text>
+     <rect x="105.125" y="-7.028125" width="159.260937" height="2"/>
+    </g>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 18px; font-family: 'Arial'; text-anchor: middle; fill: #1f1633" x="460.8" y="211.402969" transform="rotate(-0 460.8 211.402969)">Estimated time for one round / estimated output advance</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'Arial'; text-anchor: start; fill: #1f1633" x="38.88" y="259.99875" transform="rotate(-0 38.88 259.99875)">V(k)  Verification forward, including KV-cache use</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 17px; font-family: 'Arial'; text-anchor: start; fill: #1f1633" x="38.88" y="290.135156" transform="rotate(-0 38.88 290.135156)">L       History lookup time</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 17px; font-family: 'Arial'; text-anchor: start; fill: #1f1633" x="38.88" y="320.47875" transform="rotate(-0 38.88 320.47875)">G(k)  Expected accepted prefix plus one target token</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 17px; font-family: 'Arial'; text-anchor: start; fill: #1f1633" x="38.88" y="350.71875" transform="rotate(-0 38.88 350.71875)">R(k)  Extra recovery work in the current replay path</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'Arial'; text-anchor: start; fill: #3e1485" x="615.6" y="262.055156" transform="rotate(-0 615.6 262.055156)">Two recovery paths</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 15px; font-family: 'Arial'; text-anchor: start; fill: #1f1633" x="615.6" y="291.789844" transform="rotate(-0 615.6 291.789844)">Local: restore + replay</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 15px; font-family: 'Arial'; text-anchor: start; fill: #1f1633" x="615.6" y="319.957734" transform="rotate(-0 615.6 319.957734)">mlx-lm: trim cache + continue</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'Arial'; text-anchor: start; fill: #d55e00" x="615.6" y="350.577187" transform="rotate(-0 615.6 350.577187)">Replay cost is not universal.</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'Arial'; text-anchor: start; fill: #3e1485" x="38.88" y="404.71875" transform="rotate(-0 38.88 404.71875)">Choose reuse only when its score beats an ordinary step by the policy margin.</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 15px; font-family: 'Arial'; text-anchor: start; fill: #655875" x="38.88" y="439.48125" transform="rotate(-0 38.88 439.48125)">G(k) uses an acceptance approximation. Cache-trim and policy overhead still need checking.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p07d8bc1967">
+   <rect x="0" y="0" width="921.6" height="518.4"/>
+  </clipPath>
+ </defs>
+</svg>

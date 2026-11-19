@@ -1,0 +1,20 @@
+[
+  {
+    "slide": 12,
+    "topic": "Verification cost by k",
+    "status": "Hypothetical normalized values",
+    "replace_with": "Synchronized native-path measurements by k and context, with spread and configuration"
+  },
+  {
+    "slide": 14,
+    "topic": "Decision example",
+    "status": "Arithmetic on hypothetical slide12 inputs",
+    "replace_with": "Real calibration or retain as a clearly labeled pedagogical example"
+  },
+  {
+    "slide": 21,
+    "topic": "Full mlx-lm API comparison",
+    "status": "Hypothetical normalized times, integration pending",
+    "replace_with": "Versioned standard-API baseline, method integration, full output checks, repeated timings"
+  }
+]

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F4EFFA"/>
+  <g id="header">
+    <text x="64" y="64" font-family='Arial, Microsoft YaHei, sans-serif' font-size="15" fill="#6B4CA3" font-weight="700">WORKLOAD EFFECT</text>
+    <text x="64" y="108" font-family='Arial, Microsoft YaHei, sans-serif' font-size="44" font-weight="700" fill="#1F1633">Longer prompt, larger decode gap</text>
+  </g>
+  <g id="purple-titlebar">
+    <rect x="0" y="0" width="1190" height="118" fill="#3E1485"/>
+    <rect x="1190" y="0" width="90" height="118" fill="#9E89C2"/>
+    <text x="64" y="43" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#FFFFFF" font-weight="700">WORKLOAD EFFECT</text>
+    <text x="64" y="84" font-family="Arial, Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">Longer prompt, larger decode gap</text>
+    <text x="1235" y="70" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="27" font-weight="700" fill="#FFFFFF">6</text>
+  </g>
+  <g id="hero">
+    <rect x="82" y="182" width="342" height="250" rx="8" fill="#FFFFFF" stroke="#D6CBE8"/>
+    <text x="118" y="236" font-family='Arial, Microsoft YaHei, sans-serif' font-size="15" fill="#6F6280">short context</text>
+    <text x="118" y="304" font-family='Arial, Microsoft YaHei, sans-serif' font-size="46" font-weight="700" fill="#3E1485">14-15x</text>
+    <text x="118" y="350" font-family='Arial, Microsoft YaHei, sans-serif' font-size="19" fill="#4B405D">Stage 1 vs mlx-lm</text>
+    <rect x="118" y="382" width="180" height="8" rx="4" fill="#EDE7F6"/>
+    <rect x="118" y="382" width="72" height="8" rx="4" fill="#3E1485"/>
+    <rect x="468" y="182" width="342" height="250" rx="8" fill="#FFFFFF" stroke="#D6CBE8"/>
+    <text x="504" y="236" font-family='Arial, Microsoft YaHei, sans-serif' font-size="15" fill="#6F6280">prompt scan trend</text>
+    <text x="504" y="304" font-family='Arial, Microsoft YaHei, sans-serif' font-size="46" font-weight="700" fill="#6B4CA3">monotonic</text>
+    <text x="504" y="350" font-family='Arial, Microsoft YaHei, sans-serif' font-size="19" fill="#4B405D">gap grows with context</text>
+    <path d="M510 386 C555 356 590 410 636 374 C680 340 713 354 762 318" fill="none" stroke="#6B4CA3" stroke-width="5"/>
+    <rect x="854" y="182" width="342" height="250" rx="8" fill="#FFFFFF" stroke="#D6CBE8"/>
+    <text x="890" y="236" font-family='Arial, Microsoft YaHei, sans-serif' font-size="15" fill="#6F6280">long context</text>
+    <text x="890" y="304" font-family='Arial, Microsoft YaHei, sans-serif' font-size="46" font-weight="700" fill="#9E89C2">58x</text>
+    <text x="890" y="350" font-family='Arial, Microsoft YaHei, sans-serif' font-size="19" fill="#4B405D">observed at longer prompt</text>
+    <rect x="890" y="382" width="180" height="8" rx="4" fill="#F4EBDD"/>
+    <rect x="890" y="382" width="162" height="8" rx="4" fill="#9E89C2"/>
+  </g>
+  <g id="interpretation">
+    <rect x="176" y="502" width="928" height="76" rx="8" fill="#EDE7F6"/>
+    <use data-icon="tabler-outline/chart-line" x="210" y="524" width="32" height="32" fill="#3E1485" stroke-width="2"/>
+    <text x="262" y="542" font-family='Arial, Microsoft YaHei, sans-serif' font-size="21" font-weight="700" fill="#3E1485">
+      <tspan x="262" dy="0">The gap is tied to full-context decode work,</tspan>
+      <tspan x="262" dy="28">not only to fixed overhead.</tspan>
+    </text>
+  </g>
+  <g id="footer">
+    <text x="64" y="675" font-family='Arial, Microsoft YaHei, sans-serif' font-size="11" fill="#6F6280">Source: workload prompt-length scan summaries; diagnostic evidence, not final speedup claim</text>
+    <text x="1190" y="675" font-family='Arial, Microsoft YaHei, sans-serif' font-size="11" fill="#6F6280">06 / 16</text>
+  </g>
+</svg>

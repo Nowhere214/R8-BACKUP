@@ -1,0 +1,18 @@
+{
+  "docx": "/Users/laiqixiao/Documents/SiliconLLM/projects/siliconllm_2026_11_11_predefense/exports/Local_LLM_PreDefense_Revised_Script_EN_ZH_2026_11_16.docx",
+  "pages_expected": 31,
+  "main_english_words": 1194,
+  "all_english_words": 1350,
+  "language_order": "English then Chinese on each page",
+  "new_slides": [
+    7,
+    15,
+    19
+  ],
+  "placeholder_slides": [
+    13,
+    16,
+    24
+  ],
+  "source_docx_sha256": "fd5830f3ff802eb45419050449652dea2e0df6b5803855a7741603c142670409"
+}

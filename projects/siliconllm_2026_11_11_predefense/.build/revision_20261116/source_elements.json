@@ -1,0 +1,7768 @@
+[
+  {
+    "id": "sh/3qxwn2x8",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/547294r6",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/k3yl0zql",
+    "name": "text-3",
+    "text": "Master's Thesis Pre-Defense",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 475,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/7qp4be9c",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/65g3298r",
+    "name": "text-5",
+    "text": "1",
+    "position": {
+      "left": 1208,
+      "top": 37,
+      "width": 34,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ts7md4r2",
+    "name": "text-6",
+    "text": "INTRODUCTION",
+    "position": {
+      "left": 56,
+      "top": 136,
+      "width": 143,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/sryl4zqx",
+    "name": "line-7",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/fu94fe98",
+    "name": "text-8",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/utg3698n",
+    "name": "text-9",
+    "text": "Performance Analysis and",
+    "position": {
+      "left": 64,
+      "top": 191,
+      "width": 628,
+      "height": 71.05
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/wn6dc7eh",
+    "name": "text-10",
+    "text": "Adaptive Optimization of",
+    "position": {
+      "left": 64,
+      "top": 257,
+      "width": 589,
+      "height": 71.05
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/hofulsf2",
+    "name": "text-11",
+    "text": "Local LLM Inference",
+    "position": {
+      "left": 64,
+      "top": 323,
+      "width": 486,
+      "height": 71.05
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ul4vaxgb",
+    "name": "text-12",
+    "text": "for Agentic Workloads",
+    "position": {
+      "left": 64,
+      "top": 389,
+      "width": 535,
+      "height": 71.05
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/vmdcj2xw",
+    "name": "text-13",
+    "text": "Wang",
+    "position": {
+      "left": 68,
+      "top": 501,
+      "width": 83,
+      "height": 39.15
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/4r6dg7et",
+    "name": "text-14",
+    "text": "November 11, 2026",
+    "position": {
+      "left": 68,
+      "top": 544,
+      "width": 214,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/5sfepcfe",
+    "name": "text-15",
+    "text": "Working draft for discussion",
+    "position": {
+      "left": 68,
+      "top": 595,
+      "width": 272,
+      "height": 30.45
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ipovexwn",
+    "name": "text-16",
+    "text": "01 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/gbmxszmt",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/9072xkry",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/ozy1ofad",
+    "name": "text-3",
+    "text": "What Is a Local Code Agent?",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 481,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/b29kza94",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/a10jqpsj",
+    "name": "text-5",
+    "text": "2",
+    "position": {
+      "left": 1208,
+      "top": 37,
+      "width": 34,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/x4r21kru",
+    "name": "text-6",
+    "text": "BACKGROUND",
+    "position": {
+      "left": 56,
+      "top": 136,
+      "width": 137,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/w3i1sfa9",
+    "name": "line-7",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/r65knqtk",
+    "name": "text-8",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/q5wjelsz",
+    "name": "text-9",
+    "text": "A language model writes code. An agent also runs tools and uses their results.",
+    "position": {
+      "left": 56,
+      "top": 181,
+      "width": 1136,
+      "height": 43.5
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ove9o7yd",
+    "name": "text-10",
+    "text": "Code model",
+    "position": {
+      "left": 56,
+      "top": 310,
+      "width": 156,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/9wnqhczy",
+    "name": "text-11",
+    "text": "Reads a request. Generates",
+    "position": {
+      "left": 56,
+      "top": 355,
+      "width": 328,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/mtwrmxg7",
+    "name": "text-12",
+    "text": "code.",
+    "position": {
+      "left": 56,
+      "top": 391,
+      "width": 74,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/nu58f2hs",
+    "name": "text-13",
+    "text": "Tools",
+    "position": {
+      "left": 456,
+      "top": 310,
+      "width": 79,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/wjy9sry9",
+    "name": "text-14",
+    "text": "Run Python tests. Return",
+    "position": {
+      "left": 456,
+      "top": 355,
+      "width": 293,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/xk7qlczu",
+    "name": "text-15",
+    "text": "error messages.",
+    "position": {
+      "left": 456,
+      "top": 391,
+      "width": 193,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ahwrqhgj",
+    "name": "text-16",
+    "text": "Local computer",
+    "position": {
+      "left": 856,
+      "top": 310,
+      "width": 199,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/bip8jmho",
+    "name": "text-17",
+    "text": "Runs model and tools. Uses",
+    "position": {
+      "left": 856,
+      "top": 355,
+      "width": 326,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/cnupgny5",
+    "name": "text-18",
+    "text": "local resources.",
+    "position": {
+      "left": 856,
+      "top": 391,
+      "width": 188,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/do3q9szq",
+    "name": "text-19",
+    "text": "Why local?",
+    "position": {
+      "left": 56,
+      "top": 470,
+      "width": 118,
+      "height": 29
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/t8byxkn2",
+    "name": "text-20",
+    "text": "Keep inference local and work without a remote model service. The trade-off is limited compute and",
+    "position": {
+      "left": 56,
+      "top": 504,
+      "width": 1117,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/s72xofmh",
+    "name": "text-21",
+    "text": "shared memory.",
+    "position": {
+      "left": 56,
+      "top": 539,
+      "width": 193,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/76twva5c",
+    "name": "line-22",
+    "position": {
+      "left": 56,
+      "top": 579,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/65kfmpor",
+    "name": "text-23",
+    "text": "This study focuses on the time users spend waiting for local code generation.",
+    "position": {
+      "left": 56,
+      "top": 590,
+      "width": 902,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/hcvy14ne",
+    "name": "text-24",
+    "text": "02 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/cruhwrud",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/cza94vmx",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/d0jax03i",
+    "name": "text-3",
+    "text": "LLM-Based Software Development Workflow",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 735,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/298ryl4v",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/3ah8rqlg",
+    "name": "text-5",
+    "text": "3",
+    "position": {
+      "left": 1208,
+      "top": 37,
+      "width": 34,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/obq90bml",
+    "name": "text-6",
+    "text": "BACKGROUND",
+    "position": {
+      "left": 56,
+      "top": 136,
+      "width": 137,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/pcjqtg36",
+    "name": "line-7",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/m5cra54z",
+    "name": "text-8",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/n6ls3alk",
+    "name": "rect-9",
+    "position": {
+      "left": 56,
+      "top": 254,
+      "width": 268,
+      "height": 112
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/n2l4fq98",
+    "name": "text-10",
+    "text": "Generate code",
+    "position": {
+      "left": 73,
+      "top": 270,
+      "width": 194,
+      "height": 37.7
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/m1c3mlsn",
+    "name": "text-11",
+    "text": "Task and example",
+    "position": {
+      "left": 73,
+      "top": 318,
+      "width": 177,
+      "height": 29
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/943mhgre",
+    "name": "rect-12",
+    "position": {
+      "left": 356,
+      "top": 254,
+      "width": 268,
+      "height": 112
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/83ulovat",
+    "name": "text-13",
+    "text": "Run tests",
+    "position": {
+      "left": 373,
+      "top": 270,
+      "width": 131,
+      "height": 37.7
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/v6l4jq94",
+    "name": "text-14",
+    "text": "Execute code",
+    "position": {
+      "left": 373,
+      "top": 318,
+      "width": 134,
+      "height": 29
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/a5c3ql8z",
+    "name": "rect-15",
+    "position": {
+      "left": 656,
+      "top": 254,
+      "width": 268,
+      "height": 112
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/x8nml0ra",
+    "name": "text-16",
+    "text": "Read errors",
+    "position": {
+      "left": 673,
+      "top": 270,
+      "width": 158,
+      "height": 37.7
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/w7ulsvqp",
+    "name": "text-17",
+    "text": "Test feedback",
+    "position": {
+      "left": 673,
+      "top": 318,
+      "width": 139,
+      "height": 29
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ja54na9g",
+    "name": "rect-18",
+    "position": {
+      "left": 956,
+      "top": 254,
+      "width": 268,
+      "height": 112
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/i9w3u58v",
+    "name": "text-19",
+    "text": "Repair",
+    "position": {
+      "left": 973,
+      "top": 270,
+      "width": 93,
+      "height": 37.7
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/e10f2twf",
+    "name": "text-20",
+    "text": "Old code + errors",
+    "position": {
+      "left": 973,
+      "top": 318,
+      "width": 168,
+      "height": 29
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/f29gbyx0",
+    "name": "line-21",
+    "position": {
+      "left": 326,
+      "top": 309,
+      "width": 26,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/03ix43e5",
+    "name": "line-22",
+    "position": {
+      "left": 341.59,
+      "top": 309,
+      "width": 10.41,
+      "height": 5.96
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/14ryd8fq",
+    "name": "line-23",
+    "position": {
+      "left": 341.59,
+      "top": 303.04,
+      "width": 10.41,
+      "height": 5.96
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/6d0fytg3",
+    "name": "line-24",
+    "position": {
+      "left": 626,
+      "top": 309,
+      "width": 26,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/re9g7yxo",
+    "name": "line-25",
+    "position": {
+      "left": 641.59,
+      "top": 309,
+      "width": 10.41,
+      "height": 5.96
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/sfix03y9",
+    "name": "line-26",
+    "position": {
+      "left": 641.59,
+      "top": 303.04,
+      "width": 10.41,
+      "height": 5.96
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/tgry9ofu",
+    "name": "line-27",
+    "position": {
+      "left": 926,
+      "top": 309,
+      "width": 26,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/a9kfadwn",
+    "name": "line-28",
+    "position": {
+      "left": 941.59,
+      "top": 309,
+      "width": 10.41,
+      "height": 5.96
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/batgjixs",
+    "name": "line-29",
+    "position": {
+      "left": 941.59,
+      "top": 303.04,
+      "width": 10.41,
+      "height": 5.96
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/l4fi9cza",
+    "name": "line-30",
+    "position": {
+      "left": 1090,
+      "top": 369,
+      "width": 0.1,
+      "height": 53
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/k3m1g7yp",
+    "name": "line-31",
+    "position": {
+      "left": 490,
+      "top": 422,
+      "width": 600,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/z2d07mh4",
+    "name": "line-32",
+    "position": {
+      "left": 490,
+      "top": 369,
+      "width": 0.1,
+      "height": 53
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/y14jehgj",
+    "name": "line-33",
+    "position": {
+      "left": 490,
+      "top": 369,
+      "width": 5.96,
+      "height": 10.41
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/x0vi5czy",
+    "name": "line-34",
+    "position": {
+      "left": 484.04,
+      "top": 369,
+      "width": 5.96,
+      "height": 10.41
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/czmhc7id",
+    "name": "text-35",
+    "text": "Fail: test the revised code again",
+    "position": {
+      "left": 580,
+      "top": 437,
+      "width": 350,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/byd032h8",
+    "name": "line-36",
+    "position": {
+      "left": 490,
+      "top": 205,
+      "width": 0.1,
+      "height": 49
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/ax4zax0n",
+    "name": "line-37",
+    "position": {
+      "left": 490,
+      "top": 205,
+      "width": 5.96,
+      "height": 10.41
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/hwzihwzi",
+    "name": "line-38",
+    "position": {
+      "left": 484.04,
+      "top": 205,
+      "width": 5.96,
+      "height": 10.41
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/wv61obyx",
+    "name": "text-39",
+    "text": "Pass: return the result",
+    "position": {
+      "left": 520,
+      "top": 187,
+      "width": 247,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/4nuhs7uh",
+    "name": "text-40",
+    "text": "Repair input: task + previous code + test feedback",
+    "position": {
+      "left": 56,
+      "top": 503,
+      "width": 612,
+      "height": 39.15
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/po3ilcvm",
+    "name": "line-41",
+    "position": {
+      "left": 56,
+      "top": 579,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/21szqxcb",
+    "name": "text-42",
+    "text": "The repair stage generates revised code, then returns to testing.",
+    "position": {
+      "left": 56,
+      "top": 590,
+      "width": 746,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/32l0j2dw",
+    "name": "text-43",
+    "text": "03 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/g36tgryd",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/1cj2d8b6",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/0ba143al",
+    "name": "text-3",
+    "text": "Research Problem and Goal",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 467,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/rm1k7yt4",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/ql8jytsj",
+    "name": "text-5",
+    "text": "4",
+    "position": {
+      "left": 1208,
+      "top": 37,
+      "width": 34,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/doj29oba",
+    "name": "text-6",
+    "text": "INTRODUCTION",
+    "position": {
+      "left": 56,
+      "top": 136,
+      "width": 143,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/sna103ap",
+    "name": "line-7",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/3ihk3et8",
+    "name": "text-8",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ih8ju9sn",
+    "name": "text-9",
+    "text": "Problem",
+    "position": {
+      "left": 56,
+      "top": 189,
+      "width": 113,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/kbm987y5",
+    "name": "text-10",
+    "text": "Each repair can generate a full response again, including code that already exists in",
+    "position": {
+      "left": 56,
+      "top": 230,
+      "width": 1127,
+      "height": 43.5
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/5cva1cfq",
+    "name": "text-11",
+    "text": "the history.",
+    "position": {
+      "left": 56,
+      "top": 273,
+      "width": 159,
+      "height": 43.5
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/i94r6xgz",
+    "name": "text-12",
+    "text": "Repeated model calls add to the user's waiting time on a local machine.",
+    "position": {
+      "left": 56,
+      "top": 339,
+      "width": 897,
+      "height": 40.6
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/jadsz2xk",
+    "name": "text-13",
+    "text": "Goal",
+    "position": {
+      "left": 56,
+      "top": 439,
+      "width": 68,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/w72947yt",
+    "name": "text-14",
+    "text": "Make local code agents faster without changing the code they generate.",
+    "position": {
+      "left": 56,
+      "top": 478,
+      "width": 1071,
+      "height": 44.95
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/x8vaxsfe",
+    "name": "line-15",
+    "position": {
+      "left": 56,
+      "top": 579,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/a5kr2xg3",
+    "name": "text-16",
+    "text": "Optimize inference time. Keep task success and output preservation as separate checks.",
+    "position": {
+      "left": 56,
+      "top": 590,
+      "width": 1025,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/v6tsv2xo",
+    "name": "text-17",
+    "text": "04 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/3i94r61s",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/dgbulwnm",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/cf2tcr61",
+    "name": "text-3",
+    "text": "Why Repair Offers Reusable Code",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 565,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/z2tcnm5s",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/yhkbe1o7",
+    "name": "text-5",
+    "text": "5",
+    "position": {
+      "left": 1208,
+      "top": 37,
+      "width": 34,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/l4bupwny",
+    "name": "text-6",
+    "text": "BACKGROUND",
+    "position": {
+      "left": 56,
+      "top": 136,
+      "width": 137,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/032tgr6d",
+    "name": "line-7",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/n6dcr65o",
+    "name": "text-8",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/m5kbi1oj",
+    "name": "text-9",
+    "text": "Previous code",
+    "position": {
+      "left": 56,
+      "top": 185,
+      "width": 176,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/w32dkbuh",
+    "name": "text-10",
+    "text": "Revised code",
+    "position": {
+      "left": 660,
+      "top": 185,
+      "width": 167,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/x4vedgvm",
+    "name": "rect-11",
+    "position": {
+      "left": 56,
+      "top": 236,
+      "width": 560,
+      "height": 200
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/ahkvi1cb",
+    "name": "text-12",
+    "text": "def is_even(n):",
+    "position": {
+      "left": 74,
+      "top": 260,
+      "width": 230,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/v2twb6dw",
+    "name": "text-13",
+    "text": "    value = n % 2",
+    "position": {
+      "left": 74,
+      "top": 313,
+      "width": 259,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/k7mxovud",
+    "name": "rect-14",
+    "position": {
+      "left": 66,
+      "top": 364,
+      "width": 540,
+      "height": 43
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/58vehgvy",
+    "name": "text-15",
+    "text": "    return value == 1",
+    "position": {
+      "left": 74,
+      "top": 366,
+      "width": 317,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/i54fmlc7",
+    "name": "rect-16",
+    "position": {
+      "left": 660,
+      "top": 236,
+      "width": 560,
+      "height": 200
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/j6dwfqds",
+    "name": "text-17",
+    "text": "def is_even(n):",
+    "position": {
+      "left": 678,
+      "top": 260,
+      "width": 230,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/sb6xsvu9",
+    "name": "text-18",
+    "text": "    value = n % 2",
+    "position": {
+      "left": 678,
+      "top": 313,
+      "width": 259,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/tcfel0vu",
+    "name": "rect-19",
+    "position": {
+      "left": 670,
+      "top": 364,
+      "width": 540,
+      "height": 43
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/hgrmpwj2",
+    "name": "text-20",
+    "text": "    return value == 0",
+    "position": {
+      "left": 678,
+      "top": 366,
+      "width": 317,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/gfi5grih",
+    "name": "text-21",
+    "text": "Visible test: is_even(2) should return True.",
+    "position": {
+      "left": 56,
+      "top": 461,
+      "width": 484,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/fe94nm1w",
+    "name": "text-22",
+    "text": "Reuse the matching prefix. Generate and check the changed part.",
+    "position": {
+      "left": 56,
+      "top": 514,
+      "width": 747,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ud0ne10b",
+    "name": "line-23",
+    "position": {
+      "left": 56,
+      "top": 579,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/pkr6tgjy",
+    "name": "text-24",
+    "text": "Earlier code is a cheap source of candidate tokens. [2-4]",
+    "position": {
+      "left": 56,
+      "top": 590,
+      "width": 654,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/4ji5kbid",
+    "name": "text-25",
+    "text": "05 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/m5076xkj",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/yhg7epsj",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/zi98nu94",
+    "name": "text-3",
+    "text": "How an LLM Generates Code",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 483,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/87ipkzal",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/98rqt4r6",
+    "name": "text-5",
+    "text": "6",
+    "position": {
+      "left": 1208,
+      "top": 37,
+      "width": 34,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ml07i9sv",
+    "name": "text-6",
+    "text": "BACKGROUND",
+    "position": {
+      "left": 56,
+      "top": 136,
+      "width": 137,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/7m98ru9g",
+    "name": "line-7",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/oryp8fah",
+    "name": "text-8",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/pc76hkr2",
+    "name": "text-9",
+    "text": "A token is a small piece of text. Ordinary decoding adds one token per step.",
+    "position": {
+      "left": 56,
+      "top": 184,
+      "width": 1019,
+      "height": 43.5
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/h4bupgn6",
+    "name": "text-10",
+    "text": "Greedy decoding selects the highest-scoring next token.",
+    "position": {
+      "left": 56,
+      "top": 249,
+      "width": 608,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/w32twb6l",
+    "name": "rect-11",
+    "position": {
+      "left": 56,
+      "top": 315,
+      "width": 200,
+      "height": 72
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/v2tcn650",
+    "name": "text-12",
+    "text": "def",
+    "position": {
+      "left": 80,
+      "top": 333,
+      "width": 63,
+      "height": 40.6
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/u1kbu1ov",
+    "name": "line-13",
+    "position": {
+      "left": 260,
+      "top": 350,
+      "width": 26,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/5svutgni",
+    "name": "line-14",
+    "position": {
+      "left": 275.59,
+      "top": 350,
+      "width": 10.41,
+      "height": 5.96
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/47mt0b6x",
+    "name": "line-15",
+    "position": {
+      "left": 275.59,
+      "top": 344.04,
+      "width": 10.41,
+      "height": 5.96
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/j6dcr65c",
+    "name": "rect-16",
+    "position": {
+      "left": 292,
+      "top": 315,
+      "width": 200,
+      "height": 72
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/i54bylor",
+    "name": "text-17",
+    "text": " is_even",
+    "position": {
+      "left": 316,
+      "top": 333,
+      "width": 146,
+      "height": 40.6
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/twfux0ne",
+    "name": "line-18",
+    "position": {
+      "left": 496,
+      "top": 350,
+      "width": 26,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/svmt4v6t",
+    "name": "line-19",
+    "position": {
+      "left": 511.59,
+      "top": 350,
+      "width": 10.41,
+      "height": 5.96
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/cbe5g3ih",
+    "name": "line-20",
+    "position": {
+      "left": 511.59,
+      "top": 344.04,
+      "width": 10.41,
+      "height": 5.96
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/dcnm98zm",
+    "name": "rect-21",
+    "position": {
+      "left": 528,
+      "top": 315,
+      "width": 200,
+      "height": 72
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/qpwnet0b",
+    "name": "text-22",
+    "text": "(",
+    "position": {
+      "left": 552,
+      "top": 333,
+      "width": 29,
+      "height": 40.6
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/bq547yhw",
+    "name": "line-23",
+    "position": {
+      "left": 732,
+      "top": 350,
+      "width": 26,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/0fy5k3id",
+    "name": "line-24",
+    "position": {
+      "left": 747.59,
+      "top": 350,
+      "width": 10.41,
+      "height": 5.96
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/lg76d8zy",
+    "name": "line-25",
+    "position": {
+      "left": 747.59,
+      "top": 344.04,
+      "width": 10.41,
+      "height": 5.96
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/ydgnit07",
+    "name": "rect-26",
+    "position": {
+      "left": 764,
+      "top": 315,
+      "width": 200,
+      "height": 72
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/zep4byhs",
+    "name": "text-27",
+    "text": "n",
+    "position": {
+      "left": 788,
+      "top": 333,
+      "width": 29,
+      "height": 40.6
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/gju58ji9",
+    "name": "line-28",
+    "position": {
+      "left": 968,
+      "top": 350,
+      "width": 26,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/1k3mhozu",
+    "name": "line-29",
+    "position": {
+      "left": 983.59,
+      "top": 350,
+      "width": 10.41,
+      "height": 5.96
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/jet8nm1c",
+    "name": "line-30",
+    "position": {
+      "left": 983.59,
+      "top": 344.04,
+      "width": 10.41,
+      "height": 5.96
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/idk7ehkr",
+    "name": "rect-31",
+    "position": {
+      "left": 1000,
+      "top": 315,
+      "width": 200,
+      "height": 72
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/50bqpcj2",
+    "name": "text-32",
+    "text": "):",
+    "position": {
+      "left": 1024,
+      "top": 333,
+      "width": 46,
+      "height": 40.6
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/4f2pgr2h",
+    "name": "text-33",
+    "text": "KV cache",
+    "position": {
+      "left": 56,
+      "top": 441,
+      "width": 125,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/va98j210",
+    "name": "text-34",
+    "text": "Stores intermediate results for earlier tokens. This saves repeated work, but the model still",
+    "position": {
+      "left": 56,
+      "top": 482,
+      "width": 1089,
+      "height": 39.15
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/u907axkf",
+    "name": "text-35",
+    "text": "runs for each new token.",
+    "position": {
+      "left": 56,
+      "top": 521,
+      "width": 308,
+      "height": 39.15
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/hcrqlcj6",
+    "name": "line-36",
+    "position": {
+      "left": 56,
+      "top": 579,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/wbipc72l",
+    "name": "text-37",
+    "text": "Long responses still require many sequential model steps.",
+    "position": {
+      "left": 56,
+      "top": 590,
+      "width": 682,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/7698f214",
+    "name": "text-38",
+    "text": "06 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/s3ml0v61",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/cb2tkvap",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/dcbud0ra",
+    "name": "text-3",
+    "text": "Speculative Decoding",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 366,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ydkbm5sv",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/zedcfa9g",
+    "name": "text-5",
+    "text": "7",
+    "position": {
+      "left": 1208,
+      "top": 37,
+      "width": 34,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/kzmdova1",
+    "name": "text-6",
+    "text": "RELATED TECHNIQUES",
+    "position": {
+      "left": 56,
+      "top": 136,
+      "width": 209,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/l0vuh0rm",
+    "name": "line-7",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/eh0ba1sr",
+    "name": "text-8",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/fi9c369c",
+    "name": "text-9",
+    "text": "A fast draft model proposes tokens. The target is the model whose output we want. [1]",
+    "position": {
+      "left": 56,
+      "top": 182,
+      "width": 1120,
+      "height": 42.05
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/baxkjqlk",
+    "name": "text-10",
+    "text": "Draft model",
+    "position": {
+      "left": 56,
+      "top": 331,
+      "width": 151,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/a9ojq5kz",
+    "name": "text-11",
+    "text": "Propose several tokens",
+    "position": {
+      "left": 56,
+      "top": 378,
+      "width": 285,
+      "height": 37.7
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/xcz2l03q",
+    "name": "text-12",
+    "text": "Target model",
+    "position": {
+      "left": 466,
+      "top": 331,
+      "width": 170,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/cbq1sv25",
+    "name": "text-13",
+    "text": "Check the draft in one batch",
+    "position": {
+      "left": 466,
+      "top": 378,
+      "width": 338,
+      "height": 37.7
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/n6x0fqlo",
+    "name": "text-14",
+    "text": "Output",
+    "position": {
+      "left": 876,
+      "top": 331,
+      "width": 94,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/25ojml43",
+    "name": "text-15",
+    "text": "Keep the matching prefix",
+    "position": {
+      "left": 876,
+      "top": 378,
+      "width": 301,
+      "height": 37.7
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/p8fih03e",
+    "name": "line-16",
+    "position": {
+      "left": 356,
+      "top": 375,
+      "width": 90,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/o761ov2t",
+    "name": "line-17",
+    "position": {
+      "left": 435.59,
+      "top": 375,
+      "width": 10.41,
+      "height": 5.96
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/f2d0b6lc",
+    "name": "line-18",
+    "position": {
+      "left": 435.59,
+      "top": 369.04,
+      "width": 10.41,
+      "height": 5.96
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/eh4jil4r",
+    "name": "line-19",
+    "position": {
+      "left": 766,
+      "top": 375,
+      "width": 90,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/id4ju1oz",
+    "name": "line-20",
+    "position": {
+      "left": 845.59,
+      "top": 375,
+      "width": 10.41,
+      "height": 5.96
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/jedkn654",
+    "name": "line-21",
+    "position": {
+      "left": 845.59,
+      "top": 369.04,
+      "width": 10.41,
+      "height": 5.96
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/4fm1wb6p",
+    "name": "text-22",
+    "text": "Batch checking can advance several tokens. A mismatch ends the accepted prefix.",
+    "position": {
+      "left": 56,
+      "top": 497,
+      "width": 968,
+      "height": 37.7
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/50v2pgna",
+    "name": "line-23",
+    "position": {
+      "left": 56,
+      "top": 579,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/q143ylov",
+    "name": "text-24",
+    "text": "Saved target steps must outweigh drafting and verification costs.",
+    "position": {
+      "left": 56,
+      "top": 590,
+      "width": 758,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/r2dkrq5g",
+    "name": "text-25",
+    "text": "07 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/x4ne1wni",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/18byd4zy",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/g72x4zyd",
+    "name": "text-3",
+    "text": "Existing Reuse and Adaptive Methods",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 629,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ri9g7uhw",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/6h0fypgb",
+    "name": "text-5",
+    "text": "8",
+    "position": {
+      "left": 1208,
+      "top": 37,
+      "width": 34,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/tkby9kzm",
+    "name": "text-6",
+    "text": "RELATED WORK",
+    "position": {
+      "left": 56,
+      "top": 136,
+      "width": 151,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/sjix0zy1",
+    "name": "line-7",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/je9g3ahk",
+    "name": "text-8",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/id0fu50z",
+    "name": "rect-9",
+    "position": {
+      "left": 56,
+      "top": 210,
+      "width": 1168,
+      "height": 66
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/o7ydoret",
+    "name": "text-10",
+    "text": "Prior work",
+    "position": {
+      "left": 70,
+      "top": 227.16,
+      "width": 131,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/98rehwve",
+    "name": "text-11",
+    "text": "Idea used in the literature",
+    "position": {
+      "left": 420,
+      "top": 227.16,
+      "width": 303,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/m5gvmhwn",
+    "name": "line-12",
+    "position": {
+      "left": 56,
+      "top": 276,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/n6pwfmd8",
+    "name": "text-13",
+    "text": "Prompt Lookup [2]",
+    "position": {
+      "left": 70,
+      "top": 293.16,
+      "width": 208,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/0jydkreh",
+    "name": "text-14",
+    "text": "Copy continuations from existing text",
+    "position": {
+      "left": 420,
+      "top": 293.16,
+      "width": 404,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/1k7edwv2",
+    "name": "line-15",
+    "position": {
+      "left": 56,
+      "top": 342,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/ehgvihwr",
+    "name": "text-16",
+    "text": "EfficientEdit [3]",
+    "position": {
+      "left": 70,
+      "top": 359.16,
+      "width": 172,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/zipwbmdc",
+    "name": "text-17",
+    "text": "Reuse code with edit-oriented drafting",
+    "position": {
+      "left": 420,
+      "top": 359.16,
+      "width": 415,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/kfixwbe1",
+    "name": "line-18",
+    "position": {
+      "left": 56,
+      "top": 408,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/lgbepgvm",
+    "name": "text-19",
+    "text": "AgSpec [4]",
+    "position": {
+      "left": 70,
+      "top": 425.16,
+      "width": 130,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/tw7e9gnq",
+    "name": "text-20",
+    "text": "Agent history and adaptive draft length",
+    "position": {
+      "left": 420,
+      "top": 425.16,
+      "width": 422,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/svydgb65",
+    "name": "line-21",
+    "position": {
+      "left": 56,
+      "top": 474,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/7u5w765k",
+    "name": "text-22",
+    "text": "DISCO [5]",
+    "position": {
+      "left": 70,
+      "top": 491.16,
+      "width": 122,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/6twve1oz",
+    "name": "text-23",
+    "text": "Choose speculation lookahead dynamically",
+    "position": {
+      "left": 420,
+      "top": 491.16,
+      "width": 470,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/5sne5wne",
+    "name": "line-24",
+    "position": {
+      "left": 56,
+      "top": 540,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/kredcr6t",
+    "name": "line-25",
+    "position": {
+      "left": 56,
+      "top": 579,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/jq5w365o",
+    "name": "text-26",
+    "text": "Our focus: a time-based decision rule for local history drafting, with explicit cost accounting.",
+    "position": {
+      "left": 56,
+      "top": 590,
+      "width": 1074,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/i5wva1o3",
+    "name": "text-27",
+    "text": "08 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/76h0zup8",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/1cfmhgne",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/0b65obm9",
+    "name": "text-3",
+    "text": "Proposed Method: Cost-Aware Selection",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 670,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/nex4jq5k",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/mdonql4z",
+    "name": "text-5",
+    "text": "9",
+    "position": {
+      "left": 1208,
+      "top": 37,
+      "width": 34,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/9gzml0nq",
+    "name": "text-6",
+    "text": "METHOD",
+    "position": {
+      "left": 56,
+      "top": 136,
+      "width": 86,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ofq5svm5",
+    "name": "line-7",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/bih4na5w",
+    "name": "text-8",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ah8nu54b",
+    "name": "text-9",
+    "text": "At each step, decide whether to reuse history and how much to reuse.",
+    "position": {
+      "left": 56,
+      "top": 182,
+      "width": 1043,
+      "height": 44.95
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/oza1gfyh",
+    "name": "text-10",
+    "text": "Observe",
+    "position": {
+      "left": 56,
+      "top": 333,
+      "width": 117,
+      "height": 37.7
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/p0ji9kf2",
+    "name": "text-11",
+    "text": "Retrieve a candidate and",
+    "position": {
+      "left": 56,
+      "top": 381,
+      "width": 302,
+      "height": 37.7
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/2xsjepgb",
+    "name": "text-12",
+    "text": "track recent acceptance.",
+    "position": {
+      "left": 56,
+      "top": 420,
+      "width": 296,
+      "height": 37.7
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/3y107axw",
+    "name": "text-13",
+    "text": "Compare",
+    "position": {
+      "left": 456,
+      "top": 333,
+      "width": 125,
+      "height": 37.7
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/cnu1kzyd",
+    "name": "text-14",
+    "text": "Estimate time per output",
+    "position": {
+      "left": 456,
+      "top": 381,
+      "width": 295,
+      "height": 37.7
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/do3id4fy",
+    "name": "text-15",
+    "text": "token for each action.",
+    "position": {
+      "left": 456,
+      "top": 420,
+      "width": 262,
+      "height": 37.7
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/qlcjipgn",
+    "name": "text-16",
+    "text": "Choose",
+    "position": {
+      "left": 856,
+      "top": 333,
+      "width": 108,
+      "height": 37.7
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/bml0buxs",
+    "name": "text-17",
+    "text": "Use ordinary decoding or k =",
+    "position": {
+      "left": 856,
+      "top": 381,
+      "width": 346,
+      "height": 37.7
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/0ru1ozyp",
+    "name": "text-18",
+    "text": "2, 4, 8, 16.",
+    "position": {
+      "left": 856,
+      "top": 420,
+      "width": 136,
+      "height": 37.7
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/lsn2h4fa",
+    "name": "line-19",
+    "position": {
+      "left": 56,
+      "top": 579,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/98ji147e",
+    "name": "text-20",
+    "text": "The proposed component is the action-selection policy, not history lookup itself.",
+    "position": {
+      "left": 56,
+      "top": 590,
+      "width": 936,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/87a18zqt",
+    "name": "text-21",
+    "text": "09 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/bu5cnqd8",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/xc3mho32",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/cbu58j2h",
+    "name": "text-3",
+    "text": "Historical Draft Retrieval",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 410,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/zelojyl8",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/ydcnatkn",
+    "name": "text-5",
+    "text": "10",
+    "position": {
+      "left": 1200,
+      "top": 37,
+      "width": 55,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/l036l83y",
+    "name": "text-6",
+    "text": "EXISTING COMPONENT",
+    "position": {
+      "left": 56,
+      "top": 136,
+      "width": 207,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/kzu5c32t",
+    "name": "line-7",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/725onyl4",
+    "name": "text-8",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/m1cnetkj",
+    "name": "text-9",
+    "text": "Existing n-gram lookup idea [2]",
+    "position": {
+      "left": 56,
+      "top": 186,
+      "width": 385,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/s7yt4b21",
+    "name": "text-10",
+    "text": "1",
+    "position": {
+      "left": 60,
+      "top": 254,
+      "width": 31,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/d87uxg3m",
+    "name": "text-11",
+    "text": "Match the current suffix",
+    "position": {
+      "left": 114,
+      "top": 261,
+      "width": 318,
+      "height": 39.15
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/q5gb21kb",
+    "name": "text-12",
+    "text": "Search for the recent output pattern in earlier code.",
+    "position": {
+      "left": 114,
+      "top": 302,
+      "width": 554,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/r6pcv6lw",
+    "name": "text-13",
+    "text": "2",
+    "position": {
+      "left": 60,
+      "top": 352,
+      "width": 31,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/0bit8b2d",
+    "name": "text-14",
+    "text": "Read its continuation",
+    "position": {
+      "left": 114,
+      "top": 359,
+      "width": 287,
+      "height": 39.15
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/1cru1g3y",
+    "name": "text-15",
+    "text": "Use the following historical tokens as candidates.",
+    "position": {
+      "left": 114,
+      "top": 400,
+      "width": 534,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/e9gb61k7",
+    "name": "text-16",
+    "text": "3",
+    "position": {
+      "left": 60,
+      "top": 450,
+      "width": 31,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/fapcz6ls",
+    "name": "text-17",
+    "text": "Pass candidates to the policy",
+    "position": {
+      "left": 114,
+      "top": 457,
+      "width": 390,
+      "height": 39.15
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ozitcv29",
+    "name": "text-18",
+    "text": "The policy decides how many tokens to verify.",
+    "position": {
+      "left": 114,
+      "top": 498,
+      "width": 501,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/p0ru503u",
+    "name": "line-19",
+    "position": {
+      "left": 56,
+      "top": 579,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/xwnupgvy",
+    "name": "text-20",
+    "text": "Lookup proposes text. Target verification determines what can enter the output.",
+    "position": {
+      "left": 56,
+      "top": 590,
+      "width": 925,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/wvetgbud",
+    "name": "text-21",
+    "text": "10 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/m58fih43",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/xcryxg7y",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/wbih4b6d",
+    "name": "text-3",
+    "text": "Estimating Time per Output Token",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 568,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/n69grmpw",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/250zy18b",
+    "name": "text-5",
+    "text": "11",
+    "position": {
+      "left": 1200,
+      "top": 37,
+      "width": 55,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/98rytw72",
+    "name": "text-6",
+    "text": "METHOD",
+    "position": {
+      "left": 56,
+      "top": 136,
+      "width": 86,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/o7ih0r6h",
+    "name": "line-7",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/72t03qp0",
+    "name": "text-8",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/61kzalof",
+    "name": "text-9",
+    "text": "A longer draft is useful only if the extra progress is worth the extra time.",
+    "position": {
+      "left": 56,
+      "top": 181,
+      "width": 958,
+      "height": 43.5
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ofqtgnyt",
+    "name": "text-10",
+    "text": "C(k) = [ V(k) + L + R(k) ] / G(k)",
+    "position": {
+      "left": 68,
+      "top": 303,
+      "width": 763,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/9gza9sze",
+    "name": "rect-11",
+    "position": {
+      "left": 56,
+      "top": 366,
+      "width": 1168,
+      "height": 40
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/mdobedg3",
+    "name": "text-12",
+    "text": "Term",
+    "position": {
+      "left": 70,
+      "top": 371.48,
+      "width": 66,
+      "height": 31.9
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/nehs7iho",
+    "name": "text-13",
+    "text": "Meaning",
+    "position": {
+      "left": 255,
+      "top": 371.48,
+      "width": 102,
+      "height": 31.9
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/0b6tc3yx",
+    "name": "line-14",
+    "position": {
+      "left": 56,
+      "top": 406,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/1cfa58zi",
+    "name": "text-15",
+    "text": "V(k)",
+    "position": {
+      "left": 70,
+      "top": 411.48,
+      "width": 53,
+      "height": 31.9
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/epobatgr",
+    "name": "text-16",
+    "text": "Time to verify k candidate tokens",
+    "position": {
+      "left": 255,
+      "top": 411.48,
+      "width": 333,
+      "height": 31.9
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/zaxs3yhc",
+    "name": "line-17",
+    "position": {
+      "left": 56,
+      "top": 446,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/cn6t83y1",
+    "name": "text-18",
+    "text": "L",
+    "position": {
+      "left": 70,
+      "top": 451.48,
+      "width": 25,
+      "height": 31.9
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/dofa18z6",
+    "name": "text-19",
+    "text": "History lookup time",
+    "position": {
+      "left": 255,
+      "top": 451.48,
+      "width": 199,
+      "height": 31.9
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/tsnip0ny",
+    "name": "line-20",
+    "position": {
+      "left": 56,
+      "top": 486,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/87ehgv6d",
+    "name": "text-21",
+    "text": "R(k)",
+    "position": {
+      "left": 70,
+      "top": 491.48,
+      "width": 54,
+      "height": 31.9
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/7650nq5s",
+    "name": "text-22",
+    "text": "Expected recovery time in this implementation",
+    "position": {
+      "left": 255,
+      "top": 491.48,
+      "width": 461,
+      "height": 31.9
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/65wzelo7",
+    "name": "line-23",
+    "position": {
+      "left": 56,
+      "top": 526,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/l43ilgn2",
+    "name": "text-24",
+    "text": "G(k)",
+    "position": {
+      "left": 70,
+      "top": 531.48,
+      "width": 55,
+      "height": 31.9
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/k3uhcb6h",
+    "name": "text-25",
+    "text": "Expected number of output tokens advanced",
+    "position": {
+      "left": 255,
+      "top": 531.48,
+      "width": 448,
+      "height": 31.9
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/j2lgjq5w",
+    "name": "line-26",
+    "position": {
+      "left": 56,
+      "top": 566,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/y1czalob",
+    "name": "line-27",
+    "position": {
+      "left": 56,
+      "top": 579,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/p07ixkn6",
+    "name": "text-28",
+    "text": "Compare the score with ordinary decoding. Select reuse only when it is cheaper.",
+    "position": {
+      "left": 56,
+      "top": 590,
+      "width": 933,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/4zyhofml",
+    "name": "text-29",
+    "text": "11 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/nilsnetc",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/1gbm9s3a",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/0f2lgnmp",
+    "name": "text-3",
+    "text": "Verification Cost by Draft Length",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 544,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ra943il8",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/q903ad4n",
+    "name": "text-5",
+    "text": "12",
+    "position": {
+      "left": 1200,
+      "top": 37,
+      "width": 55,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/dcbm583y",
+    "name": "rect-6",
+    "position": {
+      "left": 52,
+      "top": 136,
+      "width": 1176,
+      "height": 42
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/sb2lcnmd",
+    "name": "text-7",
+    "text": "ESTIMATED PLACEHOLDER - NOT MEASURED",
+    "position": {
+      "left": 68,
+      "top": 142,
+      "width": 512,
+      "height": 31.9
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/b6d4f2lc",
+    "name": "line-8",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/a543mx4r",
+    "name": "text-9",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/wvupgz6t",
+    "name": "text-10",
+    "text": "Illustrative normalized time: one ordinary step = 1.00",
+    "position": {
+      "left": 56,
+      "top": 192,
+      "width": 617,
+      "height": 37.7
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/xw3q94ne",
+    "name": "rect-11",
+    "position": {
+      "left": 56,
+      "top": 251,
+      "width": 1168,
+      "height": 54
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/atc7epon",
+    "name": "text-12",
+    "text": "Draft length k",
+    "position": {
+      "left": 70,
+      "top": 262.16,
+      "width": 167,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/bulo7u58",
+    "name": "text-13",
+    "text": "Verified input tokens",
+    "position": {
+      "left": 400,
+      "top": 262.16,
+      "width": 250,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/orapcf6h",
+    "name": "text-14",
+    "text": "V(k), assumed",
+    "position": {
+      "left": 870,
+      "top": 262.16,
+      "width": 175,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/9sj65kn2",
+    "name": "line-15",
+    "position": {
+      "left": 56,
+      "top": 305,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/mps7a5or",
+    "name": "text-16",
+    "text": "2",
+    "position": {
+      "left": 70,
+      "top": 316.16,
+      "width": 26,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/nq1o3a5w",
+    "name": "text-17",
+    "text": "3",
+    "position": {
+      "left": 400,
+      "top": 316.16,
+      "width": 26,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/0nap8f6l",
+    "name": "text-18",
+    "text": "1.10",
+    "position": {
+      "left": 870,
+      "top": 316.16,
+      "width": 59,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/1oj61kn6",
+    "name": "line-19",
+    "position": {
+      "left": 56,
+      "top": 359,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/hkbm5wzu",
+    "name": "text-20",
+    "text": "4",
+    "position": {
+      "left": 70,
+      "top": 370.16,
+      "width": 26,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/gj25cry9",
+    "name": "text-21",
+    "text": "5",
+    "position": {
+      "left": 400,
+      "top": 370.16,
+      "width": 26,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/fit436ho",
+    "name": "text-22",
+    "text": "1.22",
+    "position": {
+      "left": 870,
+      "top": 370.16,
+      "width": 59,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/uh0na1g3",
+    "name": "line-23",
+    "position": {
+      "left": 56,
+      "top": 413,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/tgrm1wzy",
+    "name": "text-24",
+    "text": "8",
+    "position": {
+      "left": 70,
+      "top": 424.16,
+      "width": 26,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/sfi58ryd",
+    "name": "text-25",
+    "text": "9",
+    "position": {
+      "left": 400,
+      "top": 424.16,
+      "width": 26,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/7u94zmhs",
+    "name": "text-26",
+    "text": "1.48",
+    "position": {
+      "left": 870,
+      "top": 424.16,
+      "width": 59,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/6t0n6hg7",
+    "name": "line-27",
+    "position": {
+      "left": 56,
+      "top": 467,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/dcv6dgz2",
+    "name": "text-28",
+    "text": "16",
+    "position": {
+      "left": 70,
+      "top": 478.16,
+      "width": 39,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/cbm5kbyh",
+    "name": "text-29",
+    "text": "17",
+    "position": {
+      "left": 400,
+      "top": 478.16,
+      "width": 39,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/alwbitsn",
+    "name": "text-30",
+    "text": "2.05",
+    "position": {
+      "left": 870,
+      "top": 478.16,
+      "width": 59,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/bm5sryt8",
+    "name": "line-31",
+    "position": {
+      "left": 56,
+      "top": 521,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/wnetkjat",
+    "name": "text-32",
+    "text": "Planned measurement: warm up, synchronize, repeat each length, and vary context length.",
+    "position": {
+      "left": 56,
+      "top": 537,
+      "width": 978,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/xonutobe",
+    "name": "text-33",
+    "text": "These values do not establish how verification cost scales on Apple Silicon.",
+    "position": {
+      "left": 56,
+      "top": 603,
+      "width": 845,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/mhcbe9sr",
+    "name": "text-34",
+    "text": "12 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/lkvy103m",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/q50nydsj",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/bq9orito",
+    "name": "text-3",
+    "text": "Cache Recovery: What We Count",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 549,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/o3i5w3ad",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/p4r6p8by",
+    "name": "text-5",
+    "text": "13",
+    "position": {
+      "left": 1200,
+      "top": 37,
+      "width": 55,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/21gnuts7",
+    "name": "text-6",
+    "text": "METHOD AND IMPLEMENTATION CHECK",
+    "position": {
+      "left": 56,
+      "top": 136,
+      "width": 351,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/32ponyts",
+    "name": "line-7",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/gzy5s3a1",
+    "name": "text-8",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/1076lobm",
+    "name": "text-9",
+    "text": "Current implementation",
+    "position": {
+      "left": 56,
+      "top": 187,
+      "width": 295,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/hcfy9k3u",
+    "name": "text-10",
+    "text": "On rejection: restore the earlier cache, then recompute the retained prefix through ordinary",
+    "position": {
+      "left": 56,
+      "top": 229,
+      "width": 1130,
+      "height": 40.6
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/gb6x0zm9",
+    "name": "text-11",
+    "text": "model steps.",
+    "position": {
+      "left": 56,
+      "top": 269,
+      "width": 171,
+      "height": 40.6
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/vaxg7ulo",
+    "name": "text-12",
+    "text": "Why it was added",
+    "position": {
+      "left": 56,
+      "top": 353,
+      "width": 223,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/u9ofyp43",
+    "name": "text-13",
+    "text": "Earlier diagnostics found cache-state differences after batched verification. Replay aimed to",
+    "position": {
+      "left": 56,
+      "top": 396,
+      "width": 1106,
+      "height": 39.15
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/t8fy5k3i",
+    "name": "text-14",
+    "text": "recover the ordinary path.",
+    "position": {
+      "left": 56,
+      "top": 435,
+      "width": 320,
+      "height": 39.15
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/876xwfmx",
+    "name": "line-15",
+    "position": {
+      "left": 56,
+      "top": 579,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/7mdg3als",
+    "name": "text-16",
+    "text": "Replay may be implementation-specific. Check if a correct native path can avoid it.",
+    "position": {
+      "left": 56,
+      "top": 590,
+      "width": 955,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/6l4fu547",
+    "name": "text-17",
+    "text": "13 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/gjelc7up",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/xc7eds76",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/wbydknq1",
+    "name": "text-3",
+    "text": "Dynamic Policy: A Worked Example",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 594,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/jepwf2pc",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/idgvmx8r",
+    "name": "text-5",
+    "text": "14",
+    "position": {
+      "left": 1200,
+      "top": 37,
+      "width": 55,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/5grehs7i",
+    "name": "rect-6",
+    "position": {
+      "left": 52,
+      "top": 136,
+      "width": 1176,
+      "height": 42
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/kfidonqx",
+    "name": "text-7",
+    "text": "ESTIMATED PLACEHOLDER - NOT MEASURED",
+    "position": {
+      "left": 68,
+      "top": 142,
+      "width": 512,
+      "height": 31.9
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/zi5c3y98",
+    "name": "line-8",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/ehwvat8n",
+    "name": "text-9",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/c3e1gjyd",
+    "name": "text-10",
+    "text": "Assume ordinary step = 1.00 and lookup = 0.02",
+    "position": {
+      "left": 56,
+      "top": 191,
+      "width": 560,
+      "height": 37.7
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/x4ni9ofy",
+    "name": "rect-11",
+    "position": {
+      "left": 56,
+      "top": 254,
+      "width": 1168,
+      "height": 61
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/a1wze9g7",
+    "name": "text-12",
+    "text": "Acceptance p",
+    "position": {
+      "left": 70,
+      "top": 269.32,
+      "width": 162,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/b2507exs",
+    "name": "text-13",
+    "text": "k=2",
+    "position": {
+      "left": 330,
+      "top": 269.32,
+      "width": 51,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/kre1k3y9",
+    "name": "text-14",
+    "text": "k=4",
+    "position": {
+      "left": 494,
+      "top": 269.32,
+      "width": 51,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ls7idofu",
+    "name": "text-15",
+    "text": "k=8",
+    "position": {
+      "left": 658,
+      "top": 269.32,
+      "width": 51,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/y5wjitgj",
+    "name": "text-16",
+    "text": "k=16",
+    "position": {
+      "left": 822,
+      "top": 269.32,
+      "width": 64,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/z650byxo",
+    "name": "text-17",
+    "text": "Choice",
+    "position": {
+      "left": 986,
+      "top": 269.32,
+      "width": 89,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/0buh8zy5",
+    "name": "line-18",
+    "position": {
+      "left": 56,
+      "top": 315,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/1w3i14fq",
+    "name": "text-19",
+    "text": "0.55",
+    "position": {
+      "left": 70,
+      "top": 330.32,
+      "width": 57,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/hsvy50re",
+    "name": "text-20",
+    "text": "1.11",
+    "position": {
+      "left": 330,
+      "top": 330.32,
+      "width": 57,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/grmxwvqt",
+    "name": "text-21",
+    "text": "1.37",
+    "position": {
+      "left": 494,
+      "top": 330.32,
+      "width": 57,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/fqdg3q98",
+    "name": "text-22",
+    "text": "1.64",
+    "position": {
+      "left": 658,
+      "top": 330.32,
+      "width": 57,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/up4fal83",
+    "name": "text-23",
+    "text": "1.93",
+    "position": {
+      "left": 822,
+      "top": 330.32,
+      "width": 57,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/pwvy90rq",
+    "name": "text-24",
+    "text": "Ordinary",
+    "position": {
+      "left": 986,
+      "top": 330.32,
+      "width": 101,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/4vmh0vq5",
+    "name": "line-25",
+    "position": {
+      "left": 56,
+      "top": 376,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/3udg7q9k",
+    "name": "text-26",
+    "text": "0.90",
+    "position": {
+      "left": 70,
+      "top": 391.32,
+      "width": 57,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/2t4fyl8z",
+    "name": "text-27",
+    "text": "0.52",
+    "position": {
+      "left": 330,
+      "top": 391.32,
+      "width": 57,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/d0fydk7m",
+    "name": "text-28",
+    "text": "0.50",
+    "position": {
+      "left": 494,
+      "top": 391.32,
+      "width": 57,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/cz6h4fq1",
+    "name": "text-29",
+    "text": "0.61",
+    "position": {
+      "left": 658,
+      "top": 391.32,
+      "width": 57,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/atg3idk7",
+    "name": "text-30",
+    "text": "0.87",
+    "position": {
+      "left": 822,
+      "top": 391.32,
+      "width": 57,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/bup4rils",
+    "name": "text-31",
+    "text": "k = 4",
+    "position": {
+      "left": 986,
+      "top": 391.32,
+      "width": 63,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/cvylkn2d",
+    "name": "line-32",
+    "position": {
+      "left": 56,
+      "top": 437,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/xw7mts3y",
+    "name": "text-33",
+    "text": "0.98",
+    "position": {
+      "left": 70,
+      "top": 452.32,
+      "width": 57,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/yxgnmxkj",
+    "name": "text-34",
+    "text": "0.40",
+    "position": {
+      "left": 330,
+      "top": 452.32,
+      "width": 57,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/jyp4fil4",
+    "name": "text-35",
+    "text": "0.30",
+    "position": {
+      "left": 494,
+      "top": 452.32,
+      "width": 57,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/kzy5on2p",
+    "name": "text-36",
+    "text": "0.26",
+    "position": {
+      "left": 658,
+      "top": 452.32,
+      "width": 57,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/lkrmhsju",
+    "name": "text-37",
+    "text": "0.30",
+    "position": {
+      "left": 822,
+      "top": 452.32,
+      "width": 57,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/6l0nqxkf",
+    "name": "text-38",
+    "text": "k = 8",
+    "position": {
+      "left": 986,
+      "top": 452.32,
+      "width": 63,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/7m94j210",
+    "name": "line-39",
+    "position": {
+      "left": 56,
+      "top": 498,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/fi5432t4",
+    "name": "text-40",
+    "text": "Lower score is better. Use a draft only if its estimated cost is at least 5% below ordinary decoding.",
+    "position": {
+      "left": 56,
+      "top": 528,
+      "width": 1048,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/uhw3axcj",
+    "name": "text-41",
+    "text": "Assumed inputs explain the rule. They do not validate its predictions.",
+    "position": {
+      "left": 56,
+      "top": 605,
+      "width": 773,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/h4nm5sba",
+    "name": "text-42",
+    "text": "14 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ilov6pkv",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/547mhg3m",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/k3y5ov21",
+    "name": "text-3",
+    "text": "Experimental Setup",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 330,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/76p4jqls",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/65gnqlk7",
+    "name": "text-5",
+    "text": "15",
+    "position": {
+      "left": 1200,
+      "top": 37,
+      "width": 55,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/t87ml0ji",
+    "name": "text-6",
+    "text": "EVALUATION",
+    "position": {
+      "left": 56,
+      "top": 136,
+      "width": 123,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/s7y5sv2x",
+    "name": "line-7",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/na5476l8",
+    "name": "text-8",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/m9c3e1kn",
+    "name": "rect-9",
+    "position": {
+      "left": 56,
+      "top": 207,
+      "width": 1168,
+      "height": 52
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/wrm9kvep",
+    "name": "text-10",
+    "text": "Item",
+    "position": {
+      "left": 70,
+      "top": 217.82,
+      "width": 60,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/hsvat0fa",
+    "name": "text-11",
+    "text": "Configuration",
+    "position": {
+      "left": 410,
+      "top": 217.82,
+      "width": 163,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/upkrilwj",
+    "name": "line-12",
+    "position": {
+      "left": 56,
+      "top": 259,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/vqdsrqx4",
+    "name": "text-13",
+    "text": "Hardware / target",
+    "position": {
+      "left": 70,
+      "top": 269.82,
+      "width": 190,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/4vm9ovel",
+    "name": "text-14",
+    "text": "Apple Silicon, 18 GiB / Qwen2-1.5B, 4-bit",
+    "position": {
+      "left": 410,
+      "top": 269.82,
+      "width": 433,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/5wvax0f6",
+    "name": "line-15",
+    "position": {
+      "left": 56,
+      "top": 311,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/it4rm5wv",
+    "name": "text-16",
+    "text": "Main inference path",
+    "position": {
+      "left": 70,
+      "top": 321.82,
+      "width": 214,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/judsvqxg",
+    "name": "text-17",
+    "text": "SiliconLLM custom synchronous loop [9]",
+    "position": {
+      "left": 410,
+      "top": 321.82,
+      "width": 424,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/0z29cbyh",
+    "name": "line-18",
+    "position": {
+      "left": 56,
+      "top": 363,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/l0bqlgf2",
+    "name": "text-19",
+    "text": "Native extension",
+    "position": {
+      "left": 70,
+      "top": 373.82,
+      "width": 182,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/1kjyt83e",
+    "name": "text-20",
+    "text": "mlx-lm model + cache, shared loop [6]",
+    "position": {
+      "left": 410,
+      "top": 373.82,
+      "width": 402,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/gjax03m9",
+    "name": "line-21",
+    "position": {
+      "left": 56,
+      "top": 415,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/fi1grylo",
+    "name": "text-22",
+    "text": "Tasks",
+    "position": {
+      "left": 70,
+      "top": 425.82,
+      "width": 74,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ehsfyt43",
+    "name": "text-23",
+    "text": "MBPP sanitized [7] and HumanEval [8]",
+    "position": {
+      "left": 410,
+      "top": 425.82,
+      "width": 409,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/p8jyx83q",
+    "name": "line-24",
+    "position": {
+      "left": 56,
+      "top": 467,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/o7ah4nm5",
+    "name": "text-25",
+    "text": "Main replay / agent",
+    "position": {
+      "left": 70,
+      "top": 477.82,
+      "width": 208,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/361gvilk",
+    "name": "text-26",
+    "text": "30 tasks, 64 requests / 20 tasks; 3 repeats",
+    "position": {
+      "left": 410,
+      "top": 477.82,
+      "width": 446,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/25sf2d4z",
+    "name": "line-27",
+    "position": {
+      "left": 56,
+      "top": 519,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/dc3y1s3m",
+    "name": "text-28",
+    "text": "Decoding / repairs",
+    "position": {
+      "left": 70,
+      "top": 529.82,
+      "width": 199,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/cbuh8nmh",
+    "name": "text-29",
+    "text": "Greedy; 384 tokens per call; up to 2 repairs",
+    "position": {
+      "left": 410,
+      "top": 529.82,
+      "width": 454,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/uh4v2pkj",
+    "name": "line-30",
+    "position": {
+      "left": 56,
+      "top": 571,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/vixcvu14",
+    "name": "line-31",
+    "position": {
+      "left": 56,
+      "top": 579,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/wj6d4z2p",
+    "name": "text-32",
+    "text": "The full mlx-lm generation API is a separate planned comparison, not the main engine.",
+    "position": {
+      "left": 56,
+      "top": 590,
+      "width": 999,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/hkfexkja",
+    "name": "text-33",
+    "text": "15 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/kne14jqd",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/8z2h8bq1",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/9kby1g7m",
+    "name": "text-3",
+    "text": "Baselines and Fair Comparison",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 522,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ytkf2h8j",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/zutgvm94",
+    "name": "text-5",
+    "text": "16",
+    "position": {
+      "left": 1200,
+      "top": 37,
+      "width": 55,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/kv2h4rqp",
+    "name": "text-6",
+    "text": "EVALUATION",
+    "position": {
+      "left": 56,
+      "top": 136,
+      "width": 123,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/lwbyxwra",
+    "name": "line-7",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/ip4zel83",
+    "name": "text-8",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/3qdg7qpo",
+    "name": "rect-9",
+    "position": {
+      "left": 56,
+      "top": 213,
+      "width": 1168,
+      "height": 67
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/fm1gzq5o",
+    "name": "text-10",
+    "text": "Method",
+    "position": {
+      "left": 70,
+      "top": 230,
+      "width": 101,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/e1sf65o3",
+    "name": "text-11",
+    "text": "Next decoding action",
+    "position": {
+      "left": 430,
+      "top": 230,
+      "width": 266,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/1ojy10ne",
+    "name": "line-12",
+    "position": {
+      "left": 56,
+      "top": 280,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/gnax8v6t",
+    "name": "text-13",
+    "text": "Ordinary KV",
+    "position": {
+      "left": 70,
+      "top": 297,
+      "width": 149,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/nqlg3a5k",
+    "name": "text-14",
+    "text": "One ordinary greedy step",
+    "position": {
+      "left": 430,
+      "top": 297,
+      "width": 296,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/2pcfa5oz",
+    "name": "line-15",
+    "position": {
+      "left": 56,
+      "top": 347,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/ps3y5knq",
+    "name": "text-16",
+    "text": "Fixed history",
+    "position": {
+      "left": 70,
+      "top": 364,
+      "width": 154,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/oruhcf65",
+    "name": "text-17",
+    "text": "Use available history, up to k = 16",
+    "position": {
+      "left": 430,
+      "top": 364,
+      "width": 390,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/bulg7u5g",
+    "name": "line-18",
+    "position": {
+      "left": 56,
+      "top": 414,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/atczepob",
+    "name": "text-19",
+    "text": "Adaptive history",
+    "position": {
+      "left": 70,
+      "top": 431,
+      "width": 191,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/mpgj6t8j",
+    "name": "text-20",
+    "text": "Choose k = 0, 2, 4, 8 or 16",
+    "position": {
+      "left": 430,
+      "top": 431,
+      "width": 309,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/7qp0zepo",
+    "name": "line-21",
+    "position": {
+      "left": 56,
+      "top": 481,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/8by18jq9",
+    "name": "text-22",
+    "text": "Keep model, prompts, history and verification path the same.",
+    "position": {
+      "left": 56,
+      "top": 504,
+      "width": 714,
+      "height": 37.7
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/9c7i1o7u",
+    "name": "line-23",
+    "position": {
+      "left": 56,
+      "top": 579,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/ylwj2987",
+    "name": "text-24",
+    "text": "Measure wall time and check complete outputs. Fewer target calls alone do not prove speedup.",
+    "position": {
+      "left": 56,
+      "top": 590,
+      "width": 1099,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/zm50veps",
+    "name": "text-25",
+    "text": "16 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/90nq9gfi",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/1c7e50ni",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/gbedwfmx",
+    "name": "text-3",
+    "text": "Model-Time Results",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 334,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/rm5czq50",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/6lwvql4v",
+    "name": "text-5",
+    "text": "17",
+    "position": {
+      "left": 1200,
+      "top": 37,
+      "width": 55,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/t8ne10n6",
+    "name": "text-6",
+    "text": "REPORTED RESULTS",
+    "position": {
+      "left": 56,
+      "top": 136,
+      "width": 191,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/snedsvml",
+    "name": "line-7",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/jilcvq54",
+    "name": "text-8",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "im/bet4vyp0",
+    "position": {
+      "left": 60.86,
+      "top": 186,
+      "width": 750.28,
+      "height": 384
+    },
+    "kind": "image"
+  },
+  {
+    "id": "sh/4by9or6l",
+    "name": "text-10",
+    "text": "Main replay",
+    "position": {
+      "left": 854,
+      "top": 211,
+      "width": 144,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/pc7qhwn6",
+    "name": "text-11",
+    "text": "64 fixed requests, three repeats.",
+    "position": {
+      "left": 854,
+      "top": 257,
+      "width": 356,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/29grm1of",
+    "name": "text-12",
+    "text": "Complete outputs matched in",
+    "position": {
+      "left": 854,
+      "top": 291,
+      "width": 324,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/3ap8fm50",
+    "name": "text-13",
+    "text": "reported runs.",
+    "position": {
+      "left": 854,
+      "top": 325,
+      "width": 161,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/gnepkr69",
+    "name": "text-14",
+    "text": "1.65 / 1.45",
+    "position": {
+      "left": 854,
+      "top": 386,
+      "width": 174,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/honqdwnu",
+    "name": "text-15",
+    "text": "About 14% higher speed than",
+    "position": {
+      "left": 854,
+      "top": 441,
+      "width": 327,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ulw7ihoj",
+    "name": "text-16",
+    "text": "fixed history in this queue.",
+    "position": {
+      "left": 854,
+      "top": 477,
+      "width": 289,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/fm58bm54",
+    "name": "line-17",
+    "position": {
+      "left": 56,
+      "top": 579,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/0ji9wb6t",
+    "name": "text-18",
+    "text": "Reported overall speedup: fixed history 1.45x; adaptive history 1.65x.",
+    "position": {
+      "left": 56,
+      "top": 590,
+      "width": 803,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/14rqpgne",
+    "name": "text-19",
+    "text": "17 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/bi94zqp4",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/wrelszu9",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/hsn2l4bu",
+    "name": "text-3",
+    "text": "Where the Speedup Comes From",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 548,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/itw3upcf",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/je5knut0",
+    "name": "text-5",
+    "text": "18",
+    "position": {
+      "left": 1200,
+      "top": 37,
+      "width": 55,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/4felwzu5",
+    "name": "text-6",
+    "text": "REPORTED REPAIR RESULTS",
+    "position": {
+      "left": 56,
+      "top": 136,
+      "width": 259,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/5gnmp4bq",
+    "name": "line-7",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/6hw3y9sb",
+    "name": "text-8",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "im/a50veh07",
+    "position": {
+      "left": 60.71,
+      "top": 186,
+      "width": 750.59,
+      "height": 384
+    },
+    "kind": "image"
+  },
+  {
+    "id": "sh/fapkr6pw",
+    "name": "text-10",
+    "text": "Repair calls only",
+    "position": {
+      "left": 854,
+      "top": 211,
+      "width": 203,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/upg3i18r",
+    "name": "text-11",
+    "text": "Earlier code is available as",
+    "position": {
+      "left": 854,
+      "top": 257,
+      "width": 311,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/1cr2tg72",
+    "name": "text-12",
+    "text": "draft history.",
+    "position": {
+      "left": 854,
+      "top": 294,
+      "width": 150,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/gbylkbqh",
+    "name": "text-13",
+    "text": "Cold first generation stays on",
+    "position": {
+      "left": 854,
+      "top": 370,
+      "width": 337,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/7mpknmp0",
+    "name": "text-14",
+    "text": "the ordinary path.",
+    "position": {
+      "left": 854,
+      "top": 407,
+      "width": 208,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/6lg3e18f",
+    "name": "line-15",
+    "position": {
+      "left": 56,
+      "top": 579,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/to72pw76",
+    "name": "text-16",
+    "text": "Large savings mainly came from repeated code in failed repairs, not more solved tasks.",
+    "position": {
+      "left": 56,
+      "top": 590,
+      "width": 1011,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/snylgrql",
+    "name": "text-17",
+    "text": "18 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/9kb2hcre",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/9gb6xgbi",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/8v2pobax",
+    "name": "text-3",
+    "text": "Agent Workflow Results",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 404,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/vitozqt8",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/ahk7qls3",
+    "name": "text-5",
+    "text": "19",
+    "position": {
+      "left": 1200,
+      "top": 37,
+      "width": 55,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/xkbq10be",
+    "name": "text-6",
+    "text": "REPORTED END-TO-END RESULTS",
+    "position": {
+      "left": 56,
+      "top": 136,
+      "width": 302,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/wj2psvat",
+    "name": "line-7",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/jmd83atk",
+    "name": "text-8",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "im/rq1w3u1s",
+    "position": {
+      "left": 56,
+      "top": 186.02,
+      "width": 760,
+      "height": 383.97
+    },
+    "kind": "image"
+  },
+  {
+    "id": "sh/cri1gnql",
+    "name": "text-10",
+    "text": "Agent wall time",
+    "position": {
+      "left": 854,
+      "top": 211,
+      "width": 189,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/dsri9sr6",
+    "name": "text-11",
+    "text": "20 tasks, three repeats.",
+    "position": {
+      "left": 854,
+      "top": 257,
+      "width": 275,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/qpgjex8f",
+    "name": "text-12",
+    "text": "Includes visible tests and",
+    "position": {
+      "left": 854,
+      "top": 294,
+      "width": 291,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/rqp07290",
+    "name": "text-13",
+    "text": "logging.",
+    "position": {
+      "left": 854,
+      "top": 331,
+      "width": 100,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/0vi1k7qx",
+    "name": "text-14",
+    "text": "1.62x",
+    "position": {
+      "left": 854,
+      "top": 396,
+      "width": 120,
+      "height": 62.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/1gridcr2",
+    "name": "text-15",
+    "text": "Adaptive vs ordinary",
+    "position": {
+      "left": 854,
+      "top": 460,
+      "width": 229,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/et0jix8r",
+    "name": "line-16",
+    "position": {
+      "left": 56,
+      "top": 579,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/zu90b29c",
+    "name": "text-17",
+    "text": "The reported decoding gain also reduces time in this small agent workflow.",
+    "position": {
+      "left": 56,
+      "top": 590,
+      "width": 873,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/oj21o7qt",
+    "name": "text-18",
+    "text": "19 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/hsvmhkzq",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/qpwjmh8n",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/rq50vmp8",
+    "name": "text-3",
+    "text": "Native MLX Model and Cache",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 485,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/4nu1krqh",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/po3itc72",
+    "name": "text-5",
+    "text": "20",
+    "position": {
+      "left": 1200,
+      "top": 37,
+      "width": 55,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/2lczih8r",
+    "name": "text-6",
+    "text": "REPORTED IMPLEMENTATION EXTENSION",
+    "position": {
+      "left": 56,
+      "top": 136,
+      "width": 367,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/3ml0rmpw",
+    "name": "line-7",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/gjuhg7ql",
+    "name": "text-8",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "im/8bmhgryl",
+    "position": {
+      "left": 56,
+      "top": 187.92,
+      "width": 760,
+      "height": 380.15
+    },
+    "kind": "image"
+  },
+  {
+    "id": "sh/dkfmp4zy",
+    "name": "text-10",
+    "text": "Native components [6]",
+    "position": {
+      "left": 854,
+      "top": 212,
+      "width": 259,
+      "height": 33.35
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/cj65wzyd",
+    "name": "text-11",
+    "text": "mlx-lm model and cache inside",
+    "position": {
+      "left": 854,
+      "top": 257,
+      "width": 356,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/rid4nuhs",
+    "name": "text-12",
+    "text": "a shared synchronous loop.",
+    "position": {
+      "left": 854,
+      "top": 294,
+      "width": 321,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/qh4nupg7",
+    "name": "text-13",
+    "text": "Baseline: the native ordinary",
+    "position": {
+      "left": 854,
+      "top": 403,
+      "width": 314,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/pwvmlkzm",
+    "name": "text-14",
+    "text": "path in this same loop.",
+    "position": {
+      "left": 854,
+      "top": 439,
+      "width": 252,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/4vm5sfy1",
+    "name": "line-15",
+    "position": {
+      "left": 56,
+      "top": 579,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/3ud4juhg",
+    "name": "text-16",
+    "text": "This tests a second model/cache path. It is not a full stock mlx-lm API benchmark.",
+    "position": {
+      "left": 56,
+      "top": 590,
+      "width": 948,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/2t4nqpgb",
+    "name": "text-17",
+    "text": "20 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/4ru1o7ed",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/1gbmxs7a",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/0f2lon6p",
+    "name": "text-3",
+    "text": "Full mlx-lm API Comparison",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 466,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ra9kryp8",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/qp03yt8n",
+    "name": "text-5",
+    "text": "21",
+    "position": {
+      "left": 1200,
+      "top": 37,
+      "width": 55,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/dcb2t87y",
+    "name": "rect-6",
+    "position": {
+      "left": 52,
+      "top": 136,
+      "width": 1176,
+      "height": 42
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/sb2lk36t",
+    "name": "text-7",
+    "text": "ESTIMATED PLACEHOLDER - NOT MEASURED",
+    "position": {
+      "left": 68,
+      "top": 142,
+      "width": 512,
+      "height": 31.9
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/b6d432pc",
+    "name": "line-8",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/al43uxor",
+    "name": "text-9",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/4jax4nqd",
+    "name": "text-10",
+    "text": "Illustrative normalized model time: stock greedy = 100",
+    "position": {
+      "left": 56,
+      "top": 191,
+      "width": 635,
+      "height": 37.7
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/5kjydsri",
+    "name": "rect-11",
+    "position": {
+      "left": 56,
+      "top": 254,
+      "width": 1168,
+      "height": 65
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/ixsf2d87",
+    "name": "text-12",
+    "text": "Planned configuration",
+    "position": {
+      "left": 70,
+      "top": 270.66,
+      "width": 266,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/jy1gbi9s",
+    "name": "text-13",
+    "text": "Time, assumed",
+    "position": {
+      "left": 695,
+      "top": 270.66,
+      "width": 186,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/wvax03q1",
+    "name": "text-14",
+    "text": "Output check",
+    "position": {
+      "left": 973,
+      "top": 270.66,
+      "width": 166,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/hwjy98rm",
+    "name": "line-15",
+    "position": {
+      "left": 56,
+      "top": 319,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/utsfyt8v",
+    "name": "text-16",
+    "text": "Stock mlx-lm greedy [6]",
+    "position": {
+      "left": 70,
+      "top": 335.66,
+      "width": 263,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/vu1w7y9g",
+    "name": "text-17",
+    "text": "100",
+    "position": {
+      "left": 695,
+      "top": 335.66,
+      "width": 52,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/8rqxw3q5",
+    "name": "text-18",
+    "text": "Pending",
+    "position": {
+      "left": 973,
+      "top": 335.66,
+      "width": 100,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/9sze58rq",
+    "name": "line-19",
+    "position": {
+      "left": 56,
+      "top": 384,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/porutkje",
+    "name": "text-20",
+    "text": "mlx-lm + fixed history",
+    "position": {
+      "left": 70,
+      "top": 400.66,
+      "width": 238,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/onid0f2t",
+    "name": "text-21",
+    "text": "85",
+    "position": {
+      "left": 695,
+      "top": 400.66,
+      "width": 39,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/nm9cru18",
+    "name": "text-22",
+    "text": "Pending",
+    "position": {
+      "left": 973,
+      "top": 400.66,
+      "width": 100,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/2l0vypkn",
+    "name": "line-23",
+    "position": {
+      "left": 56,
+      "top": 449,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/1kru5kj2",
+    "name": "text-24",
+    "text": "mlx-lm + adaptive history",
+    "position": {
+      "left": 70,
+      "top": 465.66,
+      "width": 278,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/0jidwf2x",
+    "name": "text-25",
+    "text": "75",
+    "position": {
+      "left": 695,
+      "top": 465.66,
+      "width": 39,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/fi9c3a1c",
+    "name": "text-26",
+    "text": "Pending",
+    "position": {
+      "left": 973,
+      "top": 465.66,
+      "width": 100,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ehgvu5kr",
+    "name": "line-27",
+    "position": {
+      "left": 56,
+      "top": 514,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/lgbe14jm",
+    "name": "text-28",
+    "text": "Planned controls: same checkpoint, prompts, stopping rules and warmup. Report prefill and decode time",
+    "position": {
+      "left": 56,
+      "top": 528,
+      "width": 1116,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/kf2d8zi1",
+    "name": "text-29",
+    "text": "separately.",
+    "position": {
+      "left": 56,
+      "top": 562,
+      "width": 129,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ipcjmhw7",
+    "name": "text-30",
+    "text": "Integration and measurements pending. These values establish no engine advantage.",
+    "position": {
+      "left": 56,
+      "top": 606,
+      "width": 907,
+      "height": 31.9
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/jqlkfmds",
+    "name": "text-31",
+    "text": "21 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/yp0zipk7",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/6987itcr",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/7a18rydc",
+    "name": "text-3",
+    "text": "Limitations and Remaining Checks",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 578,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/k7qpgjul",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/58zqpov6",
+    "name": "text-5",
+    "text": "22",
+    "position": {
+      "left": 1200,
+      "top": 37,
+      "width": 55,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/il87etcv",
+    "name": "text-6",
+    "text": "DISCUSSION",
+    "position": {
+      "left": 56,
+      "top": 136,
+      "width": 118,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/jmh8nyd0",
+    "name": "line-7",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/43u9snu5",
+    "name": "text-8",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/p43q1sva",
+    "name": "text-9",
+    "text": "Workload",
+    "position": {
+      "left": 56,
+      "top": 195,
+      "width": 122,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/p4z6tcri",
+    "name": "text-10",
+    "text": "Most public-task savings came from unsuccessful repairs that repeated code.",
+    "position": {
+      "left": 270,
+      "top": 195,
+      "width": 831,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/436507qx",
+    "name": "text-11",
+    "text": "Cost model",
+    "position": {
+      "left": 56,
+      "top": 271,
+      "width": 143,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/3ixor29c",
+    "name": "text-12",
+    "text": "Measure V(k) and check predicted choices against actual latency.",
+    "position": {
+      "left": 270,
+      "top": 271,
+      "width": 708,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/2honyx8r",
+    "name": "text-13",
+    "text": "Recovery",
+    "position": {
+      "left": 56,
+      "top": 347,
+      "width": 120,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/hgf6pcr6",
+    "name": "text-14",
+    "text": "Test whether a correct native implementation can avoid replay.",
+    "position": {
+      "left": 270,
+      "top": 347,
+      "width": 678,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/gf65w7ql",
+    "name": "text-15",
+    "text": "Engine",
+    "position": {
+      "left": 56,
+      "top": 423,
+      "width": 93,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/fexon290",
+    "name": "text-16",
+    "text": "Complete the stock mlx-lm API comparison with matching settings.",
+    "position": {
+      "left": 270,
+      "top": 423,
+      "width": 719,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/udonux8v",
+    "name": "text-17",
+    "text": "Generality",
+    "position": {
+      "left": 56,
+      "top": 499,
+      "width": 130,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/1cj61w7q",
+    "name": "text-18",
+    "text": "Repeat across sessions, models and longer successful edits.",
+    "position": {
+      "left": 270,
+      "top": 499,
+      "width": 659,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/0bap8rq5",
+    "name": "line-19",
+    "position": {
+      "left": 56,
+      "top": 579,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/krihkz2d",
+    "name": "text-20",
+    "text": "Results are limited to the tested model, machine and task queues.",
+    "position": {
+      "left": 56,
+      "top": 590,
+      "width": 765,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/lsrit4jy",
+    "name": "text-21",
+    "text": "22 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/x0nalovi",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/90vqdczq",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/8zm9k7y5",
+    "name": "text-3",
+    "text": "Conclusions",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 217,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/v2d8fmhw",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/a14rmhgb",
+    "name": "text-5",
+    "text": "23",
+    "position": {
+      "left": 1200,
+      "top": 37,
+      "width": 55,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/xovqhcz2",
+    "name": "text-6",
+    "text": "CONCLUSION",
+    "position": {
+      "left": 56,
+      "top": 136,
+      "width": 127,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/w3m9o7yh",
+    "name": "line-7",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/jqd8jmhs",
+    "name": "text-8",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ip4rqhgn",
+    "name": "text-9",
+    "text": "Problem",
+    "position": {
+      "left": 56,
+      "top": 197,
+      "width": 113,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/sby90zm1",
+    "name": "text-10",
+    "text": "Local repair repeatedly generates code that may already be available.",
+    "position": {
+      "left": 270,
+      "top": 194,
+      "width": 875,
+      "height": 40.6
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/tc7at436",
+    "name": "text-11",
+    "text": "Method",
+    "position": {
+      "left": 56,
+      "top": 319,
+      "width": 101,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/69gry94v",
+    "name": "text-12",
+    "text": "Select ordinary decoding or a historical draft length using estimated time",
+    "position": {
+      "left": 270,
+      "top": 316,
+      "width": 904,
+      "height": 40.6
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/rapsrelg",
+    "name": "text-13",
+    "text": "per token.",
+    "position": {
+      "left": 270,
+      "top": 356,
+      "width": 136,
+      "height": 40.6
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/0fi94jmx",
+    "name": "text-14",
+    "text": "Evidence",
+    "position": {
+      "left": 56,
+      "top": 445,
+      "width": 123,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/1graxo3i",
+    "name": "text-15",
+    "text": "Reported gains: 1.65x model speed and 1.62x agent speed in the tested",
+    "position": {
+      "left": 270,
+      "top": 442,
+      "width": 904,
+      "height": 40.6
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/edgr294r",
+    "name": "text-16",
+    "text": "queues.",
+    "position": {
+      "left": 270,
+      "top": 482,
+      "width": 112,
+      "height": 40.6
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/fepsvelc",
+    "name": "line-17",
+    "position": {
+      "left": 56,
+      "top": 579,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/oji9832t",
+    "name": "text-18",
+    "text": "Final checks: validate the cost model and complete standard-engine evaluation.",
+    "position": {
+      "left": 56,
+      "top": 590,
+      "width": 924,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/p4ra1o3e",
+    "name": "text-19",
+    "text": "23 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/vyp03m1w",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/1sfqxsv6",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/0r6p4nul",
+    "name": "text-3",
+    "text": "Backup: Cost Model Assumptions",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 564,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/nux8zidc",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/2to76dcr",
+    "name": "text-5",
+    "text": "24",
+    "position": {
+      "left": 1200,
+      "top": 37,
+      "width": 55,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/9wzq1svi",
+    "name": "text-6",
+    "text": "BACKUP",
+    "position": {
+      "left": 56,
+      "top": 136,
+      "width": 85,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ov6p8nux",
+    "name": "line-7",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/3ydonyd8",
+    "name": "text-8",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ix47utcn",
+    "name": "text-9",
+    "text": "G(k) = 1 + sum[j=1..k] p^j",
+    "position": {
+      "left": 56,
+      "top": 205,
+      "width": 480,
+      "height": 43.5
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/8veh8ril",
+    "name": "text-10",
+    "text": "R(k) = T_step * sum[j=0..k-1] (j+1) p^j (1-p)",
+    "position": {
+      "left": 56,
+      "top": 281,
+      "width": 744,
+      "height": 39.15
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/9wni1wjq",
+    "name": "text-11",
+    "text": "Assumption: one acceptance estimate p approximates the matching-prefix distribution.",
+    "position": {
+      "left": 56,
+      "top": 378,
+      "width": 1008,
+      "height": 37.7
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/mtwz6h0f",
+    "name": "text-12",
+    "text": "The recovery term models rejected-prefix replay in the current implementation.",
+    "position": {
+      "left": 56,
+      "top": 475,
+      "width": 917,
+      "height": 37.7
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/nu50zm10",
+    "name": "line-13",
+    "position": {
+      "left": 56,
+      "top": 579,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/wzyhcrih",
+    "name": "text-14",
+    "text": "Check independence, truncation, cache overhead and prediction error before treating C(k) as",
+    "position": {
+      "left": 56,
+      "top": 590,
+      "width": 1074,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/x07i5wj2",
+    "name": "text-15",
+    "text": "calibrated.",
+    "position": {
+      "left": 56,
+      "top": 619,
+      "width": 132,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/axgza10b",
+    "name": "text-16",
+    "text": "24 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/s7utkvqx",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/xg7axgf2",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/cfyt4beh",
+    "name": "text-3",
+    "text": "Backup: Fixed-Length Sensitivity",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 550,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/napsr6x0",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/29wby1wf",
+    "name": "text-5",
+    "text": "25",
+    "position": {
+      "left": 1200,
+      "top": 37,
+      "width": 55,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/pc7atgf6",
+    "name": "text-6",
+    "text": "REPORTED FOLLOW-UP",
+    "position": {
+      "left": 56,
+      "top": 136,
+      "width": 215,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/obyt0bel",
+    "name": "line-7",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/fm5snmx4",
+    "name": "text-8",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "im/jm98vyto",
+    "position": {
+      "left": 103.02,
+      "top": 186,
+      "width": 665.97,
+      "height": 384
+    },
+    "kind": "image"
+  },
+  {
+    "id": "sh/wza9cbqp",
+    "name": "text-10",
+    "text": "Fixed arms only",
+    "position": {
+      "left": 854,
+      "top": 211,
+      "width": 195,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/h0jalgra",
+    "name": "text-11",
+    "text": "Longer fixed drafts helped",
+    "position": {
+      "left": 854,
+      "top": 257,
+      "width": 303,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/uxsra18j",
+    "name": "text-12",
+    "text": "within this tested range.",
+    "position": {
+      "left": 854,
+      "top": 294,
+      "width": 276,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/vy1sj694",
+    "name": "text-13",
+    "text": "Separate follow-up block.",
+    "position": {
+      "left": 854,
+      "top": 401,
+      "width": 281,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/8ba98bqt",
+    "name": "text-14",
+    "text": "Reuses an existing task cohort.",
+    "position": {
+      "left": 854,
+      "top": 437,
+      "width": 345,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/9cjahgry",
+    "name": "line-15",
+    "position": {
+      "left": 56,
+      "top": 579,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/m98r618n",
+    "name": "text-16",
+    "text": "Do not merge this timing block with the main comparison or infer a universal best k.",
+    "position": {
+      "left": 56,
+      "top": 590,
+      "width": 973,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/7a1sf698",
+    "name": "text-17",
+    "text": "25 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ozq90f2p",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/uhk36lk7",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/vitkzqlc",
+    "name": "text-3",
+    "text": "Backup: Fallback Feedback",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 459,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/8fil4b21",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/tgr2xg3m",
+    "name": "text-5",
+    "text": "26",
+    "position": {
+      "left": 1200,
+      "top": 37,
+      "width": 55,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/md0321kv",
+    "name": "text-6",
+    "text": "REPORTED SEPARATE COHORT",
+    "position": {
+      "left": 56,
+      "top": 136,
+      "width": 282,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/7e9kv6lg",
+    "name": "line-7",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/kbil0r2p",
+    "name": "text-8",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "im/8ve5gjed",
+    "position": {
+      "left": 56.43,
+      "top": 186,
+      "width": 759.14,
+      "height": 384
+    },
+    "kind": "image"
+  },
+  {
+    "id": "sh/lsja143i",
+    "name": "text-10",
+    "text": "Separate 20 tasks",
+    "position": {
+      "left": 854,
+      "top": 211,
+      "width": 214,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/krat8z2x",
+    "name": "text-11",
+    "text": "Original control can stay",
+    "position": {
+      "left": 854,
+      "top": 257,
+      "width": 281,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/z61szulc",
+    "name": "text-12",
+    "text": "ordinary after acceptance falls.",
+    "position": {
+      "left": 854,
+      "top": 294,
+      "width": 354,
+      "height": 36.25
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/y5sr69kr",
+    "name": "text-13",
+    "text": "Feedback uses the existing",
+    "position": {
+      "left": 854,
+      "top": 394,
+      "width": 302,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/x4jax436",
+    "name": "text-14",
+    "text": "ordinary next token to update the",
+    "position": {
+      "left": 854,
+      "top": 430,
+      "width": 362,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/c3a94z21",
+    "name": "text-15",
+    "text": "estimate.",
+    "position": {
+      "left": 854,
+      "top": 466,
+      "width": 110,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/b21svulg",
+    "name": "line-16",
+    "position": {
+      "left": 56,
+      "top": 579,
+      "width": 1168,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/a18r2pkv",
+    "name": "text-17",
+    "text": "The original controller is not always better than fixed history. Keep the feedback variant separate.",
+    "position": {
+      "left": 56,
+      "top": 590,
+      "width": 1125,
+      "height": 34.8
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/p0zatk3a",
+    "name": "text-18",
+    "text": "26 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/rit0vqtk",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/kn694nmx",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/lofadsni",
+    "name": "text-3",
+    "text": "References (1/2)",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 276,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/mpor6x43",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/7qxsfi5o",
+    "name": "text-5",
+    "text": "27",
+    "position": {
+      "left": 1200,
+      "top": 37,
+      "width": 55,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/8r698nm9",
+    "name": "text-6",
+    "text": "REFERENCES",
+    "position": {
+      "left": 56,
+      "top": 136,
+      "width": 128,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/9sfahsnu",
+    "name": "line-7",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/utobax4f",
+    "name": "text-8",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/vuxsj250",
+    "name": "text-9",
+    "text": "[1] Leviathan, Kalman and Matias. Fast Inference from Transformers via Speculative Decoding. ICML 2023.",
+    "position": {
+      "left": 56,
+      "top": 189,
+      "width": 1056,
+      "height": 31.9
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ju5gv294",
+    "name": "text-10",
+    "text": "https://arxiv.org/abs/2211.17192",
+    "position": {
+      "left": 94,
+      "top": 221,
+      "width": 282,
+      "height": 27.55
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ytwfmx8j",
+    "name": "text-11",
+    "text": "[2] Apoorv Saxena. Prompt Lookup Decoding. Software repository, 2023.",
+    "position": {
+      "left": 56,
+      "top": 265,
+      "width": 722,
+      "height": 31.9
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/lw7yxcra",
+    "name": "text-12",
+    "text": "https://github.com/apoorvumang/prompt-lookup-decoding",
+    "position": {
+      "left": 94,
+      "top": 297,
+      "width": 491,
+      "height": 27.55
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/kvyxo7qp",
+    "name": "text-13",
+    "text": "[3] Wang et al. EfficientEdit: Accelerating Code Editing via Edit-Oriented Speculative Decoding. ASE 2025.",
+    "position": {
+      "left": 56,
+      "top": 341,
+      "width": 1048,
+      "height": 31.9
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/bq5gr298",
+    "name": "text-14",
+    "text": "https://arxiv.org/abs/2506.02780",
+    "position": {
+      "left": 94,
+      "top": 373,
+      "width": 282,
+      "height": 27.55
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/apwfix8n",
+    "name": "text-15",
+    "text": "[4] Lee et al. AgSpec: Pushing the Limits of Retrieval-Based Speculative Decoding in Coding Agent Pipelines. 2026.",
+    "position": {
+      "left": 56,
+      "top": 417,
+      "width": 1140,
+      "height": 31.9
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/xsnytcry",
+    "name": "text-16",
+    "text": "https://arxiv.org/abs/2610.01108",
+    "position": {
+      "left": 94,
+      "top": 449,
+      "width": 282,
+      "height": 27.55
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/wrexk7qt",
+    "name": "text-17",
+    "text": "[5] Mamou et al. Dynamic Speculation Lookahead Accelerates Speculative Decoding of Large Language Models.",
+    "position": {
+      "left": 56,
+      "top": 493,
+      "width": 1111,
+      "height": 31.9
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/vmpg3m9c",
+    "name": "text-18",
+    "text": "2024.",
+    "position": {
+      "left": 56,
+      "top": 521,
+      "width": 67,
+      "height": 31.9
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ulgzuh8r",
+    "name": "text-19",
+    "text": "https://arxiv.org/abs/2405.04304",
+    "position": {
+      "left": 94,
+      "top": 553,
+      "width": 282,
+      "height": 27.55
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/qhkj2lsz",
+    "name": "text-20",
+    "text": "27 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/9ojm1gfi",
+    "name": "rect-1",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/q9cz6xkv",
+    "name": "rect-2",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/ralgf21g",
+    "name": "text-3",
+    "text": "References (2/2)",
+    "position": {
+      "left": 52,
+      "top": 36,
+      "width": 276,
+      "height": 49.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/0zehcr2x",
+    "name": "rect-4",
+    "position": {
+      "left": 1178,
+      "top": 0,
+      "width": 102,
+      "height": 118
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/10nylwji",
+    "name": "text-5",
+    "text": "28",
+    "position": {
+      "left": 1200,
+      "top": 37,
+      "width": 55,
+      "height": 55.1
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/exwzahkr",
+    "name": "text-6",
+    "text": "REFERENCES",
+    "position": {
+      "left": 56,
+      "top": 136,
+      "width": 128,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/zy5gjm1c",
+    "name": "line-7",
+    "position": {
+      "left": 54,
+      "top": 657,
+      "width": 1172,
+      "height": 0.1
+    },
+    "kind": "shape"
+  },
+  {
+    "id": "sh/o3ehgr29",
+    "name": "text-8",
+    "text": "Working draft - numerical placeholders on slides 12, 14 and 21",
+    "position": {
+      "left": 56,
+      "top": 674,
+      "width": 401,
+      "height": 20.3
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/947ipwje",
+    "name": "text-9",
+    "text": "[6] MLX LM. Language model inference and fine-tuning on Apple Silicon. Software repository.",
+    "position": {
+      "left": 56,
+      "top": 189,
+      "width": 920,
+      "height": 31.9
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/lg3690fq",
+    "name": "text-10",
+    "text": "https://github.com/ml-explore/mlx-lm",
+    "position": {
+      "left": 94,
+      "top": 221,
+      "width": 316,
+      "height": 27.55
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/kfu5gfe5",
+    "name": "text-11",
+    "text": "[7] Austin et al. Program Synthesis with Large Language Models. MBPP, 2021.",
+    "position": {
+      "left": 56,
+      "top": 265,
+      "width": 779,
+      "height": 31.9
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/je1o7ax0",
+    "name": "text-12",
+    "text": "https://arxiv.org/abs/2108.07732",
+    "position": {
+      "left": 94,
+      "top": 297,
+      "width": 282,
+      "height": 27.55
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/ytsne5wf",
+    "name": "text-13",
+    "text": "[8] Chen et al. Evaluating Large Language Models Trained on Code. HumanEval, 2021.",
+    "position": {
+      "left": 56,
+      "top": 341,
+      "width": 864,
+      "height": 31.9
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/tk36dkf2",
+    "name": "text-14",
+    "text": "https://arxiv.org/abs/2107.03374",
+    "position": {
+      "left": 94,
+      "top": 373,
+      "width": 282,
+      "height": 27.55
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/8ju5kfeh",
+    "name": "text-15",
+    "text": "[9] Alex Chi. tiny-llm: A course on LLM serving. Software repository.",
+    "position": {
+      "left": 56,
+      "top": 417,
+      "width": 669,
+      "height": 31.9
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/7ilobaxw",
+    "name": "text-16",
+    "text": "https://github.com/skyzh/tiny-llm",
+    "position": {
+      "left": 94,
+      "top": 449,
+      "width": 281,
+      "height": 27.55
+    },
+    "kind": "textbox"
+  },
+  {
+    "id": "sh/6hcni5wb",
+    "name": "text-17",
+    "text": "28 / 28",
+    "position": {
+      "left": 1137,
+      "top": 671,
+      "width": 65,
+      "height": 24.65
+    },
+    "kind": "textbox"
+  }
+]

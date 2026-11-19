@@ -1,0 +1,20 @@
+{
+  "pptx": "/Users/laiqixiao/Documents/SiliconLLM/projects/siliconllm_2026_11_11_predefense/exports/Local_LLM_Agentic_Workloads_PreDefense_Draft_2026_11_11_Reviewed.pptx",
+  "sha256": "a2c69c7596146d2519abdb04843c9e7a94fb48c4561e3f2b8b984d2b8ceecf1d",
+  "slides": 28,
+  "placeholder_slides": [
+    12,
+    14,
+    21
+  ],
+  "reported_source_unchanged": true,
+  "placeholder_arithmetic": "pass",
+  "numerical_provenance": "Reported study aggregates and hypothetical examples remain separate.",
+  "pdf": {
+    "present": true,
+    "pages": 28,
+    "text_status_checks": "pass"
+  },
+  "native_powerpoint_opening": "not tested",
+  "experiment_reproduction": "not performed"
+}

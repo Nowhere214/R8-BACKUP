@@ -1,0 +1,32 @@
+{
+  "status": "Illustrative numerical placeholders, NOT measurements or fitted predictions.",
+  "verification": {
+    "k": [
+      2,
+      4,
+      8,
+      16
+    ],
+    "relative_time": [
+      1.1,
+      1.22,
+      1.48,
+      2.05
+    ],
+    "ordinary_step": 1.0,
+    "lookup": 0.02
+  },
+  "full_mlx_lm": {
+    "methods": [
+      "Stock mlx-lm greedy",
+      "mlx-lm + fixed history",
+      "mlx-lm + adaptive history"
+    ],
+    "relative_time": [
+      100.0,
+      85.0,
+      75.0
+    ],
+    "purpose": "Layout and comparison design only; integration and timing pending."
+  }
+}

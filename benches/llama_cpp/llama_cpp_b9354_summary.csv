@@ -1,0 +1,4 @@
+engine,model,n,prefill_tps_mean,prefill_tps_stdev,decode_tps_mean,decode_tps_stdev,model_size_gb,model_n_params,backend,build_number,build_commit
+llama_cpp_metal,qwen2-0.5b,3,2924.715333,36.190958,137.267496,1.015794,0.391859712,494032768,MTL+BLAS,9354,9777256c3
+llama_cpp_metal,qwen2-1.5b,3,1103.658499,8.314574,71.877630,0.503529,0.980097536,1543714304,MTL+BLAS,9354,9777256c3
+llama_cpp_metal,qwen2-7b,3,266.202017,2.027829,22.220158,0.030917,4.677120000,7615616512,MTL+BLAS,9354,9777256c3

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="403.2pt" viewBox="0 0 864 403.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-16T16:41:58.248632</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 403.2 
+L 864 403.2 
+L 864 0 
+L 0 0 
+L 0 403.2 
+z
+" style="fill: none"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 31.68 316.8 
+L 831.6 316.8 
+" clip-path="url(#p52b95d89dd)" style="fill: none; stroke: #b0b0b0; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 18.72px; font-family: 'Arial'; text-anchor: start; fill: #252525" x="31.68" y="35.092575" transform="rotate(-0 31.68 35.092575)">Cost score</text>
+   </g>
+   <g id="text_2">
+    <!-- $C(k)=\frac{V(k)+L+R(k)}{G(k)}$ -->
+    <g style="fill: #252525" transform="translate(31.68 106.0236)">
+     <text>
+      <tspan x="0" y="-0.078438" style="font-style: oblique; font-size: 30.96px; font-family: 'DejaVu Sans'; fill: #252525">C</tspan>
+      <tspan x="33.739746" y="-0.078438" style="font-style: oblique; font-size: 30.96px; font-family: 'DejaVu Sans'; fill: #252525">k</tspan>
+      <tspan x="21.645508" y="-0.078438" style="font-size: 30.96px; font-family: 'DejaVu Sans'; fill: #252525">(</tspan>
+      <tspan x="51.691895" y="-0.078438" style="font-size: 30.96px; font-family: 'DejaVu Sans'; fill: #252525">)</tspan>
+      <tspan x="69.825684" y="-0.078438" style="font-size: 30.96px; font-family: 'DejaVu Sans'; fill: #252525">=</tspan>
+      <tspan x="101.839844" y="-16.517188" style="font-style: oblique; font-size: 21.672px; font-family: 'DejaVu Sans'; fill: #252525">V</tspan>
+      <tspan x="125.150391" y="-16.517188" style="font-style: oblique; font-size: 21.672px; font-family: 'DejaVu Sans'; fill: #252525">k</tspan>
+      <tspan x="155.839844" y="12.50625" style="font-style: oblique; font-size: 21.672px; font-family: 'DejaVu Sans'; fill: #252525">G</tspan>
+      <tspan x="172.820459" y="-16.517188" style="font-style: oblique; font-size: 21.672px; font-family: 'DejaVu Sans'; fill: #252525">L</tspan>
+      <tspan x="181.121191" y="12.50625" style="font-style: oblique; font-size: 21.672px; font-family: 'DejaVu Sans'; fill: #252525">k</tspan>
+      <tspan x="211.547754" y="-16.517188" style="font-style: oblique; font-size: 21.672px; font-family: 'DejaVu Sans'; fill: #252525">R</tspan>
+      <tspan x="235.091406" y="-16.517188" style="font-style: oblique; font-size: 21.672px; font-family: 'DejaVu Sans'; fill: #252525">k</tspan>
+      <tspan x="116.684424" y="-16.517188" style="font-size: 21.672px; font-family: 'DejaVu Sans'; fill: #252525">(</tspan>
+      <tspan x="137.716895" y="-16.517188" style="font-size: 21.672px; font-family: 'DejaVu Sans'; fill: #252525">)</tspan>
+      <tspan x="150.410547" y="-16.517188" style="font-size: 21.672px; font-family: 'DejaVu Sans'; fill: #252525">+</tspan>
+      <tspan x="172.655225" y="12.50625" style="font-size: 21.672px; font-family: 'DejaVu Sans'; fill: #252525">(</tspan>
+      <tspan x="189.137842" y="-16.517188" style="font-size: 21.672px; font-family: 'DejaVu Sans'; fill: #252525">+</tspan>
+      <tspan x="193.687695" y="12.50625" style="font-size: 21.672px; font-family: 'DejaVu Sans'; fill: #252525">)</tspan>
+      <tspan x="226.625439" y="-16.517188" style="font-size: 21.672px; font-family: 'DejaVu Sans'; fill: #252525">(</tspan>
+      <tspan x="247.65791" y="-16.517188" style="font-size: 21.672px; font-family: 'DejaVu Sans'; fill: #252525">)</tspan>
+     </text>
+     <rect x="101.839844" y="-6.911563" width="154.284033" height="1.935"/>
+    </g>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 16.56px; font-family: 'Arial'; text-anchor: start; fill: #252525" x="446.4" y="95.821931" transform="rotate(-0 446.4 95.821931)">time per round / output tokens</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 13.68px; font-family: 'Arial'; text-anchor: start; fill: #6b6b6b" x="446.4" y="128.8197" transform="rotate(-0 446.4 128.8197)">Compare with one ordinary decode step.</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 16.56px; font-family: 'DejaVu Sans Mono'; text-anchor: start; fill: #252525" x="31.68" y="186.773513" transform="rotate(-0 31.68 186.773513)">V(k)</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 16.56px; font-family: 'Arial'; text-anchor: start; fill: #252525" x="118.8" y="186.4449" transform="rotate(-0 118.8 186.4449)">verification, including KV-cache use</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 16.56px; font-family: 'DejaVu Sans Mono'; text-anchor: start; fill: #252525" x="31.68" y="219.893513" transform="rotate(-0 31.68 219.893513)">L</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 16.56px; font-family: 'Arial'; text-anchor: start; fill: #252525" x="118.8" y="219.463988" transform="rotate(-0 118.8 219.463988)">history lookup</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 16.56px; font-family: 'DejaVu Sans Mono'; text-anchor: start; fill: #252525" x="31.68" y="253.013512" transform="rotate(-0 31.68 253.013512)">G(k)</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 16.56px; font-family: 'Arial'; text-anchor: start; fill: #252525" x="118.8" y="252.583987" transform="rotate(-0 118.8 252.583987)">expected accepted tokens + one target token</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 16.56px; font-family: 'DejaVu Sans Mono'; text-anchor: start; fill: #252525" x="31.68" y="286.133512" transform="rotate(-0 31.68 286.133512)">R(k)</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 16.56px; font-family: 'Arial'; text-anchor: start; fill: #252525" x="118.8" y="285.703987" transform="rotate(-0 118.8 285.703987)">extra replay cost, when replay is used</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 13.68px; font-family: 'Arial'; text-anchor: start; fill: #6b6b6b" x="31.68" y="347.779856" transform="rotate(-0 31.68 347.779856)">Current local path</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 15.12px; font-family: 'Arial'; text-anchor: start; fill: #252525" x="216" y="347.980162" transform="rotate(-0 216 347.980162)">restore + replay</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 13.68px; font-family: 'Arial'; text-anchor: start; fill: #6b6b6b" x="471.6" y="347.696494" transform="rotate(-0 471.6 347.696494)">mlx-lm path</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 15.12px; font-family: 'Arial'; text-anchor: start; fill: #252525" x="626.4" y="348.068756" transform="rotate(-0 626.4 348.068756)">trim + continue</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 12.96px; font-family: 'Arial'; text-anchor: start; fill: #6b6b6b" x="31.68" y="386.3934" transform="rotate(-0 31.68 386.3934)">R(k) depends on the recovery path. The score is an estimate, not an exact timing formula.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p52b95d89dd">
+   <rect x="0" y="0" width="864" height="403.2"/>
+  </clipPath>
+ </defs>
+</svg>

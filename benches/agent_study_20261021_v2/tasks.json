@@ -1,0 +1,1437 @@
+[
+  {
+    "id": "mbpp/598",
+    "dataset": "mbpp",
+    "split": "calibration",
+    "prompt": "Write a function to check whether the given number is armstrong or not.",
+    "test_list": [
+      "assert armstrong_number(153)==True"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert armstrong_number(259)==False",
+      "assert armstrong_number(4458)==False"
+    ]
+  },
+  {
+    "id": "mbpp/562",
+    "dataset": "mbpp",
+    "split": "calibration",
+    "prompt": "Write a python function to find the length of the longest sublists.",
+    "test_list": [
+      "assert Find_Max_Length([[1],[1,4],[5,6,7,8]]) == 4"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert Find_Max_Length([[0,1],[2,2,],[3,2,1]]) == 3",
+      "assert Find_Max_Length([[7],[22,23],[13,14,15],[10,20,30,40,50]]) == 5"
+    ]
+  },
+  {
+    "id": "mbpp/555",
+    "dataset": "mbpp",
+    "split": "calibration",
+    "prompt": "Write a python function to find the difference between the sum of cubes of the first n natural numbers and the sum of the first n natural numbers.",
+    "test_list": [
+      "assert difference(3) == 30"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert difference(5) == 210",
+      "assert difference(2) == 6"
+    ]
+  },
+  {
+    "id": "mbpp/574",
+    "dataset": "mbpp",
+    "split": "calibration",
+    "prompt": "Write a function to find the surface area of a cylinder.",
+    "test_list": [
+      "assert surfacearea_cylinder(10,5)==942.45"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert surfacearea_cylinder(4,5)==226.18800000000002",
+      "assert surfacearea_cylinder(4,10)==351.848"
+    ]
+  },
+  {
+    "id": "mbpp/572",
+    "dataset": "mbpp",
+    "split": "calibration",
+    "prompt": "Write a python function to remove duplicate numbers from a given number of lists.",
+    "test_list": [
+      "assert two_unique_nums([1,2,3,2,3,4,5]) == [1, 4, 5]"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert two_unique_nums([1,2,3,2,4,5]) == [1, 3, 4, 5]",
+      "assert two_unique_nums([1,2,3,4,5]) == [1, 2, 3, 4, 5]"
+    ]
+  },
+  {
+    "id": "mbpp/569",
+    "dataset": "mbpp",
+    "split": "calibration",
+    "prompt": "Write a function to sort each sublist of strings in a given list of lists.",
+    "test_list": [
+      "assert sort_sublists([['green', 'orange'], ['black', 'white'], ['white', 'black', 'orange']])==[['green', 'orange'], ['black', 'white'], ['black', 'orange', 'white']]"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert sort_sublists([['green', 'orange'], ['black'], ['green', 'orange'], ['white']])==[['green', 'orange'], ['black'], ['green', 'orange'], ['white']]",
+      "assert sort_sublists([['a','b'],['d','c'],['g','h'] , ['f','e']])==[['a', 'b'], ['c', 'd'], ['g', 'h'], ['e', 'f']]"
+    ]
+  },
+  {
+    "id": "mbpp/563",
+    "dataset": "mbpp",
+    "split": "calibration",
+    "prompt": "Write a function to extract values between quotation marks from a string.",
+    "test_list": [
+      "assert extract_values('\"Python\", \"PHP\", \"Java\"')==['Python', 'PHP', 'Java']"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert extract_values('\"python\",\"program\",\"language\"')==['python','program','language']",
+      "assert extract_values('\"red\",\"blue\",\"green\",\"yellow\"')==['red','blue','green','yellow']"
+    ]
+  },
+  {
+    "id": "mbpp/560",
+    "dataset": "mbpp",
+    "split": "calibration",
+    "prompt": "Write a function to find the union of the elements of two given tuples and output them in sorted order.",
+    "test_list": [
+      "assert union_elements((3, 4, 5, 6),(5, 7, 4, 10) ) == (3, 4, 5, 6, 7, 10)"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert union_elements((1, 2, 3, 4),(3, 4, 5, 6) ) == (1, 2, 3, 4, 5, 6)",
+      "assert union_elements((11, 12, 13, 14),(13, 15, 16, 17) ) == (11, 12, 13, 14, 15, 16, 17)"
+    ]
+  },
+  {
+    "id": "mbpp/592",
+    "dataset": "mbpp",
+    "split": "calibration",
+    "prompt": "Write a python function to find the sum of the product of consecutive binomial co-efficients.",
+    "test_list": [
+      "assert sum_Of_product(3) == 15"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert sum_Of_product(4) == 56",
+      "assert sum_Of_product(1) == 1"
+    ]
+  },
+  {
+    "id": "mbpp/559",
+    "dataset": "mbpp",
+    "split": "calibration",
+    "prompt": "Write a function to find the sum of the largest contiguous sublist in the given list.",
+    "test_list": [
+      "assert max_sub_array_sum([-2, -3, 4, -1, -2, 1, 5, -3], 8) == 7"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert max_sub_array_sum([-3, -4, 5, -2, -3, 2, 6, -4], 8) == 8",
+      "assert max_sub_array_sum([-4, -5, 6, -3, -4, 3, 7, -5], 8) == 10"
+    ]
+  },
+  {
+    "id": "mbpp/279",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to find the nth decagonal number.",
+    "test_list": [
+      "assert is_num_decagonal(3) == 27"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert is_num_decagonal(7) == 175",
+      "assert is_num_decagonal(10) == 370"
+    ]
+  },
+  {
+    "id": "mbpp/474",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to replace characters in a string.",
+    "test_list": [
+      "assert replace_char(\"polygon\",'y','l')==(\"pollgon\")"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert replace_char(\"character\",'c','a')==(\"aharaater\")",
+      "assert replace_char(\"python\",'l','a')==(\"python\")"
+    ]
+  },
+  {
+    "id": "mbpp/227",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to find minimum of three numbers.",
+    "test_list": [
+      "assert min_of_three(10,20,0)==0"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert min_of_three(19,15,18)==15",
+      "assert min_of_three(-10,-20,-30)==-30"
+    ]
+  },
+  {
+    "id": "mbpp/290",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to find the list of maximum length in a list of lists.",
+    "test_list": [
+      "assert max_length([[0], [1, 3], [5, 7], [9, 11], [13, 15, 17]])==(3, [13, 15, 17])"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert max_length([[1], [5, 7], [10, 12, 14,15]])==(4, [10, 12, 14,15])",
+      "assert max_length([[5], [15,20,25]])==(3, [15,20,25])"
+    ]
+  },
+  {
+    "id": "mbpp/442",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to find the ration of positive numbers in an array of integers.",
+    "test_list": [
+      "assert positive_count([0, 1, 2, -1, -5, 6, 0, -3, -2, 3, 4, 6, 8])==0.54"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert positive_count([2, 1, 2, -1, -5, 6, 4, -3, -2, 3, 4, 6, 8])==0.69",
+      "assert positive_count([2, 4, -6, -9, 11, -12, 14, -5, 17])==0.56"
+    ]
+  },
+  {
+    "id": "mbpp/14",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a python function to find the volume of a triangular prism.",
+    "test_list": [
+      "assert find_Volume(10,8,6) == 240"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert find_Volume(3,2,2) == 6",
+      "assert find_Volume(1,2,1) == 1"
+    ]
+  },
+  {
+    "id": "mbpp/226",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a python function to remove the characters which have odd index values of a given string.",
+    "test_list": [
+      "assert odd_values_string('abcdef') == 'ace'"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert odd_values_string('python') == 'pto'",
+      "assert odd_values_string('data') == 'dt'",
+      "assert odd_values_string('lambs') == 'lms'"
+    ]
+  },
+  {
+    "id": "mbpp/233",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to find the lateral surface area of a cylinder.",
+    "test_list": [
+      "assert math.isclose(lateralsuface_cylinder(10,5), 314.15000000000003, rel_tol=0.001)"
+    ],
+    "test_imports": [
+      "import math"
+    ],
+    "heldout_tests": [
+      "assert math.isclose(lateralsuface_cylinder(4,5), 125.66000000000001, rel_tol=0.001)",
+      "assert math.isclose(lateralsuface_cylinder(4,10), 251.32000000000002, rel_tol=0.001)"
+    ]
+  },
+  {
+    "id": "mbpp/143",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to find number of lists present in the given tuple.",
+    "test_list": [
+      "assert find_lists(([1, 2, 3, 4], [5, 6, 7, 8])) == 2"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert find_lists(([1, 2], [3, 4], [5, 6]))  == 3",
+      "assert find_lists(([9, 8, 7, 6, 5, 4, 3, 2, 1])) == 1"
+    ]
+  },
+  {
+    "id": "mbpp/308",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to find the specified number of largest products from two given lists, selecting one factor from each list.",
+    "test_list": [
+      "assert large_product([1, 2, 3, 4, 5, 6],[3, 6, 8, 9, 10, 6],3)==[60, 54, 50]"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert large_product([1, 2, 3, 4, 5, 6],[3, 6, 8, 9, 10, 6],4)==[60, 54, 50, 48]",
+      "assert large_product([1, 2, 3, 4, 5, 6],[3, 6, 8, 9, 10, 6],5)==[60, 54, 50, 48, 45]"
+    ]
+  },
+  {
+    "id": "mbpp/309",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a python function to find the maximum of two numbers.",
+    "test_list": [
+      "assert maximum(5,10) == 10"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert maximum(-1,-2) == -1",
+      "assert maximum(9,7) == 9"
+    ]
+  },
+  {
+    "id": "mbpp/118",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to convert a string to a list of strings split on the space character.",
+    "test_list": [
+      "assert string_to_list(\"python programming\")==['python','programming']"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert string_to_list(\"lists tuples strings\")==['lists','tuples','strings']",
+      "assert string_to_list(\"write a program\")==['write','a','program']"
+    ]
+  },
+  {
+    "id": "mbpp/260",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to find the nth newman\u2013shanks\u2013williams prime number.",
+    "test_list": [
+      "assert newman_prime(3) == 7"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert newman_prime(4) == 17",
+      "assert newman_prime(5) == 41"
+    ]
+  },
+  {
+    "id": "mbpp/232",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function that takes in a list and an integer n and returns a list containing the n largest items from the list.",
+    "test_list": [
+      "assert set(larg_nnum([10, 20, 50, 70, 90, 20, 50, 40, 60, 80, 100],2))==set([100,90])"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert set(larg_nnum([10, 20, 50, 70, 90, 20, 50, 40, 60, 80, 100],5))==set([100,90,80,70,60])",
+      "assert set(larg_nnum([10, 20, 50, 70, 90, 20, 50, 40, 60, 80, 100],3))==set([100,90,80])"
+    ]
+  },
+  {
+    "id": "mbpp/472",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a python function to check whether the given list contains consecutive numbers or not.",
+    "test_list": [
+      "assert check_Consecutive([1,2,3,4,5]) == True"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert check_Consecutive([1,2,3,5,6]) == False",
+      "assert check_Consecutive([1,2,1]) == False"
+    ]
+  },
+  {
+    "id": "mbpp/11",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a python function to remove first and last occurrence of a given character from the string.",
+    "test_list": [
+      "assert remove_Occ(\"hello\",\"l\") == \"heo\""
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert remove_Occ(\"abcda\",\"a\") == \"bcd\"",
+      "assert remove_Occ(\"PHP\",\"P\") == \"H\""
+    ]
+  },
+  {
+    "id": "mbpp/457",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a python function to find the sublist having minimum length.",
+    "test_list": [
+      "assert Find_Min([[1],[1,2],[1,2,3]]) == [1]"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert Find_Min([[1,1],[1,1,1],[1,2,7,8]]) == [1,1]",
+      "assert Find_Min([['x'],['x','y'],['x','y','z']]) == ['x']"
+    ]
+  },
+  {
+    "id": "mbpp/115",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to check whether all dictionaries in a list are empty or not.",
+    "test_list": [
+      "assert empty_dit([{},{},{}])==True"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert empty_dit([{1,2},{},{}])==False",
+      "assert empty_dit({})==True"
+    ]
+  },
+  {
+    "id": "mbpp/17",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function that returns the perimeter of a square given its side length as input.",
+    "test_list": [
+      "assert square_perimeter(10)==40"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert square_perimeter(5)==20",
+      "assert square_perimeter(4)==16"
+    ]
+  },
+  {
+    "id": "mbpp/63",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to find the maximum difference between available pairs in the given tuple list.",
+    "test_list": [
+      "assert max_difference([(3, 5), (1, 7), (10, 3), (1, 2)]) == 7"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert max_difference([(4, 6), (2, 17), (9, 13), (11, 12)]) == 15",
+      "assert max_difference([(12, 35), (21, 27), (13, 23), (41, 22)]) == 23"
+    ]
+  },
+  {
+    "id": "mbpp/394",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to check if given tuple contains no duplicates.",
+    "test_list": [
+      "assert check_distinct((1, 4, 5, 6, 1, 4)) == False"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert check_distinct((1, 4, 5, 6)) == True",
+      "assert check_distinct((2, 3, 4, 5, 6)) == True"
+    ]
+  },
+  {
+    "id": "mbpp/304",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a python function to find element at a given index after number of rotations.",
+    "test_list": [
+      "assert find_Element([1,2,3,4,5],[[0,2],[0,3]],2,1) == 3"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert find_Element([1,2,3,4],[[0,1],[0,2]],1,2) == 3",
+      "assert find_Element([1,2,3,4,5,6],[[0,1],[0,2]],1,1) == 1"
+    ]
+  },
+  {
+    "id": "mbpp/292",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a python function to find quotient of two numbers (rounded down to the nearest integer).",
+    "test_list": [
+      "assert find(10,3) == 3"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert find(4,2) == 2",
+      "assert find(20,5) == 4"
+    ]
+  },
+  {
+    "id": "mbpp/306",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to find the maximum sum of increasing subsequence from prefix until ith index and also including a given kth element which is after i, i.e., k > i .",
+    "test_list": [
+      "assert max_sum_increasing_subseq([1, 101, 2, 3, 100, 4, 5 ], 7, 4, 6) == 11"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert max_sum_increasing_subseq([1, 101, 2, 3, 100, 4, 5 ], 7, 2, 5) == 7",
+      "assert max_sum_increasing_subseq([11, 15, 19, 21, 26, 28, 31], 7, 2, 4) == 71"
+    ]
+  },
+  {
+    "id": "mbpp/65",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to flatten a list and sum all of its elements.",
+    "test_list": [
+      "assert recursive_list_sum(([1, 2, [3,4],[5,6]]))==21"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert recursive_list_sum(([7, 10, [15,14],[19,41]]))==106",
+      "assert recursive_list_sum(([10, 20, [30,40],[50,60]]))==210"
+    ]
+  },
+  {
+    "id": "mbpp/84",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to find the nth number in the newman conway sequence.",
+    "test_list": [
+      "assert sequence(10) == 6"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert sequence(2) == 1",
+      "assert sequence(3) == 2"
+    ]
+  },
+  {
+    "id": "mbpp/252",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a python function to convert complex numbers to polar coordinates.",
+    "test_list": [
+      "assert convert(1) == (1.0, 0.0)"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert convert(4) == (4.0,0.0)",
+      "assert convert(5) == (5.0,0.0)"
+    ]
+  },
+  {
+    "id": "mbpp/234",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to find the volume of a cube given its side length.",
+    "test_list": [
+      "assert volume_cube(3)==27"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert volume_cube(2)==8",
+      "assert volume_cube(5)==125"
+    ]
+  },
+  {
+    "id": "mbpp/74",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to check whether it follows the sequence given in the patterns array.",
+    "test_list": [
+      "assert is_samepatterns([\"red\",\"green\",\"green\"], [\"a\", \"b\", \"b\"])==True"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert is_samepatterns([\"red\",\"green\",\"greenn\"], [\"a\",\"b\",\"b\"])==False",
+      "assert is_samepatterns([\"red\",\"green\",\"greenn\"], [\"a\",\"b\"])==False"
+    ]
+  },
+  {
+    "id": "mbpp/80",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to find the nth tetrahedral number.",
+    "test_list": [
+      "assert tetrahedral_number(5) == 35"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert tetrahedral_number(6) == 56",
+      "assert tetrahedral_number(7) == 84"
+    ]
+  },
+  {
+    "id": "mbpp/141",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to sort a list of elements.",
+    "test_list": [
+      "assert pancake_sort([15, 79, 25, 38, 69]) == [15, 25, 38, 69, 79]"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert pancake_sort([98, 12, 54, 36, 85]) == [12, 36, 54, 85, 98]",
+      "assert pancake_sort([41, 42, 32, 12, 23]) == [12, 23, 32, 41, 42]"
+    ]
+  },
+  {
+    "id": "mbpp/414",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a python function to check whether any value in a sequence exists in a sequence or not.",
+    "test_list": [
+      "assert overlapping([1,2,3,4,5],[6,7,8,9]) == False"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert overlapping([1,2,3],[4,5,6]) == False",
+      "assert overlapping([1,4,5],[1,4,5]) == True"
+    ]
+  },
+  {
+    "id": "mbpp/441",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to find the surface area of a cube of a given size.",
+    "test_list": [
+      "assert surfacearea_cube(5)==150"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert surfacearea_cube(3)==54",
+      "assert surfacearea_cube(10)==600"
+    ]
+  },
+  {
+    "id": "mbpp/392",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to find the maximum sum possible by using the given equation f(n) = max( (f(n/2) + f(n/3) + f(n/4) + f(n/5)), n).",
+    "test_list": [
+      "assert get_max_sum(60) == 106"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert get_max_sum(10) == 12",
+      "assert get_max_sum(2) == 2"
+    ]
+  },
+  {
+    "id": "mbpp/127",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to multiply two integers.",
+    "test_list": [
+      "assert multiply_int(10,20)==200"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert multiply_int(5,10)==50",
+      "assert multiply_int(4,8)==32"
+    ]
+  },
+  {
+    "id": "mbpp/428",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to sort the given array by using shell sort.",
+    "test_list": [
+      "assert shell_sort([12, 23, 4, 5, 3, 2, 12, 81, 56, 95]) == [2, 3, 4, 5, 12, 12, 23, 56, 81, 95]"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert shell_sort([24, 22, 39, 34, 87, 73, 68]) == [22, 24, 34, 39, 68, 73, 87]",
+      "assert shell_sort([32, 30, 16, 96, 82, 83, 74]) == [16, 30, 32, 74, 82, 83, 96]"
+    ]
+  },
+  {
+    "id": "mbpp/99",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to convert the given decimal number to its binary equivalent, represented as a string with no leading zeros.",
+    "test_list": [
+      "assert decimal_to_binary(8) == '1000'"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert decimal_to_binary(18) == '10010'",
+      "assert decimal_to_binary(7) == '111'"
+    ]
+  },
+  {
+    "id": "mbpp/90",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a python function to find the length of the longest word.",
+    "test_list": [
+      "assert len_log([\"python\",\"PHP\",\"bigdata\"]) == 7"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert len_log([\"a\",\"ab\",\"abc\"]) == 3",
+      "assert len_log([\"small\",\"big\",\"tall\"]) == 5"
+    ]
+  },
+  {
+    "id": "mbpp/93",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to calculate the value of 'a' to the power 'b'.",
+    "test_list": [
+      "assert power(3,4) == 81"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert power(2,3) == 8",
+      "assert power(5,5) == 3125"
+    ]
+  },
+  {
+    "id": "mbpp/451",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to remove all whitespaces from the given string.",
+    "test_list": [
+      "assert remove_whitespaces(' Google    Flutter ') == 'GoogleFlutter'"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert remove_whitespaces(' Google    Dart ') == 'GoogleDart'",
+      "assert remove_whitespaces(' iOS    Swift ') == 'iOSSwift'"
+    ]
+  },
+  {
+    "id": "mbpp/311",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a python function to set the left most unset bit.",
+    "test_list": [
+      "assert set_left_most_unset_bit(10) == 14"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert set_left_most_unset_bit(12) == 14",
+      "assert set_left_most_unset_bit(15) == 15"
+    ]
+  },
+  {
+    "id": "mbpp/64",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to sort a list of tuples using the second value of each tuple.",
+    "test_list": [
+      "assert subject_marks([('English', 88), ('Science', 90), ('Maths', 97), ('Social sciences', 82)])==[('Social sciences', 82), ('English', 88), ('Science', 90), ('Maths', 97)]"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert subject_marks([('Telugu',49),('Hindhi',54),('Social',33)])==([('Social',33),('Telugu',49),('Hindhi',54)])",
+      "assert subject_marks([('Physics',96),('Chemistry',97),('Biology',45)])==([('Biology',45),('Physics',96),('Chemistry',97)])"
+    ]
+  },
+  {
+    "id": "mbpp/83",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a python function to find the character made by adding the ASCII value of all the characters of the given string modulo 26.",
+    "test_list": [
+      "assert get_Char(\"abc\") == \"f\""
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert get_Char(\"gfg\") == \"t\"",
+      "assert get_Char(\"ab\") == \"c\""
+    ]
+  },
+  {
+    "id": "mbpp/400",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to extract the number of unique tuples in the given list.",
+    "test_list": [
+      "assert extract_freq([(3, 4), (1, 2), (4, 3), (5, 6)] ) == 3"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert extract_freq([(4, 15), (2, 3), (5, 4), (6, 7)] ) == 4",
+      "assert extract_freq([(5, 16), (2, 3), (6, 5), (6, 9)] ) == 4"
+    ]
+  },
+  {
+    "id": "mbpp/62",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a python function to find smallest number in a list.",
+    "test_list": [
+      "assert smallest_num([10, 20, 1, 45, 99]) == 1"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert smallest_num([1, 2, 3]) == 1",
+      "assert smallest_num([45, 46, 50, 60]) == 45"
+    ]
+  },
+  {
+    "id": "mbpp/410",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to find the minimum value in a given heterogeneous list.",
+    "test_list": [
+      "assert min_val(['Python', 3, 2, 4, 5, 'version'])==2"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert min_val(['Python', 15, 20, 25])==15",
+      "assert min_val(['Python', 30, 20, 40, 50, 'version'])==20"
+    ]
+  },
+  {
+    "id": "mbpp/125",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to find the maximum difference between the number of 0s and number of 1s in any sub-string of the given binary string.",
+    "test_list": [
+      "assert find_length(\"11000010001\") == 6"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert find_length(\"10111\") == 1",
+      "assert find_length(\"11011101100101\") == 2"
+    ]
+  },
+  {
+    "id": "mbpp/97",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to find frequency of each element in a flattened list of lists, returned in a dictionary.",
+    "test_list": [
+      "assert frequency_lists([[1, 2, 3, 2], [4, 5, 6, 2], [7, 8, 9, 5]])=={1: 1, 2: 3, 3: 1, 4: 1, 5: 2, 6: 1, 7: 1, 8: 1, 9: 1}"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert frequency_lists([[1,2,3,4],[5,6,7,8],[9,10,11,12]])=={1: 1, 2: 1, 3: 1, 4: 1, 5: 1, 6: 1, 7: 1, 8: 1, 9: 1,10:1,11:1,12:1}",
+      "assert frequency_lists([[20,30,40,17],[18,16,14,13],[10,20,30,40]])=={20:2,30:2,40:2,17: 1,18:1, 16: 1,14: 1,13: 1, 10: 1}"
+    ]
+  },
+  {
+    "id": "mbpp/170",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to find the sum of numbers in a list within a range specified by two indices.",
+    "test_list": [
+      "assert sum_range_list([2,1,5,6,8,3,4,9,10,11,8,12], 8, 10) == 29"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert sum_range_list([2,1,5,6,8,3,4,9,10,11,8,12], 5, 7) == 16",
+      "assert sum_range_list([2,1,5,6,8,3,4,9,10,11,8,12], 7, 10) == 38"
+    ]
+  },
+  {
+    "id": "mbpp/412",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a python function to remove odd numbers from a given list.",
+    "test_list": [
+      "assert remove_odd([1,2,3]) == [2]"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert remove_odd([2,4,6]) == [2,4,6]",
+      "assert remove_odd([10,20,3]) == [10,20]"
+    ]
+  },
+  {
+    "id": "mbpp/406",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a python function to find whether the parity of a given number is odd.",
+    "test_list": [
+      "assert find_Parity(12) == False"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert find_Parity(7) == True",
+      "assert find_Parity(10) == False"
+    ]
+  },
+  {
+    "id": "mbpp/16",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to that returns true if the input string contains sequences of lowercase letters joined with an underscore and false otherwise.",
+    "test_list": [
+      "assert text_lowercase_underscore(\"aab_cbbbc\")==(True)"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert text_lowercase_underscore(\"aab_Abbbc\")==(False)",
+      "assert text_lowercase_underscore(\"Aaab_abbbc\")==(False)"
+    ]
+  },
+  {
+    "id": "mbpp/454",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function that matches a word containing 'z'.",
+    "test_list": [
+      "assert text_match_wordz(\"pythonz.\")==True"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert text_match_wordz(\"xyz.\")==True",
+      "assert text_match_wordz(\"  lang  .\")==False"
+    ]
+  },
+  {
+    "id": "mbpp/282",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to subtract two lists element-wise.",
+    "test_list": [
+      "assert sub_list([1, 2, 3],[4,5,6])==[-3,-3,-3]"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert sub_list([1,2],[3,4])==[-2,-2]",
+      "assert sub_list([90,120],[50,70])==[40,50]"
+    ]
+  },
+  {
+    "id": "mbpp/172",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to count the number of occurence of the string 'std' in a given string.",
+    "test_list": [
+      "assert count_occurance(\"letstdlenstdporstd\") == 3"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert count_occurance(\"truststdsolensporsd\") == 1",
+      "assert count_occurance(\"makestdsostdworthit\") == 2",
+      "assert count_occurance(\"stds\") == 1",
+      "assert count_occurance(\"\") == 0"
+    ]
+  },
+  {
+    "id": "mbpp/132",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to convert a tuple to a string.",
+    "test_list": [
+      "assert tup_string(('e', 'x', 'e', 'r', 'c', 'i', 's', 'e', 's'))==(\"exercises\")"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert tup_string(('p','y','t','h','o','n'))==(\"python\")",
+      "assert tup_string(('p','r','o','g','r','a','m'))==(\"program\")"
+    ]
+  },
+  {
+    "id": "mbpp/273",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function that takes in two tuples and subtracts the elements of the first tuple by the elements of the second tuple with the same index.",
+    "test_list": [
+      "assert substract_elements((10, 4, 5), (2, 5, 18)) == (8, -1, -13)"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert substract_elements((11, 2, 3), (24, 45 ,16)) == (-13, -43, -13)",
+      "assert substract_elements((7, 18, 9), (10, 11, 12)) == (-3, 7, -3)"
+    ]
+  },
+  {
+    "id": "mbpp/446",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a python function to count the occurence of all elements of list in a tuple.",
+    "test_list": [
+      "assert count_Occurrence(('a', 'a', 'c', 'b', 'd'),['a', 'b'] ) == 3"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert count_Occurrence((1, 2, 3, 1, 4, 6, 7, 1, 4),[1, 4, 7]) == 6",
+      "assert count_Occurrence((1,2,3,4,5,6),[1,2]) == 2"
+    ]
+  },
+  {
+    "id": "mbpp/437",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to remove odd characters in a string.",
+    "test_list": [
+      "assert remove_odd(\"python\")==(\"yhn\")"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert remove_odd(\"program\")==(\"rga\")",
+      "assert remove_odd(\"language\")==(\"agae\")"
+    ]
+  },
+  {
+    "id": "mbpp/79",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a python function to check whether the length of the word is odd or not.",
+    "test_list": [
+      "assert word_len(\"Hadoop\") == False"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert word_len(\"great\") == True",
+      "assert word_len(\"structure\") == True"
+    ]
+  },
+  {
+    "id": "humaneval/32",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\nimport math\n\n\ndef poly(xs: list, x: float):\n    \"\"\"\n    Evaluates polynomial with coefficients xs at point x.\n    return xs[0] + xs[1] * x + xs[1] * x^2 + .... xs[n] * x^n\n    \"\"\"\n    return sum([coeff * math.pow(x, i) for i, coeff in enumerate(xs)])\n\n\ndef find_zero(xs: list):\n    \"\"\" xs are coefficients of a polynomial.\n    find_zero find x such that poly(x) = 0.\n    find_zero returns only only zero point, even if there are many.\n    Moreover, find_zero only takes list xs having even number of coefficients\n    and largest non zero coefficient as it guarantees\n    a solution.\n    >>> round(find_zero([1, 2]), 2) # f(x) = 1 + 2x\n    -0.5\n    >>> round(find_zero([-6, 11, -6, 1]), 2) # (x - 1) * (x - 2) * (x - 3) = -6 + 11x - 6x^2 + x^3\n    1.0\n    \"\"\"\n",
+    "test_list": [
+      "assert round(find_zero([1, 2]), 2) == -0.5"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "\n\nMETADATA = {}\n\n\ndef check(candidate):\n    import math\n    import random\n    rng = random.Random(42)\n    import copy\n    for _ in range(100):\n        ncoeff = 2 * rng.randint(1, 4)\n        coeffs = []\n        for _ in range(ncoeff):\n            coeff = rng.randint(-10, 10)\n            if coeff == 0:\n                coeff = 1\n            coeffs.append(coeff)\n        solution = candidate(copy.deepcopy(coeffs))\n        assert math.fabs(poly(coeffs, solution)) < 1e-4\n\n\ncheck(find_zero)"
+    ]
+  },
+  {
+    "id": "humaneval/85",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\ndef add(lst):\n    \"\"\"Given a non-empty list of integers lst. add the even elements that are at odd indices..\n\n\n    Examples:\n        add([4, 2, 6, 7]) ==> 2 \n    \"\"\"\n",
+    "test_list": [
+      "assert add([4, 2, 6, 7]) == 2"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "def check(candidate):\n\n    # Check some simple cases\n    assert candidate([4, 88]) == 88\n    assert candidate([4, 5, 6, 7, 2, 122]) == 122\n    assert candidate([4, 0, 6, 7]) == 0\n    assert candidate([4, 4, 6, 8]) == 12\n\n    # Check some edge cases that are easy to work out by hand.\n    \n\ncheck(add)"
+    ]
+  },
+  {
+    "id": "humaneval/163",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\ndef generate_integers(a, b):\n    \"\"\"\n    Given two positive integers a and b, return the even digits between a\n    and b, in ascending order.\n\n    For example:\n    generate_integers(2, 8) => [2, 4, 6, 8]\n    generate_integers(8, 2) => [2, 4, 6, 8]\n    generate_integers(10, 14) => []\n    \"\"\"\n",
+    "test_list": [
+      "assert generate_integers(2, 8) == [2, 4, 6, 8]"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "def check(candidate):\n\n    # Check some simple cases\n    assert candidate(2, 10) == [2, 4, 6, 8], \"Test 1\"\n    assert candidate(10, 2) == [2, 4, 6, 8], \"Test 2\"\n    assert candidate(132, 2) == [2, 4, 6, 8], \"Test 3\"\n    assert candidate(17,89) == [], \"Test 4\"\n\n    # Check some edge cases that are easy to work out by hand.\n    assert True, \"This prints if this assert fails 2 (also good for debugging!)\"\n\n\ncheck(generate_integers)"
+    ]
+  },
+  {
+    "id": "humaneval/138",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\ndef is_equal_to_sum_even(n):\n    \"\"\"Evaluate whether the given number n can be written as the sum of exactly 4 positive even numbers\n    Example\n    is_equal_to_sum_even(4) == False\n    is_equal_to_sum_even(6) == False\n    is_equal_to_sum_even(8) == True\n    \"\"\"\n",
+    "test_list": [
+      "assert is_equal_to_sum_even(4) == False"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "def check(candidate):\n    assert candidate(4) == False\n    assert candidate(6) == False\n    assert candidate(8) == True\n    assert candidate(10) == True\n    assert candidate(11) == False\n    assert candidate(12) == True\n    assert candidate(13) == False\n    assert candidate(16) == True\n\ncheck(is_equal_to_sum_even)"
+    ]
+  },
+  {
+    "id": "humaneval/109",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\ndef move_one_ball(arr):\n    \"\"\"We have an array 'arr' of N integers arr[1], arr[2], ..., arr[N].The\n    numbers in the array will be randomly ordered. Your task is to determine if\n    it is possible to get an array sorted in non-decreasing order by performing \n    the following operation on the given array:\n        You are allowed to perform right shift operation any number of times.\n    \n    One right shift operation means shifting all elements of the array by one\n    position in the right direction. The last element of the array will be moved to\n    the starting position in the array i.e. 0th index. \n\n    If it is possible to obtain the sorted array by performing the above operation\n    then return True else return False.\n    If the given array is empty then return True.\n\n    Note: The given list is guaranteed to have unique elements.\n\n    For Example:\n    \n    move_one_ball([3, 4, 5, 1, 2])==>True\n    Explanation: By performin 2 right shift operations, non-decreasing order can\n                 be achieved for the given array.\n    move_one_ball([3, 5, 4, 1, 2])==>False\n    Explanation:It is not possible to get non-decreasing order for the given\n                array by performing any number of right shift operations.\n                \n    \"\"\"\n",
+    "test_list": [
+      "assert move_one_ball([3, 4, 5, 1, 2]) == True"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "def check(candidate):\n\n    # Check some simple cases\n    assert candidate([3, 4, 5, 1, 2])==True, \"This prints if this assert fails 1 (good for debugging!)\"\n    assert candidate([3, 5, 10, 1, 2])==True\n    assert candidate([4, 3, 1, 2])==False\n    # Check some edge cases that are easy to work out by hand.\n    assert candidate([3, 5, 4, 1, 2])==False, \"This prints if this assert fails 2 (also good for debugging!)\"\n    assert candidate([])==True\n\ncheck(move_one_ball)"
+    ]
+  },
+  {
+    "id": "humaneval/153",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\ndef Strongest_Extension(class_name, extensions):\n    \"\"\"You will be given the name of a class (a string) and a list of extensions.\n    The extensions are to be used to load additional classes to the class. The\n    strength of the extension is as follows: Let CAP be the number of the uppercase\n    letters in the extension's name, and let SM be the number of lowercase letters \n    in the extension's name, the strength is given by the fraction CAP - SM. \n    You should find the strongest extension and return a string in this \n    format: ClassName.StrongestExtensionName.\n    If there are two or more extensions with the same strength, you should\n    choose the one that comes first in the list.\n    For example, if you are given \"Slices\" as the class and a list of the\n    extensions: ['SErviNGSliCes', 'Cheese', 'StuFfed'] then you should\n    return 'Slices.SErviNGSliCes' since 'SErviNGSliCes' is the strongest extension \n    (its strength is -1).\n    Example:\n    for Strongest_Extension('my_class', ['AA', 'Be', 'CC']) == 'my_class.AA'\n    \"\"\"\n",
+    "test_list": [
+      "assert callable(Strongest_Extension)"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "def check(candidate):\n\n    # Check some simple cases\n    assert candidate('Watashi', ['tEN', 'niNE', 'eIGHt8OKe']) == 'Watashi.eIGHt8OKe'\n    assert candidate('Boku123', ['nani', 'NazeDa', 'YEs.WeCaNe', '32145tggg']) == 'Boku123.YEs.WeCaNe'\n    assert candidate('__YESIMHERE', ['t', 'eMptY', 'nothing', 'zeR00', 'NuLl__', '123NoooneB321']) == '__YESIMHERE.NuLl__'\n    assert candidate('K', ['Ta', 'TAR', 't234An', 'cosSo']) == 'K.TAR'\n    assert candidate('__HAHA', ['Tab', '123', '781345', '-_-']) == '__HAHA.123'\n    assert candidate('YameRore', ['HhAas', 'okIWILL123', 'WorkOut', 'Fails', '-_-']) == 'YameRore.okIWILL123'\n    assert candidate('finNNalLLly', ['Die', 'NowW', 'Wow', 'WoW']) == 'finNNalLLly.WoW'\n\n    # Check some edge cases that are easy to work out by hand.\n    assert candidate('_', ['Bb', '91245']) == '_.Bb'\n    assert candidate('Sp', ['671235', 'Bb']) == 'Sp.671235'\n    \n\ncheck(Strongest_Extension)"
+    ]
+  },
+  {
+    "id": "humaneval/150",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\ndef x_or_y(n, x, y):\n    \"\"\"A simple program which should return the value of x if n is \n    a prime number and should return the value of y otherwise.\n\n    Examples:\n    for x_or_y(7, 34, 12) == 34\n    for x_or_y(15, 8, 5) == 5\n    \n    \"\"\"\n",
+    "test_list": [
+      "assert callable(x_or_y)"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "def check(candidate):\n\n    # Check some simple cases\n    assert candidate(7, 34, 12) == 34\n    assert candidate(15, 8, 5) == 5\n    assert candidate(3, 33, 5212) == 33\n    assert candidate(1259, 3, 52) == 3\n    assert candidate(7919, -1, 12) == -1\n    assert candidate(3609, 1245, 583) == 583\n    assert candidate(91, 56, 129) == 129\n    assert candidate(6, 34, 1234) == 1234\n    \n\n    # Check some edge cases that are easy to work out by hand.\n    assert candidate(1, 2, 0) == 0\n    assert candidate(2, 2, 0) == 2\n\n\ncheck(x_or_y)"
+    ]
+  },
+  {
+    "id": "humaneval/152",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\ndef compare(game,guess):\n    \"\"\"I think we all remember that feeling when the result of some long-awaited\n    event is finally known. The feelings and thoughts you have at that moment are\n    definitely worth noting down and comparing.\n    Your task is to determine if a person correctly guessed the results of a number of matches.\n    You are given two arrays of scores and guesses of equal length, where each index shows a match. \n    Return an array of the same length denoting how far off each guess was. If they have guessed correctly,\n    the value is 0, and if not, the value is the absolute difference between the guess and the score.\n    \n    \n    example:\n\n    compare([1,2,3,4,5,1],[1,2,3,4,2,-2]) -> [0,0,0,0,3,3]\n    compare([0,5,0,0,0,4],[4,1,1,0,0,-2]) -> [4,4,1,0,0,6]\n    \"\"\"\n",
+    "test_list": [
+      "assert compare([1, 2, 3, 4, 5, 1], [1, 2, 3, 4, 2, -2]) == [0, 0, 0, 0, 3, 3]"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "def check(candidate):\n\n    # Check some simple cases\n    assert candidate([1,2,3,4,5,1],[1,2,3,4,2,-2])==[0,0,0,0,3,3], \"This prints if this assert fails 1 (good for debugging!)\"\n    assert candidate([0,0,0,0,0,0],[0,0,0,0,0,0])==[0,0,0,0,0,0], \"This prints if this assert fails 1 (good for debugging!)\"\n    assert candidate([1,2,3],[-1,-2,-3])==[2,4,6], \"This prints if this assert fails 1 (good for debugging!)\"\n    assert candidate([1,2,3,5],[-1,2,3,4])==[2,0,0,1], \"This prints if this assert fails 1 (good for debugging!)\"\n\n    # Check some edge cases that are easy to work out by hand.\n    assert True, \"This prints if this assert fails 2 (also good for debugging!)\"\n\n\ncheck(compare)"
+    ]
+  },
+  {
+    "id": "humaneval/0",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\nfrom typing import List\n\n\ndef has_close_elements(numbers: List[float], threshold: float) -> bool:\n    \"\"\" Check if in given list of numbers, are any two numbers closer to each other than\n    given threshold.\n    >>> has_close_elements([1.0, 2.0, 3.0], 0.5)\n    False\n    >>> has_close_elements([1.0, 2.8, 3.0, 4.0, 5.0, 2.0], 0.3)\n    True\n    \"\"\"\n",
+    "test_list": [
+      "assert has_close_elements([1.0, 2.0, 3.0], 0.5) == False"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "\n\nMETADATA = {\n    'author': 'jt',\n    'dataset': 'test'\n}\n\n\ndef check(candidate):\n    assert candidate([1.0, 2.0, 3.9, 4.0, 5.0, 2.2], 0.3) == True\n    assert candidate([1.0, 2.0, 3.9, 4.0, 5.0, 2.2], 0.05) == False\n    assert candidate([1.0, 2.0, 5.9, 4.0, 5.0], 0.95) == True\n    assert candidate([1.0, 2.0, 5.9, 4.0, 5.0], 0.8) == False\n    assert candidate([1.0, 2.0, 3.0, 4.0, 5.0, 2.0], 0.1) == True\n    assert candidate([1.1, 2.2, 3.1, 4.1, 5.1], 1.0) == True\n    assert candidate([1.1, 2.2, 3.1, 4.1, 5.1], 0.5) == False\n\n\ncheck(has_close_elements)"
+    ]
+  },
+  {
+    "id": "humaneval/77",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\ndef iscube(a):\n    '''\n    Write a function that takes an integer a and returns True \n    if this ingeger is a cube of some integer number.\n    Note: you may assume the input is always valid.\n    Examples:\n    iscube(1) ==> True\n    iscube(2) ==> False\n    iscube(-1) ==> True\n    iscube(64) ==> True\n    iscube(0) ==> True\n    iscube(180) ==> False\n    '''\n",
+    "test_list": [
+      "assert iscube(1) == True"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "def check(candidate):\n\n    # Check some simple cases\n    assert candidate(1) == True, \"First test error: \" + str(candidate(1))\n    assert candidate(2) == False, \"Second test error: \" + str(candidate(2))\n    assert candidate(-1) == True, \"Third test error: \" + str(candidate(-1))\n    assert candidate(64) == True, \"Fourth test error: \" + str(candidate(64))\n    assert candidate(180) == False, \"Fifth test error: \" + str(candidate(180))\n    assert candidate(1000) == True, \"Sixth test error: \" + str(candidate(1000))\n\n\n    # Check some edge cases that are easy to work out by hand.\n    assert candidate(0) == True, \"1st edge test error: \" + str(candidate(0))\n    assert candidate(1729) == False, \"2nd edge test error: \" + str(candidate(1728))\n\n\ncheck(iscube)"
+    ]
+  },
+  {
+    "id": "humaneval/128",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\ndef prod_signs(arr):\n    \"\"\"\n    You are given an array arr of integers and you need to return\n    sum of magnitudes of integers multiplied by product of all signs\n    of each number in the array, represented by 1, -1 or 0.\n    Note: return None for empty arr.\n\n    Example:\n    >>> prod_signs([1, 2, 2, -4]) == -9\n    >>> prod_signs([0, 1]) == 0\n    >>> prod_signs([]) == None\n    \"\"\"\n",
+    "test_list": [
+      "assert callable(prod_signs)"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "def check(candidate):\n\n    # Check some simple cases\n    assert True, \"This prints if this assert fails 1 (good for debugging!)\"\n    assert candidate([1, 2, 2, -4]) == -9\n    assert candidate([0, 1]) == 0\n    assert candidate([1, 1, 1, 2, 3, -1, 1]) == -10\n    assert candidate([]) == None\n    assert candidate([2, 4,1, 2, -1, -1, 9]) == 20\n    assert candidate([-1, 1, -1, 1]) == 4\n    assert candidate([-1, 1, 1, 1]) == -4\n    assert candidate([-1, 1, 1, 0]) == 0\n\n    # Check some edge cases that are easy to work out by hand.\n    assert True, \"This prints if this assert fails 2 (also good for debugging!)\"\n\n\ncheck(prod_signs)"
+    ]
+  },
+  {
+    "id": "humaneval/111",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\ndef histogram(test):\n    \"\"\"Given a string representing a space separated lowercase letters, return a dictionary\n    of the letter with the most repetition and containing the corresponding count.\n    If several letters have the same occurrence, return all of them.\n    \n    Example:\n    histogram('a b c') == {'a': 1, 'b': 1, 'c': 1}\n    histogram('a b b a') == {'a': 2, 'b': 2}\n    histogram('a b c a b') == {'a': 2, 'b': 2}\n    histogram('b b b b a') == {'b': 4}\n    histogram('') == {}\n\n    \"\"\"\n",
+    "test_list": [
+      "assert histogram('a b c') == {'a': 1, 'b': 1, 'c': 1}"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "def check(candidate):\n\n    # Check some simple cases\n    assert candidate('a b b a') == {'a':2,'b': 2}, \"This prints if this assert fails 1 (good for debugging!)\"\n    assert candidate('a b c a b') == {'a': 2, 'b': 2}, \"This prints if this assert fails 2 (good for debugging!)\"\n    assert candidate('a b c d g') == {'a': 1, 'b': 1, 'c': 1, 'd': 1, 'g': 1}, \"This prints if this assert fails 3 (good for debugging!)\"\n    assert candidate('r t g') == {'r': 1,'t': 1,'g': 1}, \"This prints if this assert fails 4 (good for debugging!)\"\n    assert candidate('b b b b a') == {'b': 4}, \"This prints if this assert fails 5 (good for debugging!)\"\n    assert candidate('r t g') == {'r': 1,'t': 1,'g': 1}, \"This prints if this assert fails 6 (good for debugging!)\"\n    \n    \n    # Check some edge cases that are easy to work out by hand.\n    assert candidate('') == {}, \"This prints if this assert fails 7 (also good for debugging!)\"\n    assert candidate('a') == {'a': 1}, \"This prints if this assert fails 8 (also good for debugging!)\"\n\n\ncheck(histogram)"
+    ]
+  },
+  {
+    "id": "humaneval/143",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\ndef words_in_sentence(sentence):\n    \"\"\"\n    You are given a string representing a sentence,\n    the sentence contains some words separated by a space,\n    and you have to return a string that contains the words from the original sentence,\n    whose lengths are prime numbers,\n    the order of the words in the new string should be the same as the original one.\n\n    Example 1:\n        Input: sentence = \"This is a test\"\n        Output: \"is\"\n\n    Example 2:\n        Input: sentence = \"lets go for swimming\"\n        Output: \"go for\"\n\n    Constraints:\n        * 1 <= len(sentence) <= 100\n        * sentence contains only letters\n    \"\"\"\n",
+    "test_list": [
+      "assert callable(words_in_sentence)"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "def check(candidate):\n\n    # Check some simple cases\n    assert candidate(\"This is a test\") == \"is\"\n    assert candidate(\"lets go for swimming\") == \"go for\"\n    assert candidate(\"there is no place available here\") == \"there is no place\"\n    assert candidate(\"Hi I am Hussein\") == \"Hi am Hussein\"\n    assert candidate(\"go for it\") == \"go for it\"\n\n    # Check some edge cases that are easy to work out by hand.\n    assert candidate(\"here\") == \"\"\n    assert candidate(\"here is\") == \"is\"\n\n\ncheck(words_in_sentence)"
+    ]
+  },
+  {
+    "id": "humaneval/142",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\n\n\ndef sum_squares(lst):\n    \"\"\"\"\n    This function will take a list of integers. For all entries in the list, the function shall square the integer entry if its index is a \n    multiple of 3 and will cube the integer entry if its index is a multiple of 4 and not a multiple of 3. The function will not \n    change the entries in the list whose indexes are not a multiple of 3 or 4. The function shall then return the sum of all entries. \n    \n    Examples:\n    For lst = [1,2,3] the output should be 6\n    For lst = []  the output should be 0\n    For lst = [-1,-5,2,-1,-5]  the output should be -126\n    \"\"\"\n",
+    "test_list": [
+      "assert callable(sum_squares)"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "def check(candidate):\n\n    # Check some simple cases\n    \n    assert candidate([1,2,3]) == 6\n    assert candidate([1,4,9]) == 14\n    assert candidate([]) == 0\n    assert candidate([1,1,1,1,1,1,1,1,1]) == 9\n    assert candidate([-1,-1,-1,-1,-1,-1,-1,-1,-1]) == -3\n    assert candidate([0]) == 0\n    assert candidate([-1,-5,2,-1,-5]) == -126\n    assert candidate([-56,-99,1,0,-2]) == 3030\n    assert candidate([-1,0,0,0,0,0,0,0,-1]) == 0\n    assert candidate([-16, -9, -2, 36, 36, 26, -20, 25, -40, 20, -4, 12, -26, 35, 37]) == -14196\n    assert candidate([-1, -3, 17, -1, -15, 13, -1, 14, -14, -12, -5, 14, -14, 6, 13, 11, 16, 16, 4, 10]) == -1448\n    \n    \n    # Don't remove this line:\n\ncheck(sum_squares)"
+    ]
+  },
+  {
+    "id": "humaneval/21",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\nfrom typing import List\n\n\ndef rescale_to_unit(numbers: List[float]) -> List[float]:\n    \"\"\" Given list of numbers (of at least two elements), apply a linear transform to that list,\n    such that the smallest number will become 0 and the largest will become 1\n    >>> rescale_to_unit([1.0, 2.0, 3.0, 4.0, 5.0])\n    [0.0, 0.25, 0.5, 0.75, 1.0]\n    \"\"\"\n",
+    "test_list": [
+      "assert rescale_to_unit([1.0, 2.0, 3.0, 4.0, 5.0]) == [0.0, 0.25, 0.5, 0.75, 1.0]"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "\n\nMETADATA = {\n    'author': 'jt',\n    'dataset': 'test'\n}\n\n\ndef check(candidate):\n    assert candidate([2.0, 49.9]) == [0.0, 1.0]\n    assert candidate([100.0, 49.9]) == [1.0, 0.0]\n    assert candidate([1.0, 2.0, 3.0, 4.0, 5.0]) == [0.0, 0.25, 0.5, 0.75, 1.0]\n    assert candidate([2.0, 1.0, 5.0, 3.0, 4.0]) == [0.25, 0.0, 1.0, 0.5, 0.75]\n    assert candidate([12.0, 11.0, 15.0, 13.0, 14.0]) == [0.25, 0.0, 1.0, 0.5, 0.75]\n\ncheck(rescale_to_unit)"
+    ]
+  },
+  {
+    "id": "humaneval/122",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\ndef add_elements(arr, k):\n    \"\"\"\n    Given a non-empty array of integers arr and an integer k, return\n    the sum of the elements with at most two digits from the first k elements of arr.\n\n    Example:\n\n        Input: arr = [111,21,3,4000,5,6,7,8,9], k = 4\n        Output: 24 # sum of 21 + 3\n\n    Constraints:\n        1. 1 <= len(arr) <= 100\n        2. 1 <= k <= len(arr)\n    \"\"\"\n",
+    "test_list": [
+      "assert callable(add_elements)"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "def check(candidate):\n\n    # Check some simple cases\n    assert candidate([1,-2,-3,41,57,76,87,88,99], 3) == -4\n    assert candidate([111,121,3,4000,5,6], 2) == 0\n    assert candidate([11,21,3,90,5,6,7,8,9], 4) == 125\n    assert candidate([111,21,3,4000,5,6,7,8,9], 4) == 24, \"This prints if this assert fails 1 (good for debugging!)\"\n\n    # Check some edge cases that are easy to work out by hand.\n    assert candidate([1], 1) == 1, \"This prints if this assert fails 2 (also good for debugging!)\"\n\n\ncheck(add_elements)"
+    ]
+  },
+  {
+    "id": "humaneval/87",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\ndef get_row(lst, x):\n    \"\"\"\n    You are given a 2 dimensional data, as a nested lists,\n    which is similar to matrix, however, unlike matrices,\n    each row may contain a different number of columns.\n    Given lst, and integer x, find integers x in the list,\n    and return list of tuples, [(x1, y1), (x2, y2) ...] such that\n    each tuple is a coordinate - (row, columns), starting with 0.\n    Sort coordinates initially by rows in ascending order.\n    Also, sort coordinates of the row by columns in descending order.\n    \n    Examples:\n    get_row([\n      [1,2,3,4,5,6],\n      [1,2,3,4,1,6],\n      [1,2,3,4,5,1]\n    ], 1) == [(0, 0), (1, 4), (1, 0), (2, 5), (2, 0)]\n    get_row([], 1) == []\n    get_row([[], [1], [1, 2, 3]], 3) == [(2, 2)]\n    \"\"\"\n",
+    "test_list": [
+      "assert get_row([], 1) == []"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "def check(candidate):\n\n    # Check some simple cases\n    assert candidate([\n        [1,2,3,4,5,6],\n        [1,2,3,4,1,6],\n        [1,2,3,4,5,1]\n    ], 1) == [(0, 0), (1, 4), (1, 0), (2, 5), (2, 0)]\n    assert candidate([\n        [1,2,3,4,5,6],\n        [1,2,3,4,5,6],\n        [1,2,3,4,5,6],\n        [1,2,3,4,5,6],\n        [1,2,3,4,5,6],\n        [1,2,3,4,5,6]\n    ], 2) == [(0, 1), (1, 1), (2, 1), (3, 1), (4, 1), (5, 1)]\n    assert candidate([\n        [1,2,3,4,5,6],\n        [1,2,3,4,5,6],\n        [1,1,3,4,5,6],\n        [1,2,1,4,5,6],\n        [1,2,3,1,5,6],\n        [1,2,3,4,1,6],\n        [1,2,3,4,5,1]\n    ], 1) == [(0, 0), (1, 0), (2, 1), (2, 0), (3, 2), (3, 0), (4, 3), (4, 0), (5, 4), (5, 0), (6, 5), (6, 0)]\n    assert candidate([], 1) == []\n    assert candidate([[1]], 2) == []\n    assert candidate([[], [1], [1, 2, 3]], 3) == [(2, 2)]\n\n    # Check some edge cases that are easy to work out by hand.\n    assert True\n\n\ncheck(get_row)"
+    ]
+  },
+  {
+    "id": "humaneval/132",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\ndef is_nested(string):\n    '''\n    Create a function that takes a string as input which contains only square brackets.\n    The function should return True if and only if there is a valid subsequence of brackets \n    where at least one bracket in the subsequence is nested.\n\n    is_nested('[[]]') \u279e True\n    is_nested('[]]]]]]][[[[[]') \u279e False\n    is_nested('[][]') \u279e False\n    is_nested('[]') \u279e False\n    is_nested('[[][]]') \u279e True\n    is_nested('[[]][[') \u279e True\n    '''\n",
+    "test_list": [
+      "assert callable(is_nested)"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "def check(candidate):\n\n    # Check some simple cases\n    assert candidate('[[]]') == True, \"This prints if this assert fails 1 (good for debugging!)\"\n    assert candidate('[]]]]]]][[[[[]') == False\n    assert candidate('[][]') == False\n    assert candidate(('[]')) == False\n    assert candidate('[[[[]]]]') == True\n    assert candidate('[]]]]]]]]]]') == False\n    assert candidate('[][][[]]') == True\n    assert candidate('[[]') == False\n    assert candidate('[]]') == False\n    assert candidate('[[]][[') == True\n    assert candidate('[[][]]') == True\n\n    # Check some edge cases that are easy to work out by hand.\n    assert candidate('') == False, \"This prints if this assert fails 2 (also good for debugging!)\"\n    assert candidate('[[[[[[[[') == False\n    assert candidate(']]]]]]]]') == False\n\n\ncheck(is_nested)"
+    ]
+  },
+  {
+    "id": "humaneval/69",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\ndef search(lst):\n    '''\n    You are given a non-empty list of positive integers. Return the greatest integer that is greater than \n    zero, and has a frequency greater than or equal to the value of the integer itself. \n    The frequency of an integer is the number of times it appears in the list.\n    If no such a value exist, return -1.\n    Examples:\n        search([4, 1, 2, 2, 3, 1]) == 2\n        search([1, 2, 2, 3, 3, 3, 4, 4, 4]) == 3\n        search([5, 5, 4, 4, 4]) == -1\n    '''\n",
+    "test_list": [
+      "assert search([4, 1, 2, 2, 3, 1]) == 2"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "def check(candidate):\n\n    # manually generated tests\n    assert candidate([5, 5, 5, 5, 1]) == 1\n    assert candidate([4, 1, 4, 1, 4, 4]) == 4\n    assert candidate([3, 3]) == -1\n    assert candidate([8, 8, 8, 8, 8, 8, 8, 8]) == 8\n    assert candidate([2, 3, 3, 2, 2]) == 2\n\n    # automatically generated tests\n    assert candidate([2, 7, 8, 8, 4, 8, 7, 3, 9, 6, 5, 10, 4, 3, 6, 7, 1, 7, 4, 10, 8, 1]) == 1\n    assert candidate([3, 2, 8, 2]) == 2\n    assert candidate([6, 7, 1, 8, 8, 10, 5, 8, 5, 3, 10]) == 1\n    assert candidate([8, 8, 3, 6, 5, 6, 4]) == -1\n    assert candidate([6, 9, 6, 7, 1, 4, 7, 1, 8, 8, 9, 8, 10, 10, 8, 4, 10, 4, 10, 1, 2, 9, 5, 7, 9]) == 1\n    assert candidate([1, 9, 10, 1, 3]) == 1\n    assert candidate([6, 9, 7, 5, 8, 7, 5, 3, 7, 5, 10, 10, 3, 6, 10, 2, 8, 6, 5, 4, 9, 5, 3, 10]) == 5\n    assert candidate([1]) == 1\n    assert candidate([8, 8, 10, 6, 4, 3, 5, 8, 2, 4, 2, 8, 4, 6, 10, 4, 2, 1, 10, 2, 1, 1, 5]) == 4\n    assert candidate([2, 10, 4, 8, 2, 10, 5, 1, 2, 9, 5, 5, 6, 3, 8, 6, 4, 10]) == 2\n    assert candidate([1, 6, 10, 1, 6, 9, 10, 8, 6, 8, 7, 3]) == 1\n    assert candidate([9, 2, 4, 1, 5, 1, 5, 2, 5, 7, 7, 7, 3, 10, 1, 5, 4, 2, 8, 4, 1, 9, 10, 7, 10, 2, 8, 10, 9, 4]) == 4\n    assert candidate([2, 6, 4, 2, 8, 7, 5, 6, 4, 10, 4, 6, 3, 7, 8, 8, 3, 1, 4, 2, 2, 10, 7]) == 4\n    assert candidate([9, 8, 6, 10, 2, 6, 10, 2, 7, 8, 10, 3, 8, 2, 6, 2, 3, 1]) == 2\n    assert candidate([5, 5, 3, 9, 5, 6, 3, 2, 8, 5, 6, 10, 10, 6, 8, 4, 10, 7, 7, 10, 8]) == -1\n    assert candidate([10]) == -1\n    assert candidate([9, 7, 7, 2, 4, 7, 2, 10, 9, 7, 5, 7, 2]) == 2\n    assert candidate([5, 4, 10, 2, 1, 1, 10, 3, 6, 1, 8]) == 1\n    assert candidate([7, 9, 9, 9, 3, 4, 1, 5, 9, 1, 2, 1, 1, 10, 7, 5, 6, 7, 6, 7, 7, 6]) == 1\n    assert candidate([3, 10, 10, 9, 2]) == -1\n\n\ncheck(search)"
+    ]
+  },
+  {
+    "id": "humaneval/124",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\ndef valid_date(date):\n    \"\"\"You have to write a function which validates a given date string and\n    returns True if the date is valid otherwise False.\n    The date is valid if all of the following rules are satisfied:\n    1. The date string is not empty.\n    2. The number of days is not less than 1 or higher than 31 days for months 1,3,5,7,8,10,12. And the number of days is not less than 1 or higher than 30 days for months 4,6,9,11. And, the number of days is not less than 1 or higher than 29 for the month 2.\n    3. The months should not be less than 1 or higher than 12.\n    4. The date should be in the format: mm-dd-yyyy\n\n    for example: \n    valid_date('03-11-2000') => True\n\n    valid_date('15-01-2012') => False\n\n    valid_date('04-0-2040') => False\n\n    valid_date('06-04-2020') => True\n\n    valid_date('06/04/2020') => False\n    \"\"\"\n",
+    "test_list": [
+      "assert valid_date('03-11-2000') == True"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "def check(candidate):\n\n    # Check some simple cases\n    assert candidate('03-11-2000') == True\n\n    assert candidate('15-01-2012') == False\n\n    assert candidate('04-0-2040') == False\n\n    assert candidate('06-04-2020') == True\n\n    assert candidate('01-01-2007') == True\n\n    assert candidate('03-32-2011') == False\n\n    assert candidate('') == False\n\n    assert candidate('04-31-3000') == False\n\n    assert candidate('06-06-2005') == True\n\n    assert candidate('21-31-2000') == False\n\n    assert candidate('04-12-2003') == True\n\n    assert candidate('04122003') == False\n\n    assert candidate('20030412') == False\n\n    assert candidate('2003-04') == False\n\n    assert candidate('2003-04-12') == False\n\n    assert candidate('04-2003') == False\n\ncheck(valid_date)"
+    ]
+  },
+  {
+    "id": "humaneval/148",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\ndef bf(planet1, planet2):\n    '''\n    There are eight planets in our solar system: the closerst to the Sun \n    is Mercury, the next one is Venus, then Earth, Mars, Jupiter, Saturn, \n    Uranus, Neptune.\n    Write a function that takes two planet names as strings planet1 and planet2. \n    The function should return a tuple containing all planets whose orbits are \n    located between the orbit of planet1 and the orbit of planet2, sorted by \n    the proximity to the sun. \n    The function should return an empty tuple if planet1 or planet2\n    are not correct planet names. \n    Examples\n    bf(\"Jupiter\", \"Neptune\") ==> (\"Saturn\", \"Uranus\")\n    bf(\"Earth\", \"Mercury\") ==> (\"Venus\")\n    bf(\"Mercury\", \"Uranus\") ==> (\"Venus\", \"Earth\", \"Mars\", \"Jupiter\", \"Saturn\")\n    '''\n",
+    "test_list": [
+      "assert bf('Jupiter', 'Neptune') == ('Saturn', 'Uranus')"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "def check(candidate):\n\n    # Check some simple cases\n    assert candidate(\"Jupiter\", \"Neptune\") == (\"Saturn\", \"Uranus\"), \"First test error: \" + str(len(candidate(\"Jupiter\", \"Neptune\")))      \n    assert candidate(\"Earth\", \"Mercury\") == (\"Venus\",), \"Second test error: \" + str(candidate(\"Earth\", \"Mercury\"))  \n    assert candidate(\"Mercury\", \"Uranus\") == (\"Venus\", \"Earth\", \"Mars\", \"Jupiter\", \"Saturn\"), \"Third test error: \" + str(candidate(\"Mercury\", \"Uranus\"))      \n    assert candidate(\"Neptune\", \"Venus\") == (\"Earth\", \"Mars\", \"Jupiter\", \"Saturn\", \"Uranus\"), \"Fourth test error: \" + str(candidate(\"Neptune\", \"Venus\"))  \n\n\n    # Check some edge cases that are easy to work out by hand.\n    assert candidate(\"Earth\", \"Earth\") == ()\n    assert candidate(\"Mars\", \"Earth\") == ()\n    assert candidate(\"Jupiter\", \"Makemake\") == ()\n\n\ncheck(bf)"
+    ]
+  },
+  {
+    "id": "humaneval/55",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\n\ndef fib(n: int):\n    \"\"\"Return n-th Fibonacci number.\n    >>> fib(10)\n    55\n    >>> fib(1)\n    1\n    >>> fib(8)\n    21\n    \"\"\"\n",
+    "test_list": [
+      "assert fib(10) == 55"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "\n\nMETADATA = {}\n\n\ndef check(candidate):\n    assert candidate(10) == 55\n    assert candidate(1) == 1\n    assert candidate(8) == 21\n    assert candidate(11) == 89\n    assert candidate(12) == 144\n\n\ncheck(fib)"
+    ]
+  },
+  {
+    "id": "humaneval/1",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\nfrom typing import List\n\n\ndef separate_paren_groups(paren_string: str) -> List[str]:\n    \"\"\" Input to this function is a string containing multiple groups of nested parentheses. Your goal is to\n    separate those group into separate strings and return the list of those.\n    Separate groups are balanced (each open brace is properly closed) and not nested within each other\n    Ignore any spaces in the input string.\n    >>> separate_paren_groups('( ) (( )) (( )( ))')\n    ['()', '(())', '(()())']\n    \"\"\"\n",
+    "test_list": [
+      "assert separate_paren_groups('( ) (( )) (( )( ))') == ['()', '(())', '(()())']"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "\n\nMETADATA = {\n    'author': 'jt',\n    'dataset': 'test'\n}\n\n\ndef check(candidate):\n    assert candidate('(()()) ((())) () ((())()())') == [\n        '(()())', '((()))', '()', '((())()())'\n    ]\n    assert candidate('() (()) ((())) (((())))') == [\n        '()', '(())', '((()))', '(((())))'\n    ]\n    assert candidate('(()(())((())))') == [\n        '(()(())((())))'\n    ]\n    assert candidate('( ) (( )) (( )( ))') == ['()', '(())', '(()())']\n\ncheck(separate_paren_groups)"
+    ]
+  },
+  {
+    "id": "humaneval/81",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\ndef numerical_letter_grade(grades):\n    \"\"\"It is the last week of the semester and the teacher has to give the grades\n    to students. The teacher has been making her own algorithm for grading.\n    The only problem is, she has lost the code she used for grading.\n    She has given you a list of GPAs for some students and you have to write \n    a function that can output a list of letter grades using the following table:\n             GPA       |    Letter grade\n              4.0                A+\n            > 3.7                A \n            > 3.3                A- \n            > 3.0                B+\n            > 2.7                B \n            > 2.3                B-\n            > 2.0                C+\n            > 1.7                C\n            > 1.3                C-\n            > 1.0                D+ \n            > 0.7                D \n            > 0.0                D-\n              0.0                E\n    \n\n    Example:\n    grade_equation([4.0, 3, 1.7, 2, 3.5]) ==> ['A+', 'B', 'C-', 'C', 'A-']\n    \"\"\"\n",
+    "test_list": [
+      "assert callable(numerical_letter_grade)"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "def check(candidate):\n\n    # Check some simple cases\n    assert candidate([4.0, 3, 1.7, 2, 3.5]) == ['A+', 'B', 'C-', 'C', 'A-']\n    assert candidate([1.2]) == ['D+']\n    assert candidate([0.5]) == ['D-']\n    assert candidate([0.0]) == ['E']\n    assert candidate([1, 0.3, 1.5, 2.8, 3.3]) == ['D', 'D-', 'C-', 'B', 'B+']\n    assert candidate([0, 0.7]) == ['E', 'D-']\n\n    # Check some edge cases that are easy to work out by hand.\n    assert True\n\n\ncheck(numerical_letter_grade)"
+    ]
+  },
+  {
+    "id": "humaneval/36",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\n\ndef fizz_buzz(n: int):\n    \"\"\"Return the number of times the digit 7 appears in integers less than n which are divisible by 11 or 13.\n    >>> fizz_buzz(50)\n    0\n    >>> fizz_buzz(78)\n    2\n    >>> fizz_buzz(79)\n    3\n    \"\"\"\n",
+    "test_list": [
+      "assert fizz_buzz(50) == 0"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "\n\nMETADATA = {}\n\n\ndef check(candidate):\n    assert candidate(50) == 0\n    assert candidate(78) == 2\n    assert candidate(79) == 3\n    assert candidate(100) == 3\n    assert candidate(200) == 6\n    assert candidate(4000) == 192\n    assert candidate(10000) == 639\n    assert candidate(100000) == 8026\n\n\ncheck(fizz_buzz)"
+    ]
+  },
+  {
+    "id": "humaneval/130",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\ndef tri(n):\n    \"\"\"Everyone knows Fibonacci sequence, it was studied deeply by mathematicians in \n    the last couple centuries. However, what people don't know is Tribonacci sequence.\n    Tribonacci sequence is defined by the recurrence:\n    tri(1) = 3\n    tri(n) = 1 + n / 2, if n is even.\n    tri(n) =  tri(n - 1) + tri(n - 2) + tri(n + 1), if n is odd.\n    For example:\n    tri(2) = 1 + (2 / 2) = 2\n    tri(4) = 3\n    tri(3) = tri(2) + tri(1) + tri(4)\n           = 2 + 3 + 3 = 8 \n    You are given a non-negative integer number n, you have to a return a list of the \n    first n + 1 numbers of the Tribonacci sequence.\n    Examples:\n    tri(3) = [1, 3, 2, 8]\n    \"\"\"\n",
+    "test_list": [
+      "assert callable(tri)"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "def check(candidate):\n\n    # Check some simple cases\n    \n    assert candidate(3) == [1, 3, 2.0, 8.0]\n    assert candidate(4) == [1, 3, 2.0, 8.0, 3.0]\n    assert candidate(5) == [1, 3, 2.0, 8.0, 3.0, 15.0]\n    assert candidate(6) == [1, 3, 2.0, 8.0, 3.0, 15.0, 4.0]\n    assert candidate(7) == [1, 3, 2.0, 8.0, 3.0, 15.0, 4.0, 24.0]\n    assert candidate(8) == [1, 3, 2.0, 8.0, 3.0, 15.0, 4.0, 24.0, 5.0]\n    assert candidate(9) == [1, 3, 2.0, 8.0, 3.0, 15.0, 4.0, 24.0, 5.0, 35.0]\n    assert candidate(20) == [1, 3, 2.0, 8.0, 3.0, 15.0, 4.0, 24.0, 5.0, 35.0, 6.0, 48.0, 7.0, 63.0, 8.0, 80.0, 9.0, 99.0, 10.0, 120.0, 11.0]\n\n    # Check some edge cases that are easy to work out by hand.\n    assert candidate(0) == [1]\n    assert candidate(1) == [1, 3]\n\ncheck(tri)"
+    ]
+  },
+  {
+    "id": "humaneval/31",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\n\ndef is_prime(n):\n    \"\"\"Return true if a given number is prime, and false otherwise.\n    >>> is_prime(6)\n    False\n    >>> is_prime(101)\n    True\n    >>> is_prime(11)\n    True\n    >>> is_prime(13441)\n    True\n    >>> is_prime(61)\n    True\n    >>> is_prime(4)\n    False\n    >>> is_prime(1)\n    False\n    \"\"\"\n",
+    "test_list": [
+      "assert is_prime(6) == False"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "\n\nMETADATA = {}\n\n\ndef check(candidate):\n    assert candidate(6) == False\n    assert candidate(101) == True\n    assert candidate(11) == True\n    assert candidate(13441) == True\n    assert candidate(61) == True\n    assert candidate(4) == False\n    assert candidate(1) == False\n    assert candidate(5) == True\n    assert candidate(11) == True\n    assert candidate(17) == True\n    assert candidate(5 * 17) == False\n    assert candidate(11 * 7) == False\n    assert candidate(13441 * 19) == False\n\n\ncheck(is_prime)"
+    ]
+  },
+  {
+    "id": "humaneval/60",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\n\ndef sum_to_n(n: int):\n    \"\"\"sum_to_n is a function that sums numbers from 1 to n.\n    >>> sum_to_n(30)\n    465\n    >>> sum_to_n(100)\n    5050\n    >>> sum_to_n(5)\n    15\n    >>> sum_to_n(10)\n    55\n    >>> sum_to_n(1)\n    1\n    \"\"\"\n",
+    "test_list": [
+      "assert sum_to_n(30) == 465"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "\n\nMETADATA = {}\n\n\ndef check(candidate):\n    assert candidate(1) == 1\n    assert candidate(6) == 21\n    assert candidate(11) == 66\n    assert candidate(30) == 465\n    assert candidate(100) == 5050\n\n\ncheck(sum_to_n)"
+    ]
+  },
+  {
+    "id": "humaneval/110",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\ndef exchange(lst1, lst2):\n    \"\"\"In this problem, you will implement a function that takes two lists of numbers,\n    and determines whether it is possible to perform an exchange of elements\n    between them to make lst1 a list of only even numbers.\n    There is no limit on the number of exchanged elements between lst1 and lst2.\n    If it is possible to exchange elements between the lst1 and lst2 to make\n    all the elements of lst1 to be even, return \"YES\".\n    Otherwise, return \"NO\".\n    For example:\n    exchange([1, 2, 3, 4], [1, 2, 3, 4]) => \"YES\"\n    exchange([1, 2, 3, 4], [1, 5, 3, 4]) => \"NO\"\n    It is assumed that the input lists will be non-empty.\n    \"\"\"\n",
+    "test_list": [
+      "assert exchange([1, 2, 3, 4], [1, 2, 3, 4]) == 'YES'"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "def check(candidate):\n\n    # Check some simple cases\n    assert candidate([1, 2, 3, 4], [1, 2, 3, 4]) == \"YES\"\n    assert candidate([1, 2, 3, 4], [1, 5, 3, 4]) == \"NO\"\n    assert candidate([1, 2, 3, 4], [2, 1, 4, 3]) == \"YES\" \n    assert candidate([5, 7, 3], [2, 6, 4]) == \"YES\"\n    assert candidate([5, 7, 3], [2, 6, 3]) == \"NO\" \n    assert candidate([3, 2, 6, 1, 8, 9], [3, 5, 5, 1, 1, 1]) == \"NO\"\n\n    # Check some edge cases that are easy to work out by hand.\n    assert candidate([100, 200], [200, 200]) == \"YES\"\n\n\ncheck(exchange)"
+    ]
+  },
+  {
+    "id": "humaneval/89",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\ndef encrypt(s):\n    \"\"\"Create a function encrypt that takes a string as an argument and\n    returns a string encrypted with the alphabet being rotated. \n    The alphabet should be rotated in a manner such that the letters \n    shift down by two multiplied to two places.\n    For example:\n    encrypt('hi') returns 'lm'\n    encrypt('asdfghjkl') returns 'ewhjklnop'\n    encrypt('gf') returns 'kj'\n    encrypt('et') returns 'ix'\n    \"\"\"\n",
+    "test_list": [
+      "assert callable(encrypt)"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "def check(candidate):\n\n    # Check some simple cases\n    assert candidate('hi') == 'lm', \"This prints if this assert fails 1 (good for debugging!)\"\n    assert candidate('asdfghjkl') == 'ewhjklnop', \"This prints if this assert fails 1 (good for debugging!)\"\n    assert candidate('gf') == 'kj', \"This prints if this assert fails 1 (good for debugging!)\"\n    assert candidate('et') == 'ix', \"This prints if this assert fails 1 (good for debugging!)\"\n\n    assert candidate('faewfawefaewg')=='jeiajeaijeiak', \"This prints if this assert fails 1 (good for debugging!)\"\n    assert candidate('hellomyfriend')=='lippsqcjvmirh', \"This prints if this assert fails 2 (good for debugging!)\"\n    assert candidate('dxzdlmnilfuhmilufhlihufnmlimnufhlimnufhfucufh')=='hbdhpqrmpjylqmpyjlpmlyjrqpmqryjlpmqryjljygyjl', \"This prints if this assert fails 3 (good for debugging!)\"\n\n    # Check some edge cases that are easy to work out by hand.\n    assert candidate('a')=='e', \"This prints if this assert fails 2 (also good for debugging!)\"\n\n\ncheck(encrypt)"
+    ]
+  }
+]

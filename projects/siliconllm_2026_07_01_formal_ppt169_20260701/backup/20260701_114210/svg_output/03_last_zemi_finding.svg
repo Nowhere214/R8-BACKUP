@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+  <g id="header">
+    <text x="64" y="62" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#0F766E" font-weight="700">RECAP</text>
+    <text x="64" y="102" font-family="Arial, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" fill="#0F172A">The previous major talk found a decode-centered gap</text>
+  </g>
+  <g id="left-card">
+    <rect x="78" y="162" width="520" height="392" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <use data-icon="tabler-outline/cpu" x="112" y="202" width="38" height="38" fill="#1E3A5F" stroke-width="2"/>
+    <text x="166" y="228" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#0F172A">5/20 message</text>
+    <text x="112" y="300" font-family="Arial, Microsoft YaHei, sans-serif" font-size="46" font-weight="700" fill="#D97706">29-33x</text>
+    <text x="112" y="334" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#475569">decode speed gap between mlx-lm and Stage 1 reference</text>
+    <path d="M112 382 H534" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="112" y="430" font-family="Arial, Microsoft YaHei, sans-serif" font-size="19" fill="#0F172A">
+      <tspan x="112" dy="0">The bottleneck was not evenly spread.</tspan>
+      <tspan x="112" dy="32">It was concentrated in autoregressive</tspan>
+      <tspan x="112" dy="32">generation.</tspan>
+    </text>
+  </g>
+  <g id="right-card">
+    <rect x="682" y="162" width="520" height="392" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <use data-icon="tabler-outline/arrow-right" x="716" y="202" width="38" height="38" fill="#0F766E" stroke-width="2"/>
+    <text x="770" y="228" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#0F172A">This update</text>
+    <text x="716" y="292" font-family="Arial, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#1E3A5F">From where to why</text>
+    <text x="716" y="348" font-family="Arial, Microsoft YaHei, sans-serif" font-size="19" fill="#0F172A">
+      <tspan x="716" dy="0">I added more baselines and scans.</tspan>
+      <tspan x="716" dy="32">Then I profiled one decode step.</tspan>
+      <tspan x="716" dy="32">Finally, I implemented and checked</tspan>
+      <tspan x="716" dy="32">the faithful Stage 1 baseline.</tspan>
+    </text>
+  </g>
+  <g id="footer">
+    <text x="64" y="675" font-family="Arial, Microsoft YaHei, sans-serif" font-size="11" fill="#64748B">Source: ZEMI_2026_05_20_SPEAKER_SCRIPT.md and 2026-07-01 formal update</text>
+    <text x="1190" y="675" font-family="Arial, Microsoft YaHei, sans-serif" font-size="11" fill="#64748B">03 / 16</text>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+[
+  {
+    "figure": "01_mlx_lm_procedure",
+    "text_bounds": "passed",
+    "text_items": 21,
+    "files": [
+      "/Users/laiqixiao/Documents/SiliconLLM/projects/siliconllm_2026_11_11_predefense/exports/procedure_figures_2026_11_16/01_mlx_lm_procedure.png",
+      "/Users/laiqixiao/Documents/SiliconLLM/projects/siliconllm_2026_11_11_predefense/exports/procedure_figures_2026_11_16/01_mlx_lm_procedure.pdf",
+      "/Users/laiqixiao/Documents/SiliconLLM/projects/siliconllm_2026_11_11_predefense/exports/procedure_figures_2026_11_16/01_mlx_lm_procedure.svg"
+    ]
+  },
+  {
+    "figure": "02_history_integration_plan",
+    "text_bounds": "passed",
+    "text_items": 19,
+    "files": [
+      "/Users/laiqixiao/Documents/SiliconLLM/projects/siliconllm_2026_11_11_predefense/exports/procedure_figures_2026_11_16/02_history_integration_plan.png",
+      "/Users/laiqixiao/Documents/SiliconLLM/projects/siliconllm_2026_11_11_predefense/exports/procedure_figures_2026_11_16/02_history_integration_plan.pdf",
+      "/Users/laiqixiao/Documents/SiliconLLM/projects/siliconllm_2026_11_11_predefense/exports/procedure_figures_2026_11_16/02_history_integration_plan.svg"
+    ]
+  },
+  {
+    "figure": "03_mlx_lm_cache_recovery",
+    "text_bounds": "passed",
+    "text_items": 31,
+    "files": [
+      "/Users/laiqixiao/Documents/SiliconLLM/projects/siliconllm_2026_11_11_predefense/exports/procedure_figures_2026_11_16/03_mlx_lm_cache_recovery.png",
+      "/Users/laiqixiao/Documents/SiliconLLM/projects/siliconllm_2026_11_11_predefense/exports/procedure_figures_2026_11_16/03_mlx_lm_cache_recovery.pdf",
+      "/Users/laiqixiao/Documents/SiliconLLM/projects/siliconllm_2026_11_11_predefense/exports/procedure_figures_2026_11_16/03_mlx_lm_cache_recovery.svg"
+    ]
+  },
+  {
+    "figure": "04_cost_score_and_recovery",
+    "text_bounds": "passed",
+    "text_items": 15,
+    "files": [
+      "/Users/laiqixiao/Documents/SiliconLLM/projects/siliconllm_2026_11_11_predefense/exports/procedure_figures_2026_11_16/04_cost_score_and_recovery.png",
+      "/Users/laiqixiao/Documents/SiliconLLM/projects/siliconllm_2026_11_11_predefense/exports/procedure_figures_2026_11_16/04_cost_score_and_recovery.pdf",
+      "/Users/laiqixiao/Documents/SiliconLLM/projects/siliconllm_2026_11_11_predefense/exports/procedure_figures_2026_11_16/04_cost_score_and_recovery.svg"
+    ]
+  }
+]

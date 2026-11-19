@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+  <g id="header">
+    <text x="64" y="62" font-family='Arial, Microsoft YaHei, sans-serif' font-size="15" fill="#0F766E" font-weight="700">EVIDENCE PACKAGE</text>
+    <text x="64" y="102" font-family='Arial, Microsoft YaHei, sans-serif' font-size="34" font-weight="700" fill="#0F172A">The current state is auditable through one research table</text>
+  </g>
+  <g id="figure">
+    <rect x="66" y="154" width="790" height="470" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <image href="../images/formal_fig06_reproducibility_summary.png" x="92" y="204" width="738" height="330" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="reading">
+    <rect x="894" y="154" width="322" height="470" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <use data-icon="tabler-outline/database" x="926" y="190" width="34" height="34" fill="#1E3A5F" stroke-width="2"/>
+    <text x="974" y="213" font-family='Arial, Microsoft YaHei, sans-serif' font-size="19" font-weight="700" fill="#0F172A">Current ledger</text>
+    <path d="M926 252 H1180" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="926" y="314" font-family='Arial, Microsoft YaHei, sans-serif' font-size="46" font-weight="700" fill="#1E3A5F">151</text>
+    <text x="1030" y="312" font-family='Arial, Microsoft YaHei, sans-serif' font-size="18" fill="#475569">Phase 0 rows</text>
+    <text x="926" y="386" font-family='Arial, Microsoft YaHei, sans-serif' font-size="46" font-weight="700" fill="#0F766E">24</text>
+    <text x="1010" y="384" font-family='Arial, Microsoft YaHei, sans-serif' font-size="18" fill="#475569">Phase 1 rows</text>
+    <text x="926" y="458" font-family='Arial, Microsoft YaHei, sans-serif' font-size="46" font-weight="700" fill="#D97706">175</text>
+    <text x="1030" y="456" font-family='Arial, Microsoft YaHei, sans-serif' font-size="18" fill="#475569">total rows</text>
+    <rect x="926" y="526" width="254" height="46" rx="6" fill="#DBEAFE"/>
+    <text x="946" y="555" font-family='Arial, Microsoft YaHei, sans-serif' font-size="15" font-weight="700" fill="#1E3A5F">Enough evidence for a formal update.</text>
+  </g>
+  <g id="footer">
+    <text x="64" y="675" font-family='Arial, Microsoft YaHei, sans-serif' font-size="11" fill="#64748B">Source: Phase 0 unified summary and Phase 1 self-baseline benchmark summaries</text>
+    <text x="1190" y="675" font-family='Arial, Microsoft YaHei, sans-serif' font-size="11" fill="#64748B">14 / 16</text>
+  </g>
+</svg>

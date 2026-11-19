@@ -1,0 +1,35 @@
+{
+  "created_utc": "2026-10-21T03:40:01.393866+00:00",
+  "model": "Qwen/Qwen2-1.5B-Instruct-MLX",
+  "mbpp_sha256": "ca95deaa9a01ef0a6f439f88bcf0dd3db3563d22f22aad6cae04ebb9a8d8c8e9",
+  "humaneval_sha256": "b796127e635a67f93fb35c04f4cb03cf06f38c8072ee7cee8833d7bee06979ef",
+  "mbpp_source": "https://raw.githubusercontent.com/google-research/google-research/master/mbpp/sanitized-mbpp.json",
+  "humaneval_source": "https://raw.githubusercontent.com/openai/human-eval/master/data/HumanEval.jsonl.gz",
+  "pilot_ids_excluded_from_evaluation": [
+    61,
+    113,
+    245,
+    257,
+    274
+  ],
+  "max_tokens": 384,
+  "max_repairs": 2,
+  "history": "Only current prompt or earlier code from the same task; cold cache between tasks",
+  "controller": "EMA accepted-prefix ratio, frozen hardware costs, 5% margin; no evaluation-label tuning",
+  "evaluation_counts": {
+    "mbpp": 60,
+    "humaneval": 30
+  },
+  "calibration_task_ids": [
+    "mbpp/598",
+    "mbpp/562",
+    "mbpp/555",
+    "mbpp/574",
+    "mbpp/572",
+    "mbpp/569",
+    "mbpp/563",
+    "mbpp/560",
+    "mbpp/592",
+    "mbpp/559"
+  ]
+}

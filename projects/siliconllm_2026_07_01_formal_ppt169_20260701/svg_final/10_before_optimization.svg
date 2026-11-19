@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F4EFFA" />
+  <g id="header">
+    <text x="64" y="62" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#6B4CA3" font-weight="700">WHY BASELINE FIRST</text>
+    <text x="64" y="102" font-family="Arial, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" fill="#1F1633">Optimization claims need a faithful baseline</text>
+    <path fill="#FFFFFF" stroke="#D6CBE8" d="M72,126 H1208 A8,8 0 0 1 1216,134 V182 A8,8 0 0 1 1208,190 H72 A8,8 0 0 1 64,182 V134 A8,8 0 0 1 72,126 Z" />
+    <text font-size="19" font-family="Arial, Microsoft YaHei, sans-serif" fill="#3E1485" x="88" y="151">Before claiming speedup, I need a baseline that passes tests</text><text font-size="19" font-family="Arial, Microsoft YaHei, sans-serif" fill="#3E1485" x="88" y="176">and matches the reference implementation.</text></g>
+  <g id="purple-titlebar">
+    <rect x="0" y="0" width="1190" height="118" fill="#3E1485" />
+    <rect x="1190" y="0" width="90" height="118" fill="#9E89C2" />
+    <text x="64" y="43" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#FFFFFF" font-weight="700">WHY BASELINE FIRST</text>
+    <text x="64" y="84" font-family="Arial, Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">Optimization claims need a faithful baseline</text>
+    <text x="1235" y="70" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="27" font-weight="700" fill="#FFFFFF">10</text>
+  </g>
+  <g id="process">
+    <path fill="#FFFFFF" stroke="#D6CBE8" d="M90,246 H314 A8,8 0 0 1 322,254 V468 A8,8 0 0 1 314,476 H90 A8,8 0 0 1 82,468 V254 A8,8 0 0 1 90,246 Z" />
+    
+  <g transform="translate(112.0, 282.0) scale(1.5)" fill="none" stroke="#3E1485" stroke-width="2">
+    <path d="M4 19l16 0" />
+    <path d="M4 15l4 -6l4 2l4 -5l4 4" />
+  </g>
+    <text x="112" y="354" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#1F1633">1. Diagnose</text>
+    <text font-size="18" font-family="Arial, Microsoft YaHei, sans-serif" fill="#4B405D" x="112" y="400">Find where decode</text><text font-size="18" font-family="Arial, Microsoft YaHei, sans-serif" fill="#4B405D" x="112" y="428">spends time.</text><g transform="translate(344.0, 342.0) scale(1.6666666666666667)" fill="none" stroke="#6F6280" stroke-width="2">
+    <path d="M5 12l14 0" />
+    <path d="M13 18l6 -6" />
+    <path d="M13 6l6 6" />
+  </g>
+    <path fill="#FFFFFF" stroke="#D6CBE8" d="M414,246 H638 A8,8 0 0 1 646,254 V468 A8,8 0 0 1 638,476 H414 A8,8 0 0 1 406,468 V254 A8,8 0 0 1 414,246 Z" />
+    
+  <g transform="translate(436.0, 282.0) scale(1.5)" fill="none" stroke="#6B4CA3" stroke-width="2">
+    <path d="M7 8l-4 4l4 4" />
+    <path d="M17 8l4 4l-4 4" />
+    <path d="M14 4l-4 16" />
+  </g>
+    <text x="436" y="354" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#1F1633">2. Implement</text>
+    <text font-size="18" font-family="Arial, Microsoft YaHei, sans-serif" fill="#4B405D" x="436" y="400">Build the tutorial</text><text font-size="18" font-family="Arial, Microsoft YaHei, sans-serif" fill="#4B405D" x="436" y="428">Stage 1 path.</text><g transform="translate(668.0, 342.0) scale(1.6666666666666667)" fill="none" stroke="#6F6280" stroke-width="2">
+    <path d="M5 12l14 0" />
+    <path d="M13 18l6 -6" />
+    <path d="M13 6l6 6" />
+  </g>
+    <path fill="#FFFFFF" stroke="#D6CBE8" d="M738,246 H962 A8,8 0 0 1 970,254 V468 A8,8 0 0 1 962,476 H738 A8,8 0 0 1 730,468 V254 A8,8 0 0 1 738,246 Z" />
+    
+  <g transform="translate(760.0, 282.0) scale(1.5)" fill="none" stroke="#6B4CA3" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M9 12l2 2l4 -4" />
+  </g>
+    <text x="760" y="354" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#1F1633">3. Validate</text>
+    <text font-size="18" font-family="Arial, Microsoft YaHei, sans-serif" fill="#4B405D" x="760" y="400">Check tests and</text><text font-size="18" font-family="Arial, Microsoft YaHei, sans-serif" fill="#4B405D" x="760" y="428">self/reference parity.</text><g transform="translate(992.0, 342.0) scale(1.6666666666666667)" fill="none" stroke="#6F6280" stroke-width="2">
+    <path d="M5 12l14 0" />
+    <path d="M13 18l6 -6" />
+    <path d="M13 6l6 6" />
+  </g>
+    <path fill="#FFFFFF" stroke="#D6CBE8" d="M1062,246 H1206 A8,8 0 0 1 1214,254 V468 A8,8 0 0 1 1206,476 H1062 A8,8 0 0 1 1054,468 V254 A8,8 0 0 1 1062,246 Z" />
+    
+  <g transform="translate(1084.0, 282.0) scale(1.5)" fill="none" stroke="#9E89C2" stroke-width="2">
+    <path d="M3 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+    <path d="M19 7a2 2 0 1 0 0 -4a2 2 0 0 0 0 4" />
+    <path d="M11 19h5.5a3.5 3.5 0 0 0 0 -7h-8a3.5 3.5 0 0 1 0 -7h4.5" />
+  </g>
+    <text x="1084" y="354" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#1F1633">4. Optimize</text>
+    <text font-size="18" font-family="Arial, Microsoft YaHei, sans-serif" fill="#4B405D" x="1084" y="400">Change one</text><text font-size="18" font-family="Arial, Microsoft YaHei, sans-serif" fill="#4B405D" x="1084" y="428">lever.</text></g>
+  <g id="takeaway">
+    <path fill="#E8E1F1" d="M238,546 H1042 A8,8 0 0 1 1050,554 V596 A8,8 0 0 1 1042,604 H238 A8,8 0 0 1 230,596 V554 A8,8 0 0 1 238,546 Z" />
+    <text font-size="21" font-family="Arial, Microsoft YaHei, sans-serif" font-weight="700" fill="#6B4CA3" x="264" y="572">This protects the research from comparing an optimized engine</text><text font-size="21" font-family="Arial, Microsoft YaHei, sans-serif" font-weight="700" fill="#6B4CA3" x="264" y="600">to an untrusted implementation.</text></g>
+  <g id="footer">
+    <text x="64" y="675" font-family="Arial, Microsoft YaHei, sans-serif" font-size="11" fill="#6F6280">Source: Phase 1 implementation plan and self-baseline benchmark notes</text>
+    <text x="1190" y="675" font-family="Arial, Microsoft YaHei, sans-serif" font-size="11" fill="#6F6280">10 / 16</text>
+  </g>
+</svg>

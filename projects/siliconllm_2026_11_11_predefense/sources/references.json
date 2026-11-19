@@ -1,0 +1,38 @@
+{
+  "1": [
+    "Leviathan, Kalman and Matias. Fast Inference from Transformers via Speculative Decoding. ICML 2023.",
+    "https://arxiv.org/abs/2211.17192"
+  ],
+  "2": [
+    "Apoorv Saxena. Prompt Lookup Decoding. Software repository, 2023.",
+    "https://github.com/apoorvumang/prompt-lookup-decoding"
+  ],
+  "3": [
+    "Wang et al. EfficientEdit: Accelerating Code Editing via Edit-Oriented Speculative Decoding. ASE 2025.",
+    "https://arxiv.org/abs/2506.02780"
+  ],
+  "4": [
+    "Lee et al. AgSpec: Pushing the Limits of Retrieval-Based Speculative Decoding in Coding Agent Pipelines. 2026.",
+    "https://arxiv.org/abs/2610.01108"
+  ],
+  "5": [
+    "Mamou et al. Dynamic Speculation Lookahead Accelerates Speculative Decoding of Large Language Models. 2024.",
+    "https://arxiv.org/abs/2405.04304"
+  ],
+  "6": [
+    "MLX LM. Language model inference and fine-tuning on Apple Silicon. Software repository.",
+    "https://github.com/ml-explore/mlx-lm"
+  ],
+  "7": [
+    "Austin et al. Program Synthesis with Large Language Models. MBPP, 2021.",
+    "https://arxiv.org/abs/2108.07732"
+  ],
+  "8": [
+    "Chen et al. Evaluating Large Language Models Trained on Code. HumanEval, 2021.",
+    "https://arxiv.org/abs/2107.03374"
+  ],
+  "9": [
+    "Alex Chi. tiny-llm: A course on LLM serving. Software repository.",
+    "https://github.com/skyzh/tiny-llm"
+  ]
+}

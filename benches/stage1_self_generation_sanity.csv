@@ -1,0 +1,3 @@
+engine,engine_label,model,prompt,max_new_tokens,generated_token_ids,generated_text
+tiny_llm_w1self,Self Stage 1,qwen2-0.5b,Give me a short introduction to large language models.,16,20286 4128 4119 525 20443 11229 5942 429 646 6923 3738 12681 1467 3118 389 12624, Large language models are artificial intelligence systems that can generate human-like text based on patterns
+tiny_llm_ref_w1,Reference Stage 1,qwen2-0.5b,Give me a short introduction to large language models.,16,20286 4128 4119 525 20443 11229 5942 429 646 6923 3738 12681 1467 3118 389 12624, Large language models are artificial intelligence systems that can generate human-like text based on patterns

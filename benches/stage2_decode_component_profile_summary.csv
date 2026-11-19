@@ -1,0 +1,25 @@
+model,prompt_len,decode_offset,component,mean_ms,stdev_ms,share_pct,n,notes
+qwen2-0.5b,64,64,qkv_projection,4.168582,0.229572,11.640,3,aggregated from synchronized cached decode timings
+qwen2-0.5b,64,64,kv_cache_update,3.769387,0.259752,10.526,3,aggregated from synchronized cached decode timings
+qwen2-0.5b,64,64,attention_core,9.147014,1.807658,25.542,3,aggregated from synchronized cached decode timings
+qwen2-0.5b,64,64,attention_out_projection,3.998945,0.701164,11.167,3,aggregated from synchronized cached decode timings
+qwen2-0.5b,64,64,mlp,6.277097,0.277584,17.528,3,aggregated from synchronized cached decode timings
+qwen2-0.5b,64,64,elementwise,5.601059,3.385478,15.640,12,aggregated from synchronized cached decode timings
+qwen2-0.5b,64,64,lm_head,2.595167,0.413692,7.247,3,aggregated from synchronized cached decode timings
+qwen2-0.5b,64,64,outer_loop,0.254399,0.137818,0.710,9,aggregated from synchronized cached decode timings
+qwen2-0.5b,128,128,qkv_projection,4.197932,0.228821,11.977,3,aggregated from synchronized cached decode timings
+qwen2-0.5b,128,128,kv_cache_update,3.650791,0.669933,10.416,3,aggregated from synchronized cached decode timings
+qwen2-0.5b,128,128,attention_core,6.758181,1.425446,19.282,3,aggregated from synchronized cached decode timings
+qwen2-0.5b,128,128,attention_out_projection,3.852099,0.543567,10.990,3,aggregated from synchronized cached decode timings
+qwen2-0.5b,128,128,mlp,7.427333,1.542910,21.191,3,aggregated from synchronized cached decode timings
+qwen2-0.5b,128,128,elementwise,6.272677,3.984314,17.896,12,aggregated from synchronized cached decode timings
+qwen2-0.5b,128,128,lm_head,2.578612,0.582671,7.357,3,aggregated from synchronized cached decode timings
+qwen2-0.5b,128,128,outer_loop,0.312165,0.144805,0.891,9,aggregated from synchronized cached decode timings
+qwen2-0.5b,512,512,qkv_projection,5.746335,0.748008,13.554,3,aggregated from synchronized cached decode timings
+qwen2-0.5b,512,512,kv_cache_update,4.924446,0.629656,11.616,3,aggregated from synchronized cached decode timings
+qwen2-0.5b,512,512,attention_core,8.926527,0.652761,21.056,3,aggregated from synchronized cached decode timings
+qwen2-0.5b,512,512,attention_out_projection,4.439847,0.125118,10.473,3,aggregated from synchronized cached decode timings
+qwen2-0.5b,512,512,mlp,8.953681,1.613814,21.120,3,aggregated from synchronized cached decode timings
+qwen2-0.5b,512,512,elementwise,6.427910,4.077402,15.162,12,aggregated from synchronized cached decode timings
+qwen2-0.5b,512,512,lm_head,2.655264,0.513780,6.263,3,aggregated from synchronized cached decode timings
+qwen2-0.5b,512,512,outer_loop,0.320444,0.206377,0.756,9,aggregated from synchronized cached decode timings

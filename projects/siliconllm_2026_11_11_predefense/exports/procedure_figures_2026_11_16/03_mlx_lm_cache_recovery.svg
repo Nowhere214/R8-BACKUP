@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="921.6pt" height="518.4pt" viewBox="0 0 921.6 518.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-16T16:24:56.128086</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 518.4 
+L 921.6 518.4 
+L 921.6 0 
+L 0 0 
+z
+" style="fill: #f4effa"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 0 0 
+L 921.6 0 
+L 921.6 84.96 
+L 0 84.96 
+z
+" clip-path="url(#p2390e6a411)" style="fill: #3e1485; stroke: #3e1485; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 202.32 180 
+L 290.16 180 
+L 290.16 215.28 
+L 202.32 215.28 
+z
+" clip-path="url(#p2390e6a411)" style="fill: #ffffff; stroke: #cabdda; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 299.52 180 
+L 359.28 180 
+L 359.28 215.28 
+L 299.52 215.28 
+z
+" clip-path="url(#p2390e6a411)" style="fill: #e7f2fa; stroke: #0072b2; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 202.32 244.8 
+L 290.16 244.8 
+L 290.16 280.08 
+L 202.32 280.08 
+z
+" clip-path="url(#p2390e6a411)" style="fill: #ffffff; stroke: #cabdda; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 299.52 244.8 
+L 359.28 244.8 
+L 359.28 280.08 
+L 299.52 280.08 
+z
+" clip-path="url(#p2390e6a411)" style="fill: #e4f4ee; stroke: #009e73; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 367.92 244.8 
+L 427.68 244.8 
+L 427.68 280.08 
+L 367.92 280.08 
+z
+" clip-path="url(#p2390e6a411)" style="fill: #e4f4ee; stroke: #009e73; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 436.32 244.8 
+L 496.08 244.8 
+L 496.08 280.08 
+L 436.32 280.08 
+z
+" clip-path="url(#p2390e6a411)" style="fill: #e4f4ee; stroke: #009e73; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 504.72 244.8 
+L 564.48 244.8 
+L 564.48 280.08 
+L 504.72 280.08 
+z
+" clip-path="url(#p2390e6a411)" style="fill: #fff0e3; stroke: #d55e00; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 573.12 244.8 
+L 632.88 244.8 
+L 632.88 280.08 
+L 573.12 280.08 
+z
+" clip-path="url(#p2390e6a411)" style="fill: #fff0e3; stroke: #d55e00; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 202.32 309.6 
+L 290.16 309.6 
+L 290.16 344.88 
+L 202.32 344.88 
+z
+" clip-path="url(#p2390e6a411)" style="fill: #ffffff; stroke: #cabdda; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 299.52 309.6 
+L 359.28 309.6 
+L 359.28 344.88 
+L 299.52 344.88 
+z
+" clip-path="url(#p2390e6a411)" style="fill: #e4f4ee; stroke: #009e73; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 367.92 309.6 
+L 427.68 309.6 
+L 427.68 344.88 
+L 367.92 344.88 
+z
+" clip-path="url(#p2390e6a411)" style="fill: #e4f4ee; stroke: #009e73; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 436.32 309.6 
+L 496.08 309.6 
+L 496.08 344.88 
+L 436.32 344.88 
+z
+" clip-path="url(#p2390e6a411)" style="fill: #e4f4ee; stroke: #009e73; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 202.32 374.4 
+L 290.16 374.4 
+L 290.16 409.68 
+L 202.32 409.68 
+z
+" clip-path="url(#p2390e6a411)" style="fill: #ffffff; stroke: #cabdda; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 299.52 374.4 
+L 359.28 374.4 
+L 359.28 409.68 
+L 299.52 409.68 
+z
+" clip-path="url(#p2390e6a411)" style="fill: #e4f4ee; stroke: #009e73; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 367.92 374.4 
+L 427.68 374.4 
+L 427.68 409.68 
+L 367.92 409.68 
+z
+" clip-path="url(#p2390e6a411)" style="fill: #e4f4ee; stroke: #009e73; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 436.32 374.4 
+L 496.08 374.4 
+L 496.08 409.68 
+L 436.32 409.68 
+z
+" clip-path="url(#p2390e6a411)" style="fill: #e4f4ee; stroke: #009e73; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 504.72 374.4 
+L 564.48 374.4 
+L 564.48 409.68 
+L 504.72 409.68 
+z
+" clip-path="url(#p2390e6a411)" style="fill: #e4f4ee; stroke: #009e73; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 38.88 473.76 
+L 882.72 473.76 
+" clip-path="url(#p2390e6a411)" style="fill: none; stroke: #cabdda; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 510.48 275.04 
+L 558.72 249.84 
+" clip-path="url(#p2390e6a411)" style="fill: none; stroke: #d55e00; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 578.88 275.04 
+L 627.12 249.84 
+" clip-path="url(#p2390e6a411)" style="fill: none; stroke: #d55e00; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 25px; font-family: 'Arial'; text-anchor: start; fill: #ffffff" x="37.44" y="48.22875" transform="rotate(-0 37.44 48.22875)">mlx-lm Cache Recovery: A Small Example</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 12.5px; font-family: 'Arial'; text-anchor: start; fill: #655875" x="38.88" y="111.958281" transform="rotate(-0 38.88 111.958281)">OFFICIAL SPECULATIVE PATH  /  Target cache only, with a trimmable KV cache</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9.5px; font-family: 'Arial'; text-anchor: start; fill: #655875" x="38.88" y="492.778125" transform="rotate(-0 38.88 492.778125)">Source: speculative_generate_step(), _rewind_cache(), KVCache.trim(). Token letters are schematic.</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'Arial'; text-anchor: start; fill: #3e1485" x="38.88" y="147.2175" transform="rotate(-0 38.88 147.2175)">Draft: A B C D     Target accepts A B and predicts Z instead of C.</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'Arial'; text-anchor: start; fill: #1f1633" x="38.88" y="201.168281" transform="rotate(-0 38.88 201.168281)">1  Before verification</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 14px; font-family: 'Arial'; text-anchor: middle; fill: #1f1633" x="246.24" y="200.899219" transform="rotate(-0 246.24 200.899219)">Prefix</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 13px; font-family: 'Arial'; text-anchor: start; fill: #655875" x="675.36" y="200.564531" transform="rotate(-0 675.36 200.564531)">x is the pending input token</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Arial'; text-anchor: middle; fill: #1f1633" x="329.04" y="201.4275" transform="rotate(-0 329.04 201.4275)">x</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 13px; font-family: 'Arial'; text-anchor: start; fill: #0072b2" x="370.8" y="200.564531" transform="rotate(-0 370.8 200.564531)">Not cached yet</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'Arial'; text-anchor: start; fill: #1f1633" x="38.88" y="265.968281" transform="rotate(-0 38.88 265.968281)">2  After verification</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 14px; font-family: 'Arial'; text-anchor: middle; fill: #1f1633" x="246.24" y="265.699219" transform="rotate(-0 246.24 265.699219)">Prefix</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Arial'; text-anchor: middle; fill: #1f1633" x="329.4" y="266.2275" transform="rotate(-0 329.4 266.2275)">x</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Arial'; text-anchor: middle; fill: #1f1633" x="397.8" y="266.2275" transform="rotate(-0 397.8 266.2275)">A</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Arial'; text-anchor: middle; fill: #1f1633" x="466.2" y="266.2275" transform="rotate(-0 466.2 266.2275)">B</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Arial'; text-anchor: middle; fill: #1f1633" x="534.6" y="266.2275" transform="rotate(-0 534.6 266.2275)">C</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Arial'; text-anchor: middle; fill: #1f1633" x="603" y="266.2275" transform="rotate(-0 603 266.2275)">D</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 13px; font-family: 'Arial'; text-anchor: start; fill: #d55e00" x="675.36" y="265.440703" transform="rotate(-0 675.36 265.440703)">Trim 4 - 2 = 2 entries</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'Arial'; text-anchor: start; fill: #1f1633" x="38.88" y="330.768281" transform="rotate(-0 38.88 330.768281)">3  After cache trim</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 14px; font-family: 'Arial'; text-anchor: middle; fill: #1f1633" x="246.24" y="330.499219" transform="rotate(-0 246.24 330.499219)">Prefix</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Arial'; text-anchor: middle; fill: #1f1633" x="329.4" y="331.0275" transform="rotate(-0 329.4 331.0275)">x</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Arial'; text-anchor: middle; fill: #1f1633" x="397.8" y="331.0275" transform="rotate(-0 397.8 331.0275)">A</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Arial'; text-anchor: middle; fill: #1f1633" x="466.2" y="331.0275" transform="rotate(-0 466.2 331.0275)">B</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 13px; font-family: 'Arial'; text-anchor: start; fill: #655875" x="675.36" y="330.240703" transform="rotate(-0 675.36 330.240703)">Z is the next input</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'Arial'; text-anchor: start; fill: #1f1633" x="38.88" y="395.590547" transform="rotate(-0 38.88 395.590547)">4  Next model step</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 14px; font-family: 'Arial'; text-anchor: middle; fill: #1f1633" x="246.24" y="395.299219" transform="rotate(-0 246.24 395.299219)">Prefix</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Arial'; text-anchor: middle; fill: #1f1633" x="329.4" y="395.8275" transform="rotate(-0 329.4 395.8275)">x</text>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Arial'; text-anchor: middle; fill: #1f1633" x="397.8" y="395.8275" transform="rotate(-0 397.8 395.8275)">A</text>
+   </g>
+   <g id="text_28">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Arial'; text-anchor: middle; fill: #1f1633" x="466.2" y="395.8275" transform="rotate(-0 466.2 395.8275)">B</text>
+   </g>
+   <g id="text_29">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Arial'; text-anchor: middle; fill: #1f1633" x="534.6" y="395.8275" transform="rotate(-0 534.6 395.8275)">Z</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 13px; font-family: 'Arial'; text-anchor: start; fill: #655875" x="675.36" y="395.040703" transform="rotate(-0 675.36 395.040703)">Process Z and continue</text>
+   </g>
+   <g id="text_31">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'Arial'; text-anchor: start; fill: #3e1485" x="38.88" y="447.19875" transform="rotate(-0 38.88 447.19875)">Keep the accepted prefix. Rewind the invalid suffix. No prefix replay in this path.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p2390e6a411">
+   <rect x="0" y="0" width="921.6" height="518.4"/>
+  </clipPath>
+ </defs>
+</svg>

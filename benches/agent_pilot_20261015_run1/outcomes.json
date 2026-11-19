@@ -1,0 +1,81 @@
+[
+  {
+    "task_id": 113,
+    "attempts": 1,
+    "initial_visible_pass": true,
+    "final_visible_pass": true,
+    "heldout": {
+      "status": "passed",
+      "passed": true,
+      "wall_s": 0.027326959010679275
+    },
+    "final_all_tests_pass": true,
+    "agent_wall_s": 0.9066011669929139,
+    "model_wall_s": 0.6244814170058817,
+    "visible_tool_wall_s": 0.04686241695890203
+  },
+  {
+    "task_id": 61,
+    "attempts": 1,
+    "initial_visible_pass": true,
+    "final_visible_pass": true,
+    "heldout": {
+      "status": "passed",
+      "passed": true,
+      "wall_s": 0.025122916034888476
+    },
+    "final_all_tests_pass": true,
+    "agent_wall_s": 1.3407802080037072,
+    "model_wall_s": 1.310860458004754,
+    "visible_tool_wall_s": 0.0276803330052644
+  },
+  {
+    "task_id": 274,
+    "attempts": 3,
+    "initial_visible_pass": false,
+    "final_visible_pass": false,
+    "heldout": {
+      "status": "failed",
+      "passed": false,
+      "feedback": "AssertionError: ",
+      "traceback": "Traceback (most recent call last):\n  File \"<string>\", line 14, in <module>\n  File \"<string>\", line 1, in <module>\nAssertionError\n",
+      "wall_s": 0.026739874971099198
+    },
+    "final_all_tests_pass": false,
+    "agent_wall_s": 5.404435416974593,
+    "model_wall_s": 5.215668957971502,
+    "visible_tool_wall_s": 0.16376041708281264
+  },
+  {
+    "task_id": 257,
+    "attempts": 1,
+    "initial_visible_pass": true,
+    "final_visible_pass": true,
+    "heldout": {
+      "status": "passed",
+      "passed": true,
+      "wall_s": 0.03131758299423382
+    },
+    "final_all_tests_pass": true,
+    "agent_wall_s": 0.5412022499949671,
+    "model_wall_s": 0.49570058297831565,
+    "visible_tool_wall_s": 0.04227570799412206
+  },
+  {
+    "task_id": 245,
+    "attempts": 3,
+    "initial_visible_pass": false,
+    "final_visible_pass": false,
+    "heldout": {
+      "status": "failed",
+      "passed": false,
+      "feedback": "AssertionError: ",
+      "traceback": "Traceback (most recent call last):\n  File \"<string>\", line 12, in <module>\n  File \"<string>\", line 22, in <module>\nAssertionError\n",
+      "wall_s": 0.02975583402439952
+    },
+    "final_all_tests_pass": false,
+    "agent_wall_s": 18.84502741601318,
+    "model_wall_s": 18.625378208060283,
+    "visible_tool_wall_s": 0.19087187497643754
+  }
+]

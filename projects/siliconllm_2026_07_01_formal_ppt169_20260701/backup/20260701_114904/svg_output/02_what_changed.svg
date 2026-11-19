@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+  <g id="header">
+    <text x="64" y="62" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#0F766E" font-weight="700">PROGRESS SINCE 5/20</text>
+    <text x="64" y="102" font-family="Arial, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" fill="#0F172A">From observation to diagnosis and validation</text>
+    <rect x="64" y="126" width="1152" height="64" rx="8" fill="#DBEAFE"/>
+    <text x="88" y="151" font-family="Arial, Microsoft YaHei, sans-serif" font-size="19" fill="#1E3A5F">
+      <tspan x="88" dy="0">The 5/20 talk found the decode gap. This update explains why it happens</tspan>
+      <tspan x="88" dy="25">and builds a trusted baseline for later optimization.</tspan>
+    </text>
+  </g>
+  <g id="figure">
+    <rect x="66" y="214" width="760" height="388" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <image href="../images/formal_fig01_evidence_chain.png" x="86" y="236" width="720" height="344" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+  <g id="insights">
+    <rect x="866" y="214" width="350" height="388" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <use data-icon="tabler-outline/chart-line" x="896" y="248" width="34" height="34" fill="#1E3A5F" stroke-width="2"/>
+    <text x="946" y="271" font-family="Arial, Microsoft YaHei, sans-serif" font-size="19" font-weight="700" fill="#0F172A">What is new</text>
+    <text x="896" y="326" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#0F172A">
+      <tspan x="896" dy="0">1. Phase 0 is now a full</tspan>
+      <tspan x="896" dy="28">evidence package.</tspan>
+      <tspan x="896" dy="46">2. The decode gap has a</tspan>
+      <tspan x="896" dy="28">more concrete explanation.</tspan>
+      <tspan x="896" dy="46">3. Self Stage 1 now matches</tspan>
+      <tspan x="896" dy="28">the reference baseline.</tspan>
+    </text>
+  </g>
+  <g id="footer">
+    <text x="64" y="675" font-family="Arial, Microsoft YaHei, sans-serif" font-size="11" fill="#64748B">Source: FORMAL_PROGRESS_UPDATE_2026-07-01_EN.md</text>
+    <text x="1190" y="675" font-family="Arial, Microsoft YaHei, sans-serif" font-size="11" fill="#64748B">02 / 16</text>
+  </g>
+</svg>

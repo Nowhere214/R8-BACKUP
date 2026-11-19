@@ -1,0 +1,26 @@
+{
+  "started_at_utc": "2026-10-15T02:01:54.801801+00:00",
+  "model": "Qwen/Qwen2-1.5B-Instruct-MLX",
+  "model_revision": "42d944c83758c69dd75180f41d185ad704e7c3ad",
+  "engine": "SiliconLLM Stage 2 KV-cache greedy",
+  "seed": 42,
+  "dataset": "Google MBPP sanitized, original test split, not MBPP+",
+  "dataset_url": "https://raw.githubusercontent.com/google-research/google-research/master/mbpp/sanitized-mbpp.json",
+  "dataset_sha256": "ca95deaa9a01ef0a6f439f88bcf0dd3db3563d22f22aad6cae04ebb9a8d8c8e9",
+  "script_sha256": "fdfb73cfb3765a69002d6f85e2244d75daed9d8e741a8c07f0bca4ff74309afc",
+  "harness_sha256": "c946853a18e590b5c175261105c39dc11a675da2ca248b4cd4f6c5d21a69f70c",
+  "python": "3.12.13",
+  "machine": "arm64",
+  "task_ids": [
+    113,
+    61,
+    274,
+    257,
+    245
+  ],
+  "max_repairs": 2,
+  "max_tokens": 384,
+  "feedback_tests_per_task": 1,
+  "kv_cache_across_turns": false,
+  "isolation": "macOS sandbox-exec; network/writes/fork denied; home data restricted; CPU and wall-time limits"
+}

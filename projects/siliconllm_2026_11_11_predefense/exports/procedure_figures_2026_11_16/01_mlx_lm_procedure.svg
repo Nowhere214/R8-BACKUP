@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="921.6pt" height="518.4pt" viewBox="0 0 921.6 518.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-16T16:24:55.551439</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 518.4 
+L 921.6 518.4 
+L 921.6 0 
+L 0 0 
+z
+" style="fill: #f4effa"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 0 0 
+L 921.6 0 
+L 921.6 84.96 
+L 0 84.96 
+z
+" clip-path="url(#p7828f71a3a)" style="fill: #3e1485; stroke: #3e1485; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 38.88 151.2 
+L 204.48 151.2 
+L 204.48 227.52 
+L 38.88 227.52 
+z
+" clip-path="url(#p7828f71a3a)" style="fill: #ffffff; stroke: #cabdda; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 247.68 151.2 
+L 413.28 151.2 
+L 413.28 227.52 
+L 247.68 227.52 
+z
+" clip-path="url(#p7828f71a3a)" style="fill: #ffffff; stroke: #cabdda; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 456.48 151.2 
+L 643.68 151.2 
+L 643.68 227.52 
+L 456.48 227.52 
+z
+" clip-path="url(#p7828f71a3a)" style="fill: #e7f2fa; stroke: #0072b2; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 686.88 151.2 
+L 882.72 151.2 
+L 882.72 227.52 
+L 686.88 227.52 
+z
+" clip-path="url(#p7828f71a3a)" style="fill: #e7f2fa; stroke: #0072b2; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 206.48127 189.36 
+Q 225.580693 189.36 243.003066 189.36 
+" clip-path="url(#p7828f71a3a)" style="fill: none; stroke: #655875; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 237.003066 186.36 
+L 243.003066 189.36 
+L 237.003066 192.36 
+z
+" clip-path="url(#p7828f71a3a)" style="fill: #655875; stroke: #655875; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 415.28127 189.36 
+Q 434.380693 189.36 451.803066 189.36 
+" clip-path="url(#p7828f71a3a)" style="fill: none; stroke: #655875; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 445.803066 186.36 
+L 451.803066 189.36 
+L 445.803066 192.36 
+z
+" clip-path="url(#p7828f71a3a)" style="fill: #655875; stroke: #655875; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 645.68127 189.36 
+Q 664.780693 189.36 682.203066 189.36 
+" clip-path="url(#p7828f71a3a)" style="fill: none; stroke: #655875; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 676.203066 186.36 
+L 682.203066 189.36 
+L 676.203066 192.36 
+z
+" clip-path="url(#p7828f71a3a)" style="fill: #655875; stroke: #655875; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 456.48 295.2 
+L 643.68 295.2 
+L 643.68 368.64 
+L 456.48 368.64 
+z
+" clip-path="url(#p7828f71a3a)" style="fill: #e4f4ee; stroke: #009e73; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 550.08 229.523467 
+Q 550.08 260.860521 550.08 290.520524 
+" clip-path="url(#p7828f71a3a)" style="fill: none; stroke: #009e73; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 553.08 284.520524 
+L 550.08 290.520524 
+L 547.08 284.520524 
+z
+" clip-path="url(#p7828f71a3a)" style="fill: #009e73; stroke: #009e73; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 668.00083 209.52 
+Q 675.940129 209.52 682.202378 209.52 
+" clip-path="url(#p7828f71a3a)" style="fill: none; stroke: #009e73; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 676.202378 206.52 
+L 682.202378 209.52 
+L 676.202378 212.52 
+z
+" clip-path="url(#p7828f71a3a)" style="fill: #009e73; stroke: #009e73; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 612.72 268.400391 
+Q 612.72 280.300242 612.72 290.523042 
+" clip-path="url(#p7828f71a3a)" style="fill: none; stroke: #009e73; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 615.72 284.523042 
+L 612.72 290.523042 
+L 609.72 284.523042 
+z
+" clip-path="url(#p7828f71a3a)" style="fill: #009e73; stroke: #009e73; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 686.88 318.24 
+L 882.72 318.24 
+L 882.72 385.92 
+L 686.88 385.92 
+z
+" clip-path="url(#p7828f71a3a)" style="fill: #ffffff; stroke: #cabdda; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 849.6 229.521665 
+Q 849.6 272.379541 849.6 313.560366 
+" clip-path="url(#p7828f71a3a)" style="fill: none; stroke: #655875; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 852.6 307.560366 
+L 849.6 313.560366 
+L 846.6 307.560366 
+z
+" clip-path="url(#p7828f71a3a)" style="fill: #655875; stroke: #655875; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 784.8 138.800391 
+Q 784.8 143.500194 784.8 146.522946 
+" clip-path="url(#p7828f71a3a)" style="fill: none; stroke: #655875; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 787.8 140.522946 
+L 784.8 146.522946 
+L 781.8 140.522946 
+z
+" clip-path="url(#p7828f71a3a)" style="fill: #655875; stroke: #655875; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 38.88 473.76 
+L 882.72 473.76 
+" clip-path="url(#p7828f71a3a)" style="fill: none; stroke: #cabdda; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 643.68 313.2 
+L 666 313.2 
+" clip-path="url(#p7828f71a3a)" style="fill: none; stroke: #009e73; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 666 313.2 
+L 666 209.52 
+" clip-path="url(#p7828f71a3a)" style="fill: none; stroke: #009e73; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 770.4 227.52 
+L 770.4 266.4 
+" clip-path="url(#p7828f71a3a)" style="fill: none; stroke: #009e73; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 770.4 266.4 
+L 612.72 266.4 
+" clip-path="url(#p7828f71a3a)" style="fill: none; stroke: #009e73; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 882.72 186.48 
+L 895.68 186.48 
+" clip-path="url(#p7828f71a3a)" style="fill: none; stroke: #655875; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 895.68 186.48 
+L 895.68 136.8 
+" clip-path="url(#p7828f71a3a)" style="fill: none; stroke: #655875; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_8">
+    <path d="M 895.68 136.8 
+L 784.8 136.8 
+" clip-path="url(#p7828f71a3a)" style="fill: none; stroke: #655875; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 25px; font-family: 'Arial'; text-anchor: start; fill: #ffffff" x="37.44" y="48.392812" transform="rotate(-0 37.44 48.392812)">How mlx-lm Generates a Response</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 12.5px; font-family: 'Arial'; text-anchor: start; fill: #655875" x="38.88" y="111.951445" transform="rotate(-0 38.88 111.951445)">ORDINARY GREEDY DECODING  /  Schematic overview</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9.5px; font-family: 'Arial'; text-anchor: start; fill: #655875" x="38.88" y="492.778125" transform="rotate(-0 38.88 492.778125)">Source: mlx-lm generate.py and models/cache.py. Simplified flow, not a timing result.</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Arial'; text-anchor: middle; fill: #1f1633" x="121.68" y="176.2275" transform="rotate(-0 121.68 176.2275)">Prompt</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 12px; font-family: 'Arial'; text-anchor: middle; fill: #655875" x="121.68" y="201.822188" transform="rotate(-0 121.68 201.822188)">Task, old code, feedback</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Arial'; text-anchor: middle; fill: #1f1633" x="330.48" y="176.2275" transform="rotate(-0 330.48 176.2275)">Tokenize</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 12px; font-family: 'Arial'; text-anchor: middle; fill: #655875" x="330.48" y="201.822188" transform="rotate(-0 330.48 201.822188)">Text becomes token IDs</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Arial'; text-anchor: middle; fill: #1f1633" x="550.08" y="176.2275" transform="rotate(-0 550.08 176.2275)">Prefill</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 12px; font-family: 'Arial'; text-anchor: middle; fill: #655875" x="550.08" y="201.895313" transform="rotate(-0 550.08 201.895313)">Process the prompt prefix</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Arial'; text-anchor: middle; fill: #1f1633" x="784.8" y="176.2275" transform="rotate(-0 784.8 176.2275)">Decode step</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 12px; font-family: 'Arial'; text-anchor: middle; fill: #655875" x="784.8" y="201.825" transform="rotate(-0 784.8 201.825)">Model forward + greedy choice</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Arial'; text-anchor: middle; fill: #1f1633" x="550.08" y="320.2275" transform="rotate(-0 550.08 320.2275)">KV cache</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 12px; font-family: 'Arial'; text-anchor: middle; fill: #655875" x="550.08" y="345.825" transform="rotate(-0 550.08 345.825)">Store past keys and values</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 11px; font-family: 'Arial'; text-anchor: start; fill: #009e73" x="690.48" y="254.843672" transform="rotate(-0 690.48 254.843672)">Update cache</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Arial'; text-anchor: middle; fill: #1f1633" x="784.8" y="343.2675" transform="rotate(-0 784.8 343.2675)">Return response</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 12px; font-family: 'Arial'; text-anchor: middle; fill: #655875" x="784.8" y="368.862188" transform="rotate(-0 784.8 368.862188)">Detokenize output tokens</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 12px; font-family: 'Arial'; text-anchor: start; fill: #1f1633" x="858.24" y="278.935313" transform="rotate(-0 858.24 278.935313)">Stop</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 12px; font-family: 'Arial'; text-anchor: middle; fill: #655875" x="839.52" y="130.542188" transform="rotate(-0 839.52 130.542188)">Continue</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 20px; font-family: 'Arial'; text-anchor: start; fill: #3e1485" x="38.88" y="320.66625" transform="rotate(-0 38.88 320.66625)">The cache saves prefix work.</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 17px; font-family: 'Arial'; text-anchor: start; fill: #1f1633" x="38.88" y="354.314766" transform="rotate(-0 38.88 354.314766)">Each new token still needs a model step.</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 17px; font-family: 'Arial'; text-anchor: start; fill: #1f1633" x="38.88" y="430.63875" transform="rotate(-0 38.88 430.63875)">Prefill initializes the cache. Decoding extends it as generation continues.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7828f71a3a">
+   <rect x="0" y="0" width="921.6" height="518.4"/>
+  </clipPath>
+ </defs>
+</svg>

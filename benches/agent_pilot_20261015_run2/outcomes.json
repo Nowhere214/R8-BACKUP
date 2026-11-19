@@ -1,0 +1,81 @@
+[
+  {
+    "task_id": 113,
+    "attempts": 1,
+    "initial_visible_pass": true,
+    "final_visible_pass": true,
+    "heldout": {
+      "status": "passed",
+      "passed": true,
+      "wall_s": 0.05172987503465265
+    },
+    "final_all_tests_pass": true,
+    "agent_wall_s": 0.7614120420184918,
+    "model_wall_s": 0.6617657909519039,
+    "visible_tool_wall_s": 0.09316649998072535
+  },
+  {
+    "task_id": 61,
+    "attempts": 1,
+    "initial_visible_pass": true,
+    "final_visible_pass": true,
+    "heldout": {
+      "status": "passed",
+      "passed": true,
+      "wall_s": 0.029310874990187585
+    },
+    "final_all_tests_pass": true,
+    "agent_wall_s": 1.4840667910175398,
+    "model_wall_s": 1.4439187500393018,
+    "visible_tool_wall_s": 0.03333691699663177
+  },
+  {
+    "task_id": 274,
+    "attempts": 3,
+    "initial_visible_pass": false,
+    "final_visible_pass": false,
+    "heldout": {
+      "status": "failed",
+      "passed": false,
+      "feedback": "AssertionError: even_binomial_Coeff_Sum(6) returned 126; expected 32",
+      "traceback": "Traceback (most recent call last):\n  File \"<string>\", line 22, in <module>\nAssertionError: even_binomial_Coeff_Sum(6) returned 126; expected 32\n",
+      "wall_s": 0.03144304204033688
+    },
+    "final_all_tests_pass": false,
+    "agent_wall_s": 4.778984958946239,
+    "model_wall_s": 4.672528582974337,
+    "visible_tool_wall_s": 0.09864929103059694
+  },
+  {
+    "task_id": 257,
+    "attempts": 1,
+    "initial_visible_pass": true,
+    "final_visible_pass": true,
+    "heldout": {
+      "status": "passed",
+      "passed": true,
+      "wall_s": 0.029664041008800268
+    },
+    "final_all_tests_pass": true,
+    "agent_wall_s": 0.5407022080034949,
+    "model_wall_s": 0.5093242920120247,
+    "visible_tool_wall_s": 0.02899779099971056
+  },
+  {
+    "task_id": 245,
+    "attempts": 3,
+    "initial_visible_pass": false,
+    "final_visible_pass": false,
+    "heldout": {
+      "status": "failed",
+      "passed": false,
+      "feedback": "AssertionError: ",
+      "traceback": "Traceback (most recent call last):\n  File \"<string>\", line 12, in <module>\n  File \"<string>\", line 22, in <module>\nAssertionError\n",
+      "wall_s": 0.03298445901600644
+    },
+    "final_all_tests_pass": false,
+    "agent_wall_s": 19.00933500000974,
+    "model_wall_s": 18.895601042022463,
+    "visible_tool_wall_s": 0.10081166698364541
+  }
+]

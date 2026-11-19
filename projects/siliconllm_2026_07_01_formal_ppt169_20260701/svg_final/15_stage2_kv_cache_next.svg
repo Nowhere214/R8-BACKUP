@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F4EFFA" />
+  <g id="header">
+    <text x="64" y="62" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#6B4CA3" font-weight="700">NEXT STEP</text>
+    <text x="64" y="102" font-family="Arial, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" fill="#1F1633">Stage 2 should remove full-context decode first</text>
+    <path fill="#FFFFFF" stroke="#D6CBE8" d="M72,126 H1208 A8,8 0 0 1 1216,134 V182 A8,8 0 0 1 1208,190 H72 A8,8 0 0 1 64,182 V134 A8,8 0 0 1 72,126 Z" />
+    <text font-size="19" font-family="Arial, Microsoft YaHei, sans-serif" fill="#3E1485" x="88" y="151">The profiler points to KV-cache as the next controlled intervention</text><text font-size="19" font-family="Arial, Microsoft YaHei, sans-serif" fill="#3E1485" x="88" y="176">before lower-level kernel optimization.</text></g>
+  <g id="purple-titlebar">
+    <rect x="0" y="0" width="1190" height="118" fill="#3E1485" />
+    <rect x="1190" y="0" width="90" height="118" fill="#9E89C2" />
+    <text x="64" y="43" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#FFFFFF" font-weight="700">NEXT STEP</text>
+    <text x="64" y="84" font-family="Arial, Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">Stage 2 should remove full-context decode first</text>
+    <text x="1235" y="70" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="27" font-weight="700" fill="#FFFFFF">15</text>
+  </g>
+  <g id="roadmap">
+    <path fill="#FFFFFF" stroke="#D6CBE8" d="M90,220 H404 A8,8 0 0 1 412,228 V472 A8,8 0 0 1 404,480 H90 A8,8 0 0 1 82,472 V228 A8,8 0 0 1 90,220 Z" />
+    
+  <g transform="translate(118.0, 258.0) scale(1.5)" fill="none" stroke="#3E1485" stroke-width="2">
+    <path d="M3 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+    <path d="M19 7a2 2 0 1 0 0 -4a2 2 0 0 0 0 4" />
+    <path d="M11 19h5.5a3.5 3.5 0 0 0 0 -7h-8a3.5 3.5 0 0 1 0 -7h4.5" />
+  </g>
+    <text x="118" y="338" font-family="Arial, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#1F1633">1. Add KV-cache</text>
+    <text font-size="18" font-family="Arial, Microsoft YaHei, sans-serif" fill="#4B405D" x="118" y="394">Keep token outputs stable.</text><text font-size="18" font-family="Arial, Microsoft YaHei, sans-serif" fill="#4B405D" x="118" y="424">Check shape and cache state.</text><g transform="translate(434.0, 332.0) scale(1.6666666666666667)" fill="none" stroke="#6F6280" stroke-width="2">
+    <path d="M5 12l14 0" />
+    <path d="M13 18l6 -6" />
+    <path d="M13 6l6 6" />
+  </g>
+    <path fill="#FFFFFF" stroke="#D6CBE8" d="M504,220 H818 A8,8 0 0 1 826,228 V472 A8,8 0 0 1 818,480 H504 A8,8 0 0 1 496,472 V228 A8,8 0 0 1 504,220 Z" />
+    
+  <g transform="translate(532.0, 258.0) scale(1.5)" fill="none" stroke="#6B4CA3" stroke-width="2">
+    <path d="M4 19l16 0" />
+    <path d="M4 15l4 -6l4 2l4 -5l4 4" />
+  </g>
+    <text x="532" y="338" font-family="Arial, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#1F1633">2. Benchmark again</text>
+    <text font-size="18" font-family="Arial, Microsoft YaHei, sans-serif" fill="#4B405D" x="532" y="394">Compare Stage 1 and Stage 2</text><text font-size="18" font-family="Arial, Microsoft YaHei, sans-serif" fill="#4B405D" x="532" y="424">under the same workloads.</text><g transform="translate(848.0, 332.0) scale(1.6666666666666667)" fill="none" stroke="#6F6280" stroke-width="2">
+    <path d="M5 12l14 0" />
+    <path d="M13 18l6 -6" />
+    <path d="M13 6l6 6" />
+  </g>
+    <path fill="#FFFFFF" stroke="#D6CBE8" d="M918,220 H1188 A8,8 0 0 1 1196,228 V472 A8,8 0 0 1 1188,480 H918 A8,8 0 0 1 910,472 V228 A8,8 0 0 1 918,220 Z" />
+    
+  <g transform="translate(946.0, 258.0) scale(1.5)" fill="none" stroke="#9E89C2" stroke-width="2">
+    <path d="M3 12h4l3 8l4 -16l3 8h4" />
+  </g>
+    <text x="946" y="338" font-family="Arial, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#1F1633">3. Re-profile</text>
+    <text font-size="18" font-family="Arial, Microsoft YaHei, sans-serif" fill="#4B405D" x="946" y="394">Confirm which cost moves</text><text font-size="18" font-family="Arial, Microsoft YaHei, sans-serif" fill="#4B405D" x="946" y="424">after caching is enabled.</text></g>
+  <g id="later">
+    <path fill="#F4EBDD" d="M198,548 H1082 A8,8 0 0 1 1090,556 V598 A8,8 0 0 1 1082,606 H198 A8,8 0 0 1 190,598 V556 A8,8 0 0 1 198,548 Z" />
+    <text font-size="21" font-family="Arial, Microsoft YaHei, sans-serif" font-weight="700" fill="#7A4B00" x="224" y="572">Only after this: quantized matmul, Flash Attention style kernels,</text><text font-size="21" font-family="Arial, Microsoft YaHei, sans-serif" font-weight="700" fill="#7A4B00" x="224" y="600">and Metal-level tuning.</text></g>
+  <g id="footer">
+    <text x="64" y="675" font-family="Arial, Microsoft YaHei, sans-serif" font-size="11" fill="#6F6280">Source: Stage 1 profiling result and planned Stage 2 KV-cache work</text>
+    <text x="1190" y="675" font-family="Arial, Microsoft YaHei, sans-serif" font-size="11" fill="#6F6280">15 / 16</text>
+  </g>
+</svg>

@@ -1,0 +1,432 @@
+[
+  {
+    "id": "mbpp/598",
+    "dataset": "mbpp",
+    "split": "calibration",
+    "prompt": "Write a function to check whether the given number is armstrong or not.",
+    "test_list": [
+      "assert armstrong_number(153)==True"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert armstrong_number(259)==False",
+      "assert armstrong_number(4458)==False"
+    ]
+  },
+  {
+    "id": "mbpp/562",
+    "dataset": "mbpp",
+    "split": "calibration",
+    "prompt": "Write a python function to find the length of the longest sublists.",
+    "test_list": [
+      "assert Find_Max_Length([[1],[1,4],[5,6,7,8]]) == 4"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert Find_Max_Length([[0,1],[2,2,],[3,2,1]]) == 3",
+      "assert Find_Max_Length([[7],[22,23],[13,14,15],[10,20,30,40,50]]) == 5"
+    ]
+  },
+  {
+    "id": "mbpp/555",
+    "dataset": "mbpp",
+    "split": "calibration",
+    "prompt": "Write a python function to find the difference between the sum of cubes of the first n natural numbers and the sum of the first n natural numbers.",
+    "test_list": [
+      "assert difference(3) == 30"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert difference(5) == 210",
+      "assert difference(2) == 6"
+    ]
+  },
+  {
+    "id": "mbpp/574",
+    "dataset": "mbpp",
+    "split": "calibration",
+    "prompt": "Write a function to find the surface area of a cylinder.",
+    "test_list": [
+      "assert surfacearea_cylinder(10,5)==942.45"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert surfacearea_cylinder(4,5)==226.18800000000002",
+      "assert surfacearea_cylinder(4,10)==351.848"
+    ]
+  },
+  {
+    "id": "mbpp/572",
+    "dataset": "mbpp",
+    "split": "calibration",
+    "prompt": "Write a python function to remove duplicate numbers from a given number of lists.",
+    "test_list": [
+      "assert two_unique_nums([1,2,3,2,3,4,5]) == [1, 4, 5]"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert two_unique_nums([1,2,3,2,4,5]) == [1, 3, 4, 5]",
+      "assert two_unique_nums([1,2,3,4,5]) == [1, 2, 3, 4, 5]"
+    ]
+  },
+  {
+    "id": "mbpp/569",
+    "dataset": "mbpp",
+    "split": "calibration",
+    "prompt": "Write a function to sort each sublist of strings in a given list of lists.",
+    "test_list": [
+      "assert sort_sublists([['green', 'orange'], ['black', 'white'], ['white', 'black', 'orange']])==[['green', 'orange'], ['black', 'white'], ['black', 'orange', 'white']]"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert sort_sublists([['green', 'orange'], ['black'], ['green', 'orange'], ['white']])==[['green', 'orange'], ['black'], ['green', 'orange'], ['white']]",
+      "assert sort_sublists([['a','b'],['d','c'],['g','h'] , ['f','e']])==[['a', 'b'], ['c', 'd'], ['g', 'h'], ['e', 'f']]"
+    ]
+  },
+  {
+    "id": "mbpp/563",
+    "dataset": "mbpp",
+    "split": "calibration",
+    "prompt": "Write a function to extract values between quotation marks from a string.",
+    "test_list": [
+      "assert extract_values('\"Python\", \"PHP\", \"Java\"')==['Python', 'PHP', 'Java']"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert extract_values('\"python\",\"program\",\"language\"')==['python','program','language']",
+      "assert extract_values('\"red\",\"blue\",\"green\",\"yellow\"')==['red','blue','green','yellow']"
+    ]
+  },
+  {
+    "id": "mbpp/560",
+    "dataset": "mbpp",
+    "split": "calibration",
+    "prompt": "Write a function to find the union of the elements of two given tuples and output them in sorted order.",
+    "test_list": [
+      "assert union_elements((3, 4, 5, 6),(5, 7, 4, 10) ) == (3, 4, 5, 6, 7, 10)"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert union_elements((1, 2, 3, 4),(3, 4, 5, 6) ) == (1, 2, 3, 4, 5, 6)",
+      "assert union_elements((11, 12, 13, 14),(13, 15, 16, 17) ) == (11, 12, 13, 14, 15, 16, 17)"
+    ]
+  },
+  {
+    "id": "mbpp/592",
+    "dataset": "mbpp",
+    "split": "calibration",
+    "prompt": "Write a python function to find the sum of the product of consecutive binomial co-efficients.",
+    "test_list": [
+      "assert sum_Of_product(3) == 15"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert sum_Of_product(4) == 56",
+      "assert sum_Of_product(1) == 1"
+    ]
+  },
+  {
+    "id": "mbpp/559",
+    "dataset": "mbpp",
+    "split": "calibration",
+    "prompt": "Write a function to find the sum of the largest contiguous sublist in the given list.",
+    "test_list": [
+      "assert max_sub_array_sum([-2, -3, 4, -1, -2, 1, 5, -3], 8) == 7"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert max_sub_array_sum([-3, -4, 5, -2, -3, 2, 6, -4], 8) == 8",
+      "assert max_sub_array_sum([-4, -5, 6, -3, -4, 3, 7, -5], 8) == 10"
+    ]
+  },
+  {
+    "id": "mbpp/443",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a python function to find the largest negative number from the given list.",
+    "test_list": [
+      "assert largest_neg([1,2,3,-4,-6]) == -6"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert largest_neg([1,2,3,-8,-9]) == -9",
+      "assert largest_neg([1,2,3,4,-1]) == -1"
+    ]
+  },
+  {
+    "id": "mbpp/129",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to calculate whether the matrix is a magic square.",
+    "test_list": [
+      "assert magic_square_test([[7, 12, 1, 14], [2, 13, 8, 11], [16, 3, 10, 5], [9, 6, 15, 4]])==True"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert magic_square_test([[2, 7, 6], [9, 5, 1], [4, 3, 8]])==True",
+      "assert magic_square_test([[2, 7, 6], [9, 5, 1], [4, 3, 7]])==False"
+    ]
+  },
+  {
+    "id": "mbpp/88",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to get the frequency of all the elements in a list, returned as a dictionary.",
+    "test_list": [
+      "assert freq_count([10,10,10,10,20,20,20,20,40,40,50,50,30])==({10: 4, 20: 4, 40: 2, 50: 2, 30: 1})"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert freq_count([1,2,3,4,3,2,4,1,3,1,4])==({1:3, 2:2,3:3,4:3})",
+      "assert freq_count([5,6,7,4,9,10,4,5,6,7,9,5])==({10:1,5:3,6:2,7:2,4:2,9:2})"
+    ]
+  },
+  {
+    "id": "mbpp/251",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function that takes in a list and an element and inserts the element before each element in the list, and returns the resulting list.",
+    "test_list": [
+      "assert insert_element(['Red', 'Green', 'Black'] ,'c')==['c', 'Red', 'c', 'Green', 'c', 'Black']"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert insert_element(['python', 'java'] ,'program')==['program', 'python', 'program', 'java']",
+      "assert insert_element(['happy', 'sad'] ,'laugh')==['laugh', 'happy', 'laugh', 'sad']"
+    ]
+  },
+  {
+    "id": "mbpp/464",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to check if all values are same in a dictionary.",
+    "test_list": [
+      "assert check_value({'Cierra Vega': 12, 'Alden Cantrell': 12, 'Kierra Gentry': 12, 'Pierre Cox': 12},10)==False"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert check_value({'Cierra Vega': 12, 'Alden Cantrell': 12, 'Kierra Gentry': 12, 'Pierre Cox': 12},12)==True",
+      "assert check_value({'Cierra Vega': 12, 'Alden Cantrell': 12, 'Kierra Gentry': 12, 'Pierre Cox': 12},5)==False"
+    ]
+  },
+  {
+    "id": "mbpp/56",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a python function to check if a given number is one less than twice its reverse.",
+    "test_list": [
+      "assert check(70) == False"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert check(23) == False",
+      "assert check(73) == True"
+    ]
+  },
+  {
+    "id": "mbpp/138",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a python function to check whether the given number can be represented as sum of non-zero powers of 2 or not.",
+    "test_list": [
+      "assert is_Sum_Of_Powers_Of_Two(10) == True"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert is_Sum_Of_Powers_Of_Two(7) == False",
+      "assert is_Sum_Of_Powers_Of_Two(14) == True"
+    ]
+  },
+  {
+    "id": "mbpp/422",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a python function to find the average of cubes of first n natural numbers.",
+    "test_list": [
+      "assert find_Average_Of_Cube(2) == 4.5"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert find_Average_Of_Cube(3) == 12",
+      "assert find_Average_Of_Cube(1) == 1"
+    ]
+  },
+  {
+    "id": "mbpp/77",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a python function to find whether a number is divisible by 11.",
+    "test_list": [
+      "assert is_Diff (12345) == False"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert is_Diff(1212112) == True",
+      "assert is_Diff(1212) == False"
+    ]
+  },
+  {
+    "id": "mbpp/465",
+    "dataset": "mbpp",
+    "split": "evaluation",
+    "prompt": "Write a function to drop empty items from a given dictionary.",
+    "test_list": [
+      "assert drop_empty({'c1': 'Red', 'c2': 'Green', 'c3':None})=={'c1': 'Red', 'c2': 'Green'}"
+    ],
+    "test_imports": [],
+    "heldout_tests": [
+      "assert drop_empty({'c1': 'Red', 'c2': None, 'c3':None})=={'c1': 'Red'}",
+      "assert drop_empty({'c1': None, 'c2': 'Green', 'c3':None})=={ 'c2': 'Green'}"
+    ]
+  },
+  {
+    "id": "humaneval/158",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\ndef find_max(words):\n    \"\"\"Write a function that accepts a list of strings.\n    The list contains different words. Return the word with maximum number\n    of unique characters. If multiple strings have maximum number of unique\n    characters, return the one which comes first in lexicographical order.\n\n    find_max([\"name\", \"of\", \"string\"]) == \"string\"\n    find_max([\"name\", \"enam\", \"game\"]) == \"enam\"\n    find_max([\"aaaaaaa\", \"bb\" ,\"cc\"]) == \"\"aaaaaaa\"\n    \"\"\"\n",
+    "test_list": [
+      "assert find_max(['name', 'of', 'string']) == 'string'"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "def check(candidate):\n\n    # Check some simple cases\n    assert (candidate([\"name\", \"of\", \"string\"]) == \"string\"), \"t1\"\n    assert (candidate([\"name\", \"enam\", \"game\"]) == \"enam\"), 't2'\n    assert (candidate([\"aaaaaaa\", \"bb\", \"cc\"]) == \"aaaaaaa\"), 't3'\n    assert (candidate([\"abc\", \"cba\"]) == \"abc\"), 't4'\n    assert (candidate([\"play\", \"this\", \"game\", \"of\",\"footbott\"]) == \"footbott\"), 't5'\n    assert (candidate([\"we\", \"are\", \"gonna\", \"rock\"]) == \"gonna\"), 't6'\n    assert (candidate([\"we\", \"are\", \"a\", \"mad\", \"nation\"]) == \"nation\"), 't7'\n    assert (candidate([\"this\", \"is\", \"a\", \"prrk\"]) == \"this\"), 't8'\n\n    # Check some edge cases that are easy to work out by hand.\n    assert (candidate([\"b\"]) == \"b\"), 't9'\n    assert (candidate([\"play\", \"play\", \"play\"]) == \"play\"), 't10'\n\n\ncheck(find_max)"
+    ]
+  },
+  {
+    "id": "humaneval/12",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\nfrom typing import List, Optional\n\n\ndef longest(strings: List[str]) -> Optional[str]:\n    \"\"\" Out of list of strings, return the longest one. Return the first one in case of multiple\n    strings of the same length. Return None in case the input list is empty.\n    >>> longest([])\n\n    >>> longest(['a', 'b', 'c'])\n    'a'\n    >>> longest(['a', 'bb', 'ccc'])\n    'ccc'\n    \"\"\"\n",
+    "test_list": [
+      "assert longest(['a', 'b', 'c']) == 'a'"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "\n\nMETADATA = {\n    'author': 'jt',\n    'dataset': 'test'\n}\n\n\ndef check(candidate):\n    assert candidate([]) == None\n    assert candidate(['x', 'y', 'z']) == 'x'\n    assert candidate(['x', 'yyy', 'zzzz', 'www', 'kkkk', 'abc']) == 'zzzz'\n\ncheck(longest)"
+    ]
+  },
+  {
+    "id": "humaneval/152",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\ndef compare(game,guess):\n    \"\"\"I think we all remember that feeling when the result of some long-awaited\n    event is finally known. The feelings and thoughts you have at that moment are\n    definitely worth noting down and comparing.\n    Your task is to determine if a person correctly guessed the results of a number of matches.\n    You are given two arrays of scores and guesses of equal length, where each index shows a match. \n    Return an array of the same length denoting how far off each guess was. If they have guessed correctly,\n    the value is 0, and if not, the value is the absolute difference between the guess and the score.\n    \n    \n    example:\n\n    compare([1,2,3,4,5,1],[1,2,3,4,2,-2]) -> [0,0,0,0,3,3]\n    compare([0,5,0,0,0,4],[4,1,1,0,0,-2]) -> [4,4,1,0,0,6]\n    \"\"\"\n",
+    "test_list": [
+      "assert compare([1, 2, 3, 4, 5, 1], [1, 2, 3, 4, 2, -2]) == [0, 0, 0, 0, 3, 3]"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "def check(candidate):\n\n    # Check some simple cases\n    assert candidate([1,2,3,4,5,1],[1,2,3,4,2,-2])==[0,0,0,0,3,3], \"This prints if this assert fails 1 (good for debugging!)\"\n    assert candidate([0,0,0,0,0,0],[0,0,0,0,0,0])==[0,0,0,0,0,0], \"This prints if this assert fails 1 (good for debugging!)\"\n    assert candidate([1,2,3],[-1,-2,-3])==[2,4,6], \"This prints if this assert fails 1 (good for debugging!)\"\n    assert candidate([1,2,3,5],[-1,2,3,4])==[2,0,0,1], \"This prints if this assert fails 1 (good for debugging!)\"\n\n    # Check some edge cases that are easy to work out by hand.\n    assert True, \"This prints if this assert fails 2 (also good for debugging!)\"\n\n\ncheck(compare)"
+    ]
+  },
+  {
+    "id": "humaneval/48",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\n\ndef is_palindrome(text: str):\n    \"\"\"\n    Checks if given string is a palindrome\n    >>> is_palindrome('')\n    True\n    >>> is_palindrome('aba')\n    True\n    >>> is_palindrome('aaaaa')\n    True\n    >>> is_palindrome('zbcd')\n    False\n    \"\"\"\n",
+    "test_list": [
+      "assert is_palindrome('') == True"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "\n\nMETADATA = {}\n\n\ndef check(candidate):\n    assert candidate('') == True\n    assert candidate('aba') == True\n    assert candidate('aaaaa') == True\n    assert candidate('zbcd') == False\n    assert candidate('xywyx') == True\n    assert candidate('xywyz') == False\n    assert candidate('xywzx') == False\n\n\ncheck(is_palindrome)"
+    ]
+  },
+  {
+    "id": "humaneval/10",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\n\ndef is_palindrome(string: str) -> bool:\n    \"\"\" Test if given string is a palindrome \"\"\"\n    return string == string[::-1]\n\n\ndef make_palindrome(string: str) -> str:\n    \"\"\" Find the shortest palindrome that begins with a supplied string.\n    Algorithm idea is simple:\n    - Find the longest postfix of supplied string that is a palindrome.\n    - Append to the end of the string reverse of a string prefix that comes before the palindromic suffix.\n    >>> make_palindrome('')\n    ''\n    >>> make_palindrome('cat')\n    'catac'\n    >>> make_palindrome('cata')\n    'catac'\n    \"\"\"\n",
+    "test_list": [
+      "assert make_palindrome('') == ''"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "\n\nMETADATA = {\n    'author': 'jt',\n    'dataset': 'test'\n}\n\n\ndef check(candidate):\n    assert candidate('') == ''\n    assert candidate('x') == 'x'\n    assert candidate('xyz') == 'xyzyx'\n    assert candidate('xyx') == 'xyx'\n    assert candidate('jerry') == 'jerryrrej'\n\ncheck(make_palindrome)"
+    ]
+  },
+  {
+    "id": "humaneval/127",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\ndef intersection(interval1, interval2):\n    \"\"\"You are given two intervals,\n    where each interval is a pair of integers. For example, interval = (start, end) = (1, 2).\n    The given intervals are closed which means that the interval (start, end)\n    includes both start and end.\n    For each given interval, it is assumed that its start is less or equal its end.\n    Your task is to determine whether the length of intersection of these two \n    intervals is a prime number.\n    Example, the intersection of the intervals (1, 3), (2, 4) is (2, 3)\n    which its length is 1, which not a prime number.\n    If the length of the intersection is a prime number, return \"YES\",\n    otherwise, return \"NO\".\n    If the two intervals don't intersect, return \"NO\".\n\n\n    [input/output] samples:\n    intersection((1, 2), (2, 3)) ==> \"NO\"\n    intersection((-1, 1), (0, 4)) ==> \"NO\"\n    intersection((-3, -1), (-5, 5)) ==> \"YES\"\n    \"\"\"\n",
+    "test_list": [
+      "assert intersection((1, 2), (2, 3)) == 'NO'"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "def check(candidate):\n\n    # Check some simple cases\n    assert candidate((1, 2), (2, 3)) == \"NO\"\n    assert candidate((-1, 1), (0, 4)) == \"NO\"\n    assert candidate((-3, -1), (-5, 5)) == \"YES\"\n    assert candidate((-2, 2), (-4, 0)) == \"YES\"\n\n    # Check some edge cases that are easy to work out by hand.\n    assert candidate((-11, 2), (-1, -1)) == \"NO\"\n    assert candidate((1, 2), (3, 5)) == \"NO\"\n    assert candidate((1, 2), (1, 2)) == \"NO\"\n    assert candidate((-2, -2), (-3, -2)) == \"NO\"\n\n\ncheck(intersection)"
+    ]
+  },
+  {
+    "id": "humaneval/32",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\nimport math\n\n\ndef poly(xs: list, x: float):\n    \"\"\"\n    Evaluates polynomial with coefficients xs at point x.\n    return xs[0] + xs[1] * x + xs[1] * x^2 + .... xs[n] * x^n\n    \"\"\"\n    return sum([coeff * math.pow(x, i) for i, coeff in enumerate(xs)])\n\n\ndef find_zero(xs: list):\n    \"\"\" xs are coefficients of a polynomial.\n    find_zero find x such that poly(x) = 0.\n    find_zero returns only only zero point, even if there are many.\n    Moreover, find_zero only takes list xs having even number of coefficients\n    and largest non zero coefficient as it guarantees\n    a solution.\n    >>> round(find_zero([1, 2]), 2) # f(x) = 1 + 2x\n    -0.5\n    >>> round(find_zero([-6, 11, -6, 1]), 2) # (x - 1) * (x - 2) * (x - 3) = -6 + 11x - 6x^2 + x^3\n    1.0\n    \"\"\"\n",
+    "test_list": [
+      "assert round(find_zero([1, 2]), 2) == -0.5"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "\n\nMETADATA = {}\n\n\ndef check(candidate):\n    import math\n    import random\n    rng = random.Random(42)\n    import copy\n    for _ in range(100):\n        ncoeff = 2 * rng.randint(1, 4)\n        coeffs = []\n        for _ in range(ncoeff):\n            coeff = rng.randint(-10, 10)\n            if coeff == 0:\n                coeff = 1\n            coeffs.append(coeff)\n        solution = candidate(copy.deepcopy(coeffs))\n        assert math.fabs(poly(coeffs, solution)) < 1e-4\n\n\ncheck(find_zero)"
+    ]
+  },
+  {
+    "id": "humaneval/75",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\ndef is_multiply_prime(a):\n    \"\"\"Write a function that returns true if the given number is the multiplication of 3 prime numbers\n    and false otherwise.\n    Knowing that (a) is less then 100. \n    Example:\n    is_multiply_prime(30) == True\n    30 = 2 * 3 * 5\n    \"\"\"\n",
+    "test_list": [
+      "assert is_multiply_prime(30) == True"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "def check(candidate):\n\n    assert candidate(5) == False\n    assert candidate(30) == True\n    assert candidate(8) == True\n    assert candidate(10) == False\n    assert candidate(125) == True\n    assert candidate(3 * 5 * 7) == True\n    assert candidate(3 * 6 * 7) == False\n    assert candidate(9 * 9 * 9) == False\n    assert candidate(11 * 9 * 9) == False\n    assert candidate(11 * 13 * 7) == True\n\n\ncheck(is_multiply_prime)"
+    ]
+  },
+  {
+    "id": "humaneval/61",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\n\ndef correct_bracketing(brackets: str):\n    \"\"\" brackets is a string of \"(\" and \")\".\n    return True if every opening bracket has a corresponding closing bracket.\n\n    >>> correct_bracketing(\"(\")\n    False\n    >>> correct_bracketing(\"()\")\n    True\n    >>> correct_bracketing(\"(()())\")\n    True\n    >>> correct_bracketing(\")(()\")\n    False\n    \"\"\"\n",
+    "test_list": [
+      "assert correct_bracketing('(') == False"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "\n\nMETADATA = {}\n\n\ndef check(candidate):\n    assert candidate(\"()\")\n    assert candidate(\"(()())\")\n    assert candidate(\"()()(()())()\")\n    assert candidate(\"()()((()()())())(()()(()))\")\n    assert not candidate(\"((()())))\")\n    assert not candidate(\")(()\")\n    assert not candidate(\"(\")\n    assert not candidate(\"((((\")\n    assert not candidate(\")\")\n    assert not candidate(\"(()\")\n    assert not candidate(\"()()(()())())(()\")\n    assert not candidate(\"()()(()())()))()\")\n\n\ncheck(correct_bracketing)"
+    ]
+  },
+  {
+    "id": "humaneval/103",
+    "dataset": "humaneval",
+    "split": "evaluation",
+    "prompt": "Implement the complete Python function below, including its signature.\n\n\ndef rounded_avg(n, m):\n    \"\"\"You are given two positive integers n and m, and your task is to compute the\n    average of the integers from n through m (including n and m). \n    Round the answer to the nearest integer and convert that to binary.\n    If n is greater than m, return -1.\n    Example:\n    rounded_avg(1, 5) => \"0b11\"\n    rounded_avg(7, 5) => -1\n    rounded_avg(10, 20) => \"0b1111\"\n    rounded_avg(20, 33) => \"0b11010\"\n    \"\"\"\n",
+    "test_list": [
+      "assert rounded_avg(1, 5) == '0b11'"
+    ],
+    "test_imports": [
+      "from typing import *"
+    ],
+    "heldout_tests": [
+      "def check(candidate):\n\n    # Check some simple cases\n    assert candidate(1, 5) == \"0b11\"\n    assert candidate(7, 13) == \"0b1010\"\n    assert candidate(964,977) == \"0b1111001010\"\n    assert candidate(996,997) == \"0b1111100100\"\n    assert candidate(560,851) == \"0b1011000010\"\n    assert candidate(185,546) == \"0b101101110\"\n    assert candidate(362,496) == \"0b110101101\"\n    assert candidate(350,902) == \"0b1001110010\"\n    assert candidate(197,233) == \"0b11010111\"\n\n\n    # Check some edge cases that are easy to work out by hand.\n    assert candidate(7, 5) == -1\n    assert candidate(5, 1) == -1\n    assert candidate(5, 5) == \"0b101\"\n\n\ncheck(rounded_avg)"
+    ]
+  }
+]

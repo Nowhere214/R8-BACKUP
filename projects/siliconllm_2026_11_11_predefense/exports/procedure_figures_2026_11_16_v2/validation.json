@@ -1,0 +1,26 @@
+[
+  {
+    "figure": "01_mlx_lm_procedure",
+    "text_bounds": "passed",
+    "text_overlap": "none",
+    "labels": 16
+  },
+  {
+    "figure": "02_history_integration_plan",
+    "text_bounds": "passed",
+    "text_overlap": "none",
+    "labels": 13
+  },
+  {
+    "figure": "03_mlx_lm_cache_recovery",
+    "text_bounds": "passed",
+    "text_overlap": "none",
+    "labels": 30
+  },
+  {
+    "figure": "04_cost_score_and_recovery",
+    "text_bounds": "passed",
+    "text_overlap": "none",
+    "labels": 17
+  }
+]

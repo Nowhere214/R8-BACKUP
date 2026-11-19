@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+  <g id="header">
+    <text x="64" y="62" font-family='Arial, Microsoft YaHei, sans-serif' font-size="15" fill="#0F766E" font-weight="700">PHASE 1 IMPLEMENTATION</text>
+    <text x="64" y="102" font-family='Arial, Microsoft YaHei, sans-serif' font-size="34" font-weight="700" fill="#0F172A">Stage 1 is implemented and targeted tests pass</text>
+  </g>
+  <g id="implementation">
+    <rect x="78" y="154" width="520" height="430" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <use data-icon="tabler-outline/code" x="112" y="194" width="36" height="36" fill="#1E3A5F" stroke-width="2"/>
+    <text x="166" y="220" font-family='Arial, Microsoft YaHei, sans-serif' font-size="22" font-weight="700" fill="#0F172A">Implemented components</text>
+    <path d="M112 258 H562" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="112" y="312" font-family='Arial, Microsoft YaHei, sans-serif' font-size="19" fill="#0F172A">
+      <tspan x="112" dy="0">• attention and linear layers</tspan>
+      <tspan x="112" dy="38">• RoPE and grouped-query attention</tspan>
+      <tspan x="112" dy="38">• RMSNorm and MLP</tspan>
+      <tspan x="112" dy="38">• Qwen2 block and model wrapper</tspan>
+      <tspan x="112" dy="38">• generation with temperature, top-k, top-p</tspan>
+    </text>
+    <rect x="112" y="514" width="396" height="42" rx="6" fill="#DBEAFE"/>
+    <text x="132" y="541" font-family='Arial, Microsoft YaHei, sans-serif' font-size="15" font-weight="700" fill="#1E3A5F">Scope: faithful baseline, not optimized decode yet.</text>
+  </g>
+  <g id="validation">
+    <rect x="682" y="154" width="520" height="430" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <use data-icon="tabler-outline/checklist" x="716" y="194" width="36" height="36" fill="#15803D" stroke-width="2"/>
+    <text x="770" y="220" font-family='Arial, Microsoft YaHei, sans-serif' font-size="22" font-weight="700" fill="#0F172A">Validation status</text>
+    <path d="M716 258 H1166" stroke="#CBD5E1" stroke-width="1"/>
+    <g id="validation-rows">
+      <circle cx="734" cy="314" r="9" fill="#D1FAE5" stroke="#15803D"/>
+      <text x="758" y="321" font-family='Arial, Microsoft YaHei, sans-serif' font-size="19" fill="#0F172A">core tensor and module checks</text>
+      <text x="1104" y="321" font-family='Consolas, Courier New, monospace' font-size="18" font-weight="700" fill="#15803D">36</text>
+      <circle cx="734" cy="366" r="9" fill="#D1FAE5" stroke="#15803D"/>
+      <text x="758" y="373" font-family='Arial, Microsoft YaHei, sans-serif' font-size="19" fill="#0F172A">attention and model-path checks</text>
+      <text x="1104" y="373" font-family='Consolas, Courier New, monospace' font-size="18" font-weight="700" fill="#15803D">98</text>
+      <circle cx="734" cy="418" r="9" fill="#D1FAE5" stroke="#15803D"/>
+      <text x="758" y="425" font-family='Arial, Microsoft YaHei, sans-serif' font-size="19" fill="#0F172A">Qwen2 safe subset</text>
+      <text x="1104" y="425" font-family='Consolas, Courier New, monospace' font-size="18" font-weight="700" fill="#15803D">12</text>
+      <circle cx="734" cy="470" r="9" fill="#D1FAE5" stroke="#15803D"/>
+      <text x="758" y="477" font-family='Arial, Microsoft YaHei, sans-serif' font-size="19" fill="#0F172A">Qwen2 1.5B smoke subset</text>
+      <text x="1104" y="477" font-family='Consolas, Courier New, monospace' font-size="18" font-weight="700" fill="#15803D">2</text>
+    </g>
+    <rect x="716" y="514" width="396" height="42" rx="6" fill="#D1FAE5"/>
+    <text x="736" y="541" font-family='Arial, Microsoft YaHei, sans-serif' font-size="15" font-weight="700" fill="#0F766E">Model-dependent tests skip when local models are absent.</text>
+  </g>
+  <g id="footer">
+    <text x="64" y="675" font-family='Arial, Microsoft YaHei, sans-serif' font-size="11" fill="#64748B">Source: FORMAL_PROGRESS_UPDATE_2026-07-01_EN.md; targeted Stage 1 test logs</text>
+    <text x="1190" y="675" font-family='Arial, Microsoft YaHei, sans-serif' font-size="11" fill="#64748B">11 / 16</text>
+  </g>
+</svg>

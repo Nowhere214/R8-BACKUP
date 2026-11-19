@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F8FAFC"/>
+  <g id="background-grid">
+    <path d="M70 610 H1210" stroke="#CBD5E1" stroke-width="1"/>
+    <path d="M70 110 H1210" stroke="#CBD5E1" stroke-width="1"/>
+    <circle cx="1105" cy="180" r="86" fill="#DBEAFE"/>
+    <circle cx="1125" cy="200" r="54" fill="#D1FAE5"/>
+    <rect x="82" y="122" width="9" height="398" fill="#1E3A5F"/>
+    <rect x="96" y="122" width="9" height="268" fill="#0F766E"/>
+    <rect x="110" y="122" width="9" height="150" fill="#D97706"/>
+  </g>
+  <g id="title-block">
+    <text x="150" y="235" font-family="Arial, Microsoft YaHei, sans-serif" font-size="76" font-weight="700" fill="#0F172A">
+      Efficient LLM Inference
+    </text>
+    <text x="150" y="318" font-family="Arial, Microsoft YaHei, sans-serif" font-size="76" font-weight="700" fill="#1E3A5F">
+      on Apple Silicon
+    </text>
+    <text x="153" y="374" font-family="Arial, Microsoft YaHei, sans-serif" font-size="25" fill="#475569">
+      Formal progress update: from decode-gap diagnosis to baseline validation
+    </text>
+  </g>
+  <g id="meta-block">
+    <rect x="150" y="460" width="520" height="86" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="180" y="496" font-family="Arial, Microsoft YaHei, sans-serif" font-size="19" font-weight="700" fill="#0F172A">SiliconLLM research progress</text>
+    <text x="180" y="526" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#64748B">WANG Peiran · 2026-07-01 · Tohoku University</text>
+  </g>
+  <g id="right-kpi">
+    <rect x="836" y="426" width="310" height="120" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="866" y="464" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#64748B">Today&apos;s main claim</text>
+    <text x="866" y="508" font-family="Arial, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" fill="#0F766E">Measure → Explain → Validate</text>
+  </g>
+  <g id="footer">
+    <text x="70" y="675" font-family="Arial, Microsoft YaHei, sans-serif" font-size="11" fill="#64748B">Source: local SiliconLLM benchmark logs and formal progress draft</text>
+    <text x="1190" y="675" font-family="Arial, Microsoft YaHei, sans-serif" font-size="11" fill="#64748B">01 / 16</text>
+  </g>
+</svg>

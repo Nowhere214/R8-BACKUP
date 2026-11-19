@@ -1,0 +1,482 @@
+[
+  {
+    "id": "humaneval/0",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/100",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/104",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/106",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/113",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/114",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/117",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/119",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/124",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/13",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/136",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/138",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/14",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/141",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/146",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/155",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/16",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/163",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/17",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/20",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/21",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/23",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/24",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/3",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/31",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/35",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/36",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/37",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/4",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/44",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/45",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/46",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/49",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/5",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/55",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/57",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/6",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/62",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/64",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/66",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/70",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/73",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/80",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/85",
+    "split": "evaluation"
+  },
+  {
+    "id": "humaneval/87",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/11",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/115",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/118",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/125",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/127",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/132",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/135",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/137",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/14",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/141",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/143",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/16",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/163",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/166",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/17",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/170",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/171",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/172",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/226",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/227",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/232",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/233",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/234",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/242",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/252",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/255",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/259",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/260",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/264",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/273",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/276",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/278",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/279",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/282",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/290",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/292",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/304",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/306",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/308",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/309",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/311",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/392",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/394",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/400",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/404",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/406",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/410",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/412",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/414",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/419",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/428",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/437",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/441",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/442",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/446",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/451",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/454",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/457",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/472",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/474",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/57",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/62",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/63",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/64",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/65",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/74",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/79",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/80",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/83",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/84",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/86",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/90",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/93",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/97",
+    "split": "evaluation"
+  },
+  {
+    "id": "mbpp/99",
+    "split": "evaluation"
+  }
+]

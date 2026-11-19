@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F4EFFA"/>
+  <g id="purple-titlebar">
+    <rect x="0" y="0" width="1190" height="118" fill="#3E1485"/>
+    <rect x="1190" y="0" width="90" height="118" fill="#9E89C2"/>
+    <text x="64" y="43" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#FFFFFF" font-weight="700">CURRENT PROGRESS</text>
+    <text x="64" y="84" font-family="Arial, Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">What is ready before Stage 2?</text>
+    <text x="1235" y="70" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="27" font-weight="700" fill="#FFFFFF">14</text>
+  </g>
+  <g id="progress-cards">
+    <rect x="82" y="176" width="342" height="300" rx="8" fill="#FFFFFF" stroke="#D6CBE8"/>
+    <use data-icon="tabler-outline/chart-line" x="118" y="216" width="36" height="36" fill="#3E1485" stroke-width="2"/>
+    <text x="118" y="294" font-family="Arial, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#1F1633">Phase 0 diagnosis</text>
+    <text x="118" y="348" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#4B405D">
+      <tspan x="118" dy="0">decode gap localized</tspan>
+      <tspan x="118" dy="30">prompt-length effect measured</tspan>
+      <tspan x="118" dy="30">profiler explains repeated work</tspan>
+    </text>
+    <rect x="468" y="176" width="342" height="300" rx="8" fill="#FFFFFF" stroke="#D6CBE8"/>
+    <use data-icon="tabler-outline/circle-check" x="504" y="216" width="36" height="36" fill="#6B4CA3" stroke-width="2"/>
+    <text x="504" y="294" font-family="Arial, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#1F1633">Phase 1 baseline</text>
+    <text x="504" y="348" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#4B405D">
+      <tspan x="504" dy="0">self Stage 1 implemented</tspan>
+      <tspan x="504" dy="30">targeted tests pass</tspan>
+      <tspan x="504" dy="30">self/reference parity checked</tspan>
+    </text>
+    <rect x="854" y="176" width="342" height="300" rx="8" fill="#FFFFFF" stroke="#D6CBE8"/>
+    <use data-icon="tabler-outline/route" x="890" y="216" width="36" height="36" fill="#9E89C2" stroke-width="2"/>
+    <text x="890" y="294" font-family="Arial, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#1F1633">Stage 2 entry</text>
+    <text x="890" y="348" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#4B405D">
+      <tspan x="890" dy="0">KV-cache target is justified</tspan>
+      <tspan x="890" dy="30">benchmark plan is clear</tspan>
+      <tspan x="890" dy="30">speedup claim is still pending</tspan>
+    </text>
+  </g>
+  <g id="meeting-message">
+    <rect x="164" y="536" width="952" height="66" rx="8" fill="#EDE7F6"/>
+    <text x="198" y="565" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#6B4CA3" font-weight="700">Meeting-level message</text>
+    <text x="198" y="585" font-family="Arial, Microsoft YaHei, sans-serif" font-size="19" font-weight="700" fill="#3E1485">
+      <tspan x="198" dy="0">The project is ready to move from diagnosis and baseline validation</tspan>
+      <tspan x="198" dy="24">into the first controlled optimization.</tspan>
+    </text>
+  </g>
+  <g id="footer">
+    <text x="64" y="675" font-family="Arial, Microsoft YaHei, sans-serif" font-size="11" fill="#6F6280">Source: Phase 0 diagnosis, Stage 1 profiler, and Phase 1 self-baseline validation</text>
+    <text x="1190" y="675" font-family="Arial, Microsoft YaHei, sans-serif" font-size="11" fill="#6F6280">14 / 16</text>
+  </g>
+</svg>

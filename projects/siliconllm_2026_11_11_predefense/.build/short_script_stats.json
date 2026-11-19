@@ -1,0 +1,23 @@
+{
+  "docx": "/Users/laiqixiao/Documents/SiliconLLM/projects/siliconllm_2026_11_11_predefense/exports/Local_LLM_PreDefense_Short_Script_EN_ZH_2026_11_12.docx",
+  "main_english_words": 923,
+  "all_english_words": 1079,
+  "pages_expected": 28,
+  "main_slides": 23,
+  "backup_slides": [
+    24,
+    25,
+    26
+  ],
+  "reference_slides": [
+    27,
+    28
+  ],
+  "placeholder_slides": [
+    12,
+    14,
+    21
+  ],
+  "language_order": "English then Chinese for each slide",
+  "deck_sha256": "a2c69c7596146d2519abdb04843c9e7a94fb48c4561e3f2b8b984d2b8ceecf1d"
+}

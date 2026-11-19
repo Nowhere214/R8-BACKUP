@@ -1,0 +1,5 @@
+engine,model,intercept_ms,slope_ms_per_context_token,r2,predicted_decode_ms_per_token_at_prompt_1024,predicted_decode_tps_at_prompt_1024
+mlx_lm,qwen2-0.5b,3.149111,0.000311,0.999226,3.477708,287.545677
+silicon_w1ref,qwen2-0.5b,13.433032,0.326778,0.998255,358.347640,2.790586
+mlx_lm,qwen2-1.5b,9.604578,0.000209,0.327924,9.825374,101.777300
+silicon_w1ref,qwen2-1.5b,37.641105,0.977267,0.999611,1069.146791,0.935325

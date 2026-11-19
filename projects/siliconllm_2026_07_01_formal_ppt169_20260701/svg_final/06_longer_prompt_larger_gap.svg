@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F4EFFA" />
+  <g id="header">
+    <text x="64" y="64" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#6B4CA3" font-weight="700">WORKLOAD EFFECT</text>
+    <text x="64" y="108" font-family="Arial, Microsoft YaHei, sans-serif" font-size="44" font-weight="700" fill="#1F1633">Longer prompt, larger decode gap</text>
+  </g>
+  <g id="purple-titlebar">
+    <rect x="0" y="0" width="1190" height="118" fill="#3E1485" />
+    <rect x="1190" y="0" width="90" height="118" fill="#9E89C2" />
+    <text x="64" y="43" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#FFFFFF" font-weight="700">WORKLOAD EFFECT</text>
+    <text x="64" y="84" font-family="Arial, Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">Longer prompt, larger decode gap</text>
+    <text x="1235" y="70" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="27" font-weight="700" fill="#FFFFFF">6</text>
+  </g>
+  <g id="hero">
+    <path fill="#FFFFFF" stroke="#D6CBE8" d="M90,182 H416 A8,8 0 0 1 424,190 V424 A8,8 0 0 1 416,432 H90 A8,8 0 0 1 82,424 V190 A8,8 0 0 1 90,182 Z" />
+    <text x="118" y="236" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#6F6280">short context</text>
+    <text x="118" y="304" font-family="Arial, Microsoft YaHei, sans-serif" font-size="46" font-weight="700" fill="#3E1485">14-15x</text>
+    <text x="118" y="350" font-family="Arial, Microsoft YaHei, sans-serif" font-size="19" fill="#4B405D">Stage 1 vs mlx-lm</text>
+    <path fill="#EDE7F6" d="M122,382 H294 A4,4 0 0 1 298,386 V386 A4,4 0 0 1 294,390 H122 A4,4 0 0 1 118,386 V386 A4,4 0 0 1 122,382 Z" />
+    <path fill="#3E1485" d="M122,382 H186 A4,4 0 0 1 190,386 V386 A4,4 0 0 1 186,390 H122 A4,4 0 0 1 118,386 V386 A4,4 0 0 1 122,382 Z" />
+    <path fill="#FFFFFF" stroke="#D6CBE8" d="M476,182 H802 A8,8 0 0 1 810,190 V424 A8,8 0 0 1 802,432 H476 A8,8 0 0 1 468,424 V190 A8,8 0 0 1 476,182 Z" />
+    <text x="504" y="236" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#6F6280">prompt scan trend</text>
+    <text x="504" y="304" font-family="Arial, Microsoft YaHei, sans-serif" font-size="46" font-weight="700" fill="#6B4CA3">monotonic</text>
+    <text x="504" y="350" font-family="Arial, Microsoft YaHei, sans-serif" font-size="19" fill="#4B405D">gap grows with context</text>
+    <path d="M510 386 C555 356 590 410 636 374 C680 340 713 354 762 318" fill="none" stroke="#6B4CA3" stroke-width="5" />
+    <path fill="#FFFFFF" stroke="#D6CBE8" d="M862,182 H1188 A8,8 0 0 1 1196,190 V424 A8,8 0 0 1 1188,432 H862 A8,8 0 0 1 854,424 V190 A8,8 0 0 1 862,182 Z" />
+    <text x="890" y="236" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#6F6280">long context</text>
+    <text x="890" y="304" font-family="Arial, Microsoft YaHei, sans-serif" font-size="46" font-weight="700" fill="#9E89C2">58x</text>
+    <text x="890" y="350" font-family="Arial, Microsoft YaHei, sans-serif" font-size="19" fill="#4B405D">observed at longer prompt</text>
+    <path fill="#F4EBDD" d="M894,382 H1066 A4,4 0 0 1 1070,386 V386 A4,4 0 0 1 1066,390 H894 A4,4 0 0 1 890,386 V386 A4,4 0 0 1 894,382 Z" />
+    <path fill="#9E89C2" d="M894,382 H1048 A4,4 0 0 1 1052,386 V386 A4,4 0 0 1 1048,390 H894 A4,4 0 0 1 890,386 V386 A4,4 0 0 1 894,382 Z" />
+  </g>
+  <g id="interpretation">
+    <path fill="#EDE7F6" d="M184,502 H1096 A8,8 0 0 1 1104,510 V570 A8,8 0 0 1 1096,578 H184 A8,8 0 0 1 176,570 V510 A8,8 0 0 1 184,502 Z" />
+    
+  <g transform="translate(210.0, 524.0) scale(1.3333333333333333)" fill="none" stroke="#3E1485" stroke-width="2">
+    <path d="M4 19l16 0" />
+    <path d="M4 15l4 -6l4 2l4 -5l4 4" />
+  </g>
+    <text font-size="21" font-family="Arial, Microsoft YaHei, sans-serif" font-weight="700" fill="#3E1485" x="262" y="542">The gap is tied to full-context decode work,</text><text font-size="21" font-family="Arial, Microsoft YaHei, sans-serif" font-weight="700" fill="#3E1485" x="262" y="570">not only to fixed overhead.</text></g>
+  <g id="footer">
+    <text x="64" y="675" font-family="Arial, Microsoft YaHei, sans-serif" font-size="11" fill="#6F6280">Source: workload prompt-length scan summaries; diagnostic evidence, not final speedup claim</text>
+    <text x="1190" y="675" font-family="Arial, Microsoft YaHei, sans-serif" font-size="11" fill="#6F6280">06 / 16</text>
+  </g>
+</svg>

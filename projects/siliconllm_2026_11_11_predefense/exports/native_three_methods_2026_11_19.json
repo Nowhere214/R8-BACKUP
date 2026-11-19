@@ -1,0 +1,18 @@
+{
+  "source": "/Users/laiqixiao/Documents/SiliconLLM/projects/siliconllm_2026_11_11_predefense/sources/reported_results.json",
+  "source_sha256": "eeb7f1c5ab94620b6764033bf592fcd12391ca4aa4ced571af18319574588602",
+  "methods": [
+    "Ordinary KV",
+    "Fixed history",
+    "Dynamic control"
+  ],
+  "speedup": [
+    1.0,
+    1.34,
+    1.6
+  ],
+  "omitted_from_figure": "Acceptance rule",
+  "scope": "Native model/cache components in a shared synchronous loop; not full API results.",
+  "original_data_and_figure_preserved": true,
+  "uncertainty": "Not shown in supplied figure; no new intervals or measurements added."
+}

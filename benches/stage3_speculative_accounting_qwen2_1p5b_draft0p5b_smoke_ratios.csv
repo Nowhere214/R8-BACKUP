@@ -1,0 +1,3 @@
+target_model,draft_model,model_pair,draft_length,decode_tps_ratio,wall_s_ratio,target_calls_per_decode_token_ratio,wall_tokens_per_s_ratio,acceptance_rate,matches_baseline_all
+qwen2-1.5b,qwen2-0.5b,qwen2-1.5b/qwen2-0.5b,2,0.810231112864346,1.2513777791235532,0.41935483870967744,0.7991191922077964,0.8181818181818182,1
+qwen2-1.5b,qwen2-0.5b,qwen2-1.5b/qwen2-0.5b,4,0.7360059638373897,1.361899624903905,0.2903225806451613,0.7342685038705108,0.6875,1

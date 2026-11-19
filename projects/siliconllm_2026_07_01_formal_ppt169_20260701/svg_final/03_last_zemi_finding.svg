@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F4EFFA" />
+  <g id="header">
+    <text x="64" y="62" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#6B4CA3" font-weight="700">RECAP</text>
+    <text x="64" y="102" font-family="Arial, Microsoft YaHei, sans-serif" font-size="34" font-weight="700" fill="#1F1633">The previous major talk found a decode-centered gap</text>
+  </g>
+  <g id="purple-titlebar">
+    <rect x="0" y="0" width="1190" height="118" fill="#3E1485" />
+    <rect x="1190" y="0" width="90" height="118" fill="#9E89C2" />
+    <text x="64" y="43" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#FFFFFF" font-weight="700">RECAP</text>
+    <text x="64" y="84" font-family="Arial, Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">The previous talk found a decode-centered gap</text>
+    <text x="1235" y="70" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="27" font-weight="700" fill="#FFFFFF">3</text>
+  </g>
+  <g id="left-card">
+    <path fill="#FFFFFF" stroke="#D6CBE8" d="M86,162 H590 A8,8 0 0 1 598,170 V546 A8,8 0 0 1 590,554 H86 A8,8 0 0 1 78,546 V170 A8,8 0 0 1 86,162 Z" />
+    
+  <g transform="translate(112.0, 202.0) scale(1.5833333333333333)" fill="none" stroke="#3E1485" stroke-width="2">
+    <path d="M5 6a1 1 0 0 1 1 -1h12a1 1 0 0 1 1 1v12a1 1 0 0 1 -1 1h-12a1 1 0 0 1 -1 -1l0 -12" />
+    <path d="M9 9h6v6h-6l0 -6" />
+    <path d="M3 10h2" />
+    <path d="M3 14h2" />
+    <path d="M10 3v2" />
+    <path d="M14 3v2" />
+    <path d="M21 10h-2" />
+    <path d="M21 14h-2" />
+    <path d="M14 21v-2" />
+    <path d="M10 21v-2" />
+  </g>
+    <text x="166" y="228" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#1F1633">5/20 message</text>
+    <text x="112" y="300" font-family="Arial, Microsoft YaHei, sans-serif" font-size="46" font-weight="700" fill="#9E89C2">29-33x</text>
+    <text x="112" y="334" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#4B405D">decode speed gap between mlx-lm and Stage 1 reference</text>
+    <path d="M112 382 H534" stroke="#D6CBE8" stroke-width="1" />
+    <text font-size="19" font-family="Arial, Microsoft YaHei, sans-serif" fill="#1F1633" x="112" y="430">The bottleneck was not evenly spread.</text><text font-size="19" font-family="Arial, Microsoft YaHei, sans-serif" fill="#1F1633" x="112" y="462">It was concentrated in autoregressive</text><text font-size="19" font-family="Arial, Microsoft YaHei, sans-serif" fill="#1F1633" x="112" y="494">generation.</text></g>
+  <g id="right-card">
+    <path fill="#FFFFFF" stroke="#D6CBE8" d="M690,162 H1194 A8,8 0 0 1 1202,170 V546 A8,8 0 0 1 1194,554 H690 A8,8 0 0 1 682,546 V170 A8,8 0 0 1 690,162 Z" />
+    
+  <g transform="translate(716.0, 202.0) scale(1.5833333333333333)" fill="none" stroke="#6B4CA3" stroke-width="2">
+    <path d="M5 12l14 0" />
+    <path d="M13 18l6 -6" />
+    <path d="M13 6l6 6" />
+  </g>
+    <text x="770" y="228" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#1F1633">This update</text>
+    <text x="716" y="292" font-family="Arial, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#3E1485">From where to why</text>
+    <text font-size="19" font-family="Arial, Microsoft YaHei, sans-serif" fill="#1F1633" x="716" y="348">I added more baselines and scans.</text><text font-size="19" font-family="Arial, Microsoft YaHei, sans-serif" fill="#1F1633" x="716" y="380">Then I profiled one decode step.</text><text font-size="19" font-family="Arial, Microsoft YaHei, sans-serif" fill="#1F1633" x="716" y="412">Finally, I implemented and checked</text><text font-size="19" font-family="Arial, Microsoft YaHei, sans-serif" fill="#1F1633" x="716" y="444">the faithful Stage 1 baseline.</text></g>
+  <g id="footer">
+    <text x="64" y="675" font-family="Arial, Microsoft YaHei, sans-serif" font-size="11" fill="#6F6280">Source: ZEMI_2026_05_20_SPEAKER_SCRIPT.md and 2026-07-01 formal update</text>
+    <text x="1190" y="675" font-family="Arial, Microsoft YaHei, sans-serif" font-size="11" fill="#6F6280">03 / 16</text>
+  </g>
+</svg>

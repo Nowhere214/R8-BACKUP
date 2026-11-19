@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "slides": 3,
+  "native_tables": 3,
+  "bilingual_notes": true,
+  "arithmetic": "passed",
+  "source_files_unchanged": true,
+  "illustrative_not_new_measurements": true,
+  "libreoffice_pdf_pages": 3,
+  "new_inference_experiments": false
+}

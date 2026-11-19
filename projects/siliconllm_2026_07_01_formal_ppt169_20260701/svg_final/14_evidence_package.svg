@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect x="0" y="0" width="1280" height="720" fill="#F4EFFA" />
+  <g id="purple-titlebar">
+    <rect x="0" y="0" width="1190" height="118" fill="#3E1485" />
+    <rect x="1190" y="0" width="90" height="118" fill="#9E89C2" />
+    <text x="64" y="43" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#FFFFFF" font-weight="700">CURRENT PROGRESS</text>
+    <text x="64" y="84" font-family="Arial, Microsoft YaHei, sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">What is ready before Stage 2?</text>
+    <text x="1235" y="70" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="27" font-weight="700" fill="#FFFFFF">14</text>
+  </g>
+  <g id="progress-cards">
+    <path fill="#FFFFFF" stroke="#D6CBE8" d="M90,176 H416 A8,8 0 0 1 424,184 V468 A8,8 0 0 1 416,476 H90 A8,8 0 0 1 82,468 V184 A8,8 0 0 1 90,176 Z" />
+    
+  <g transform="translate(118.0, 216.0) scale(1.5)" fill="none" stroke="#3E1485" stroke-width="2">
+    <path d="M4 19l16 0" />
+    <path d="M4 15l4 -6l4 2l4 -5l4 4" />
+  </g>
+    <text x="118" y="294" font-family="Arial, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#1F1633">Phase 0 diagnosis</text>
+    <text font-size="18" font-family="Arial, Microsoft YaHei, sans-serif" fill="#4B405D" x="118" y="348">decode gap localized</text><text font-size="18" font-family="Arial, Microsoft YaHei, sans-serif" fill="#4B405D" x="118" y="378">prompt-length effect measured</text><text font-size="18" font-family="Arial, Microsoft YaHei, sans-serif" fill="#4B405D" x="118" y="408">profiler explains repeated work</text><path fill="#FFFFFF" stroke="#D6CBE8" d="M476,176 H802 A8,8 0 0 1 810,184 V468 A8,8 0 0 1 802,476 H476 A8,8 0 0 1 468,468 V184 A8,8 0 0 1 476,176 Z" />
+    
+  <g transform="translate(504.0, 216.0) scale(1.5)" fill="none" stroke="#6B4CA3" stroke-width="2">
+    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <path d="M9 12l2 2l4 -4" />
+  </g>
+    <text x="504" y="294" font-family="Arial, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#1F1633">Phase 1 baseline</text>
+    <text font-size="18" font-family="Arial, Microsoft YaHei, sans-serif" fill="#4B405D" x="504" y="348">self Stage 1 implemented</text><text font-size="18" font-family="Arial, Microsoft YaHei, sans-serif" fill="#4B405D" x="504" y="378">targeted tests pass</text><text font-size="18" font-family="Arial, Microsoft YaHei, sans-serif" fill="#4B405D" x="504" y="408">self/reference parity checked</text><path fill="#FFFFFF" stroke="#D6CBE8" d="M862,176 H1188 A8,8 0 0 1 1196,184 V468 A8,8 0 0 1 1188,476 H862 A8,8 0 0 1 854,468 V184 A8,8 0 0 1 862,176 Z" />
+    
+  <g transform="translate(890.0, 216.0) scale(1.5)" fill="none" stroke="#9E89C2" stroke-width="2">
+    <path d="M3 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+    <path d="M19 7a2 2 0 1 0 0 -4a2 2 0 0 0 0 4" />
+    <path d="M11 19h5.5a3.5 3.5 0 0 0 0 -7h-8a3.5 3.5 0 0 1 0 -7h4.5" />
+  </g>
+    <text x="890" y="294" font-family="Arial, Microsoft YaHei, sans-serif" font-size="25" font-weight="700" fill="#1F1633">Stage 2 entry</text>
+    <text font-size="18" font-family="Arial, Microsoft YaHei, sans-serif" fill="#4B405D" x="890" y="348">KV-cache target is justified</text><text font-size="18" font-family="Arial, Microsoft YaHei, sans-serif" fill="#4B405D" x="890" y="378">benchmark plan is clear</text><text font-size="18" font-family="Arial, Microsoft YaHei, sans-serif" fill="#4B405D" x="890" y="408">speedup claim is still pending</text></g>
+  <g id="meeting-message">
+    <path fill="#EDE7F6" d="M172,518 H1108 A8,8 0 0 1 1116,526 V602 A8,8 0 0 1 1108,610 H172 A8,8 0 0 1 164,602 V526 A8,8 0 0 1 172,518 Z" />
+    <text x="198" y="548" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" fill="#6B4CA3" font-weight="700">Meeting-level message</text>
+    <text font-size="19" font-family="Arial, Microsoft YaHei, sans-serif" font-weight="700" fill="#3E1485" x="198" y="574">The project is ready to move from diagnosis and baseline validation</text><text font-size="19" font-family="Arial, Microsoft YaHei, sans-serif" font-weight="700" fill="#3E1485" x="198" y="598">into the first controlled optimization.</text></g>
+  <g id="footer">
+    <text x="64" y="675" font-family="Arial, Microsoft YaHei, sans-serif" font-size="11" fill="#6F6280">Source: Phase 0 diagnosis, Stage 1 profiler, and Phase 1 self-baseline validation</text>
+    <text x="1190" y="675" font-family="Arial, Microsoft YaHei, sans-serif" font-size="11" fill="#6F6280">14 / 16</text>
+  </g>
+</svg>

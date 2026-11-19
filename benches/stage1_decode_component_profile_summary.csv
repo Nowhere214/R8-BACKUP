@@ -1,0 +1,22 @@
+model,prompt_len,context_len,component,mean_ms,stdev_ms,share_pct,n,notes
+qwen2-0.5b,64,65,qkv_projection,10.768903,0.069246,16.300,3,aggregated from synchronized component timings
+qwen2-0.5b,64,65,attention_core,6.797779,0.161579,10.289,3,aggregated from synchronized component timings
+qwen2-0.5b,64,65,attention_out_projection,5.071001,0.099872,7.675,3,aggregated from synchronized component timings
+qwen2-0.5b,64,65,mlp,29.381443,0.165684,44.471,3,aggregated from synchronized component timings
+qwen2-0.5b,64,65,elementwise,6.162581,3.785234,9.328,12,aggregated from synchronized component timings
+qwen2-0.5b,64,65,lm_head,7.691264,0.004632,11.641,3,aggregated from synchronized component timings
+qwen2-0.5b,64,65,outer_loop,0.195813,0.084470,0.296,9,aggregated from synchronized component timings
+qwen2-0.5b,128,129,qkv_projection,7.168446,0.047183,9.371,3,aggregated from synchronized component timings
+qwen2-0.5b,128,129,attention_core,7.793099,0.028956,10.187,3,aggregated from synchronized component timings
+qwen2-0.5b,128,129,attention_out_projection,5.576849,0.052884,7.290,3,aggregated from synchronized component timings
+qwen2-0.5b,128,129,mlp,37.949973,0.142631,49.609,3,aggregated from synchronized component timings
+qwen2-0.5b,128,129,elementwise,6.356323,3.890393,8.309,12,aggregated from synchronized component timings
+qwen2-0.5b,128,129,lm_head,11.456264,0.029654,14.976,3,aggregated from synchronized component timings
+qwen2-0.5b,128,129,outer_loop,0.197068,0.061291,0.258,9,aggregated from synchronized component timings
+qwen2-0.5b,512,513,qkv_projection,11.379946,0.148845,5.961,3,aggregated from synchronized component timings
+qwen2-0.5b,512,513,attention_core,31.833332,0.260233,16.675,3,aggregated from synchronized component timings
+qwen2-0.5b,512,513,attention_out_projection,8.893849,0.085848,4.659,3,aggregated from synchronized component timings
+qwen2-0.5b,512,513,mlp,96.636293,0.301270,50.620,3,aggregated from synchronized component timings
+qwen2-0.5b,512,513,elementwise,7.978907,5.124289,4.180,12,aggregated from synchronized component timings
+qwen2-0.5b,512,513,lm_head,33.964958,0.043963,17.792,3,aggregated from synchronized component timings
+qwen2-0.5b,512,513,outer_loop,0.217129,0.103956,0.114,9,aggregated from synchronized component timings
