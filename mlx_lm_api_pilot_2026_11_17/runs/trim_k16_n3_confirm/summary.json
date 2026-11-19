@@ -1,0 +1,102 @@
+{
+  "validation_exact": 5,
+  "validation_cases": 5,
+  "timed_exact_to_reference": 30,
+  "timed_calls": 30,
+  "peak_mlx_gib": 1.0030022747814655,
+  "groups": {
+    "all_cases": {
+      "task_count": 5,
+      "calls_per_method": 15,
+      "summed_wall_s": {
+        "ordinary": 6.906073623918928,
+        "fixed_history": 4.9900425839587115
+      },
+      "time_ratio_ordinary_over_fixed": 1.3839708795511294,
+      "all_outputs_exact": true,
+      "equivalent_output_speedup_claim_allowed": true
+    },
+    "history_cases": {
+      "task_count": 4,
+      "calls_per_method": 12,
+      "summed_wall_s": {
+        "ordinary": 5.859958207933232,
+        "fixed_history": 3.9867125009768642
+      },
+      "time_ratio_ordinary_over_fixed": 1.4698722836164801,
+      "all_outputs_exact": true,
+      "equivalent_output_speedup_claim_allowed": true
+    },
+    "behavioral_edits": {
+      "task_count": 3,
+      "calls_per_method": 9,
+      "summed_wall_s": {
+        "ordinary": 4.6986565419938415,
+        "fixed_history": 3.335212249949109
+      },
+      "time_ratio_ordinary_over_fixed": 1.4088028556699914,
+      "all_outputs_exact": true,
+      "equivalent_output_speedup_claim_allowed": true
+    },
+    "cold_generation": {
+      "task_count": 1,
+      "calls_per_method": 3,
+      "summed_wall_s": {
+        "ordinary": 1.046115415985696,
+        "fixed_history": 1.0033300829818472
+      },
+      "time_ratio_ordinary_over_fixed": 1.0426433271856983,
+      "all_outputs_exact": true,
+      "equivalent_output_speedup_claim_allowed": true
+    },
+    "unchanged_source": {
+      "task_count": 1,
+      "calls_per_method": 3,
+      "summed_wall_s": {
+        "ordinary": 1.1613016659393907,
+        "fixed_history": 0.6515002510277554
+      },
+      "time_ratio_ordinary_over_fixed": 1.7825037889201312,
+      "all_outputs_exact": true,
+      "equivalent_output_speedup_claim_allowed": true
+    },
+    "include_zero": {
+      "task_count": 1,
+      "calls_per_method": 3,
+      "summed_wall_s": {
+        "ordinary": 1.573415624035988,
+        "fixed_history": 0.9943030819995329
+      },
+      "time_ratio_ordinary_over_fixed": 1.5824306014136715,
+      "all_outputs_exact": true,
+      "equivalent_output_speedup_claim_allowed": true
+    },
+    "case_insensitive": {
+      "task_count": 1,
+      "calls_per_method": 3,
+      "summed_wall_s": {
+        "ordinary": 1.8212686259648763,
+        "fixed_history": 1.4321709589567035
+      },
+      "time_ratio_ordinary_over_fixed": 1.271683813007645,
+      "all_outputs_exact": true,
+      "equivalent_output_speedup_claim_allowed": true
+    },
+    "inclusive_interval": {
+      "task_count": 1,
+      "calls_per_method": 3,
+      "summed_wall_s": {
+        "ordinary": 1.3039722919929773,
+        "fixed_history": 0.9087382089928724
+      },
+      "time_ratio_ordinary_over_fixed": 1.4349262296763454,
+      "all_outputs_exact": true,
+      "equivalent_output_speedup_claim_allowed": true
+    }
+  },
+  "load_s": 0.6497139999992214,
+  "total_process_work_s": 18.277622249966953,
+  "process_max_rss_gib": 1.1928558349609375,
+  "cold_control_interpretation": "Both modes use the same ordinary API. Any time difference is measurement noise, not drafting benefit.",
+  "warning": "Small author-written pilot. Timing ratios for non-exact outputs are diagnostic, not equivalent-output speedups. No confidence intervals or task-success claims."
+}

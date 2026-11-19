@@ -1,0 +1,98 @@
+{
+  "validation_exact": 5,
+  "validation_cases": 5,
+  "timed_exact_to_reference": 30,
+  "timed_calls": 30,
+  "peak_mlx_gib": 1.0030022747814655,
+  "groups": {
+    "all_cases": {
+      "task_count": 5,
+      "calls_per_method": 15,
+      "summed_wall_s": {
+        "ordinary": 6.928682750032749,
+        "fixed_history": 5.162266793951858
+      },
+      "time_ratio_ordinary_over_fixed": 1.3421783543133483,
+      "all_outputs_exact": true,
+      "equivalent_output_speedup_claim_allowed": true
+    },
+    "history_cases": {
+      "task_count": 4,
+      "calls_per_method": 12,
+      "summed_wall_s": {
+        "ordinary": 5.858783542062156,
+        "fixed_history": 4.16411283594789
+      },
+      "time_ratio_ordinary_over_fixed": 1.4069704095154527,
+      "all_outputs_exact": true,
+      "equivalent_output_speedup_claim_allowed": true
+    },
+    "behavioral_edits": {
+      "task_count": 3,
+      "calls_per_method": 9,
+      "summed_wall_s": {
+        "ordinary": 4.69734795903787,
+        "fixed_history": 3.4790535029023886
+      },
+      "time_ratio_ordinary_over_fixed": 1.3501798564233414,
+      "all_outputs_exact": true,
+      "equivalent_output_speedup_claim_allowed": true
+    },
+    "cold_generation": {
+      "task_count": 1,
+      "calls_per_method": 3,
+      "summed_wall_s": {
+        "ordinary": 1.0698992079705931,
+        "fixed_history": 0.998153958003968
+      },
+      "time_ratio_ordinary_over_fixed": 1.0718779396618292,
+      "all_outputs_exact": true,
+      "equivalent_output_speedup_claim_allowed": true
+    },
+    "unchanged_source": {
+      "task_count": 1,
+      "calls_per_method": 3,
+      "summed_wall_s": {
+        "ordinary": 1.1614355830242857,
+        "fixed_history": 0.6850593330455013
+      },
+      "time_ratio_ordinary_over_fixed": 1.6953795488939698,
+      "all_outputs_exact": true,
+      "equivalent_output_speedup_claim_allowed": true
+    },
+    "include_zero": {
+      "task_count": 1,
+      "calls_per_method": 3,
+      "summed_wall_s": {
+        "ordinary": 1.5853900840156712,
+        "fixed_history": 1.0358365849242546
+      },
+      "time_ratio_ordinary_over_fixed": 1.5305407311246906,
+      "all_outputs_exact": true,
+      "equivalent_output_speedup_claim_allowed": true
+    },
+    "case_insensitive": {
+      "task_count": 1,
+      "calls_per_method": 3,
+      "summed_wall_s": {
+        "ordinary": 1.815869375015609,
+        "fixed_history": 1.5360582509310916
+      },
+      "time_ratio_ordinary_over_fixed": 1.1821617923115273,
+      "all_outputs_exact": true,
+      "equivalent_output_speedup_claim_allowed": true
+    },
+    "inclusive_interval": {
+      "task_count": 1,
+      "calls_per_method": 3,
+      "summed_wall_s": {
+        "ordinary": 1.29608850000659,
+        "fixed_history": 0.9071586670470424
+      },
+      "time_ratio_ordinary_over_fixed": 1.4287340760636518,
+      "all_outputs_exact": true,
+      "equivalent_output_speedup_claim_allowed": true
+    }
+  },
+  "warning": "Small author-written pilot. Timing ratios for non-exact outputs are diagnostic, not equivalent-output speedups. No confidence intervals or task-success claims."
+}
