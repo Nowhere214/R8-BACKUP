@@ -1,0 +1,86 @@
+[
+{
+  "directory": "/Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref/build/tiny_llm_ext_ref._ext",
+  "command": "/usr/bin/c++ -DNB_COMPACT_ASSERTIONS -I/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/ext/robin_map/include -I\"/Users/laiqixiao/Library/Application Support/pdm/python/cpython@3.12.13/include/python3.12\" -I/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -fvisibility=hidden -fno-strict-aliasing -o CMakeFiles/nanobind-static.dir/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/nb_internals.cpp.o -c /Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/nb_internals.cpp",
+  "file": "/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/nb_internals.cpp",
+  "output": "CMakeFiles/nanobind-static.dir/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/nb_internals.cpp.o"
+},
+{
+  "directory": "/Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref/build/tiny_llm_ext_ref._ext",
+  "command": "/usr/bin/c++ -DNB_COMPACT_ASSERTIONS -I/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/ext/robin_map/include -I\"/Users/laiqixiao/Library/Application Support/pdm/python/cpython@3.12.13/include/python3.12\" -I/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -fvisibility=hidden -fno-strict-aliasing -o CMakeFiles/nanobind-static.dir/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/nb_func.cpp.o -c /Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/nb_func.cpp",
+  "file": "/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/nb_func.cpp",
+  "output": "CMakeFiles/nanobind-static.dir/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/nb_func.cpp.o"
+},
+{
+  "directory": "/Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref/build/tiny_llm_ext_ref._ext",
+  "command": "/usr/bin/c++ -DNB_COMPACT_ASSERTIONS -I/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/ext/robin_map/include -I\"/Users/laiqixiao/Library/Application Support/pdm/python/cpython@3.12.13/include/python3.12\" -I/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -fvisibility=hidden -fno-strict-aliasing -o CMakeFiles/nanobind-static.dir/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/nb_type.cpp.o -c /Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/nb_type.cpp",
+  "file": "/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/nb_type.cpp",
+  "output": "CMakeFiles/nanobind-static.dir/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/nb_type.cpp.o"
+},
+{
+  "directory": "/Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref/build/tiny_llm_ext_ref._ext",
+  "command": "/usr/bin/c++ -DNB_COMPACT_ASSERTIONS -I/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/ext/robin_map/include -I\"/Users/laiqixiao/Library/Application Support/pdm/python/cpython@3.12.13/include/python3.12\" -I/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -fvisibility=hidden -fno-strict-aliasing -o CMakeFiles/nanobind-static.dir/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/nb_enum.cpp.o -c /Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/nb_enum.cpp",
+  "file": "/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/nb_enum.cpp",
+  "output": "CMakeFiles/nanobind-static.dir/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/nb_enum.cpp.o"
+},
+{
+  "directory": "/Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref/build/tiny_llm_ext_ref._ext",
+  "command": "/usr/bin/c++ -DNB_COMPACT_ASSERTIONS -I/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/ext/robin_map/include -I\"/Users/laiqixiao/Library/Application Support/pdm/python/cpython@3.12.13/include/python3.12\" -I/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -fvisibility=hidden -fno-strict-aliasing -o CMakeFiles/nanobind-static.dir/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/nb_ndarray.cpp.o -c /Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/nb_ndarray.cpp",
+  "file": "/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/nb_ndarray.cpp",
+  "output": "CMakeFiles/nanobind-static.dir/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/nb_ndarray.cpp.o"
+},
+{
+  "directory": "/Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref/build/tiny_llm_ext_ref._ext",
+  "command": "/usr/bin/c++ -DNB_COMPACT_ASSERTIONS -I/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/ext/robin_map/include -I\"/Users/laiqixiao/Library/Application Support/pdm/python/cpython@3.12.13/include/python3.12\" -I/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -fvisibility=hidden -fno-strict-aliasing -o CMakeFiles/nanobind-static.dir/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/nb_static_property.cpp.o -c /Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/nb_static_property.cpp",
+  "file": "/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/nb_static_property.cpp",
+  "output": "CMakeFiles/nanobind-static.dir/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/nb_static_property.cpp.o"
+},
+{
+  "directory": "/Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref/build/tiny_llm_ext_ref._ext",
+  "command": "/usr/bin/c++ -DNB_COMPACT_ASSERTIONS -I/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/ext/robin_map/include -I\"/Users/laiqixiao/Library/Application Support/pdm/python/cpython@3.12.13/include/python3.12\" -I/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -fvisibility=hidden -fno-strict-aliasing -o CMakeFiles/nanobind-static.dir/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/common.cpp.o -c /Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/common.cpp",
+  "file": "/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/common.cpp",
+  "output": "CMakeFiles/nanobind-static.dir/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/common.cpp.o"
+},
+{
+  "directory": "/Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref/build/tiny_llm_ext_ref._ext",
+  "command": "/usr/bin/c++ -DNB_COMPACT_ASSERTIONS -I/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/ext/robin_map/include -I\"/Users/laiqixiao/Library/Application Support/pdm/python/cpython@3.12.13/include/python3.12\" -I/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -fvisibility=hidden -fno-strict-aliasing -o CMakeFiles/nanobind-static.dir/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/error.cpp.o -c /Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/error.cpp",
+  "file": "/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/error.cpp",
+  "output": "CMakeFiles/nanobind-static.dir/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/error.cpp.o"
+},
+{
+  "directory": "/Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref/build/tiny_llm_ext_ref._ext",
+  "command": "/usr/bin/c++ -DNB_COMPACT_ASSERTIONS -I/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/ext/robin_map/include -I\"/Users/laiqixiao/Library/Application Support/pdm/python/cpython@3.12.13/include/python3.12\" -I/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -fvisibility=hidden -fno-strict-aliasing -o CMakeFiles/nanobind-static.dir/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/trampoline.cpp.o -c /Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/trampoline.cpp",
+  "file": "/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/trampoline.cpp",
+  "output": "CMakeFiles/nanobind-static.dir/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/trampoline.cpp.o"
+},
+{
+  "directory": "/Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref/build/tiny_llm_ext_ref._ext",
+  "command": "/usr/bin/c++ -DNB_COMPACT_ASSERTIONS -I/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/ext/robin_map/include -I\"/Users/laiqixiao/Library/Application Support/pdm/python/cpython@3.12.13/include/python3.12\" -I/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/include -O3 -DNDEBUG -std=gnu++17 -arch arm64 -fPIC -fvisibility=hidden -fno-strict-aliasing -o CMakeFiles/nanobind-static.dir/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/implicit.cpp.o -c /Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/implicit.cpp",
+  "file": "/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/implicit.cpp",
+  "output": "CMakeFiles/nanobind-static.dir/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/src/implicit.cpp.o"
+},
+{
+  "directory": "/Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref/build/tiny_llm_ext_ref._ext",
+  "command": "/usr/bin/c++ -DNB_DOMAIN=mlx -D_ext_EXPORTS -I\"/Users/laiqixiao/Library/Application Support/pdm/python/cpython@3.12.13/include/python3.12\" -I/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/include -I/Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref -I/Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref/src -isystem /Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/mlx/include/metal_cpp -isystem /Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/mlx/include -O3 -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -fPIC -fvisibility=hidden -F/Applications/Xcode-26.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks  -fno-stack-protector -DACCELERATE_NEW_LAPACK -D_METAL_ -o CMakeFiles/_ext.dir/bindings.cpp.o -c /Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref/bindings.cpp",
+  "file": "/Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref/bindings.cpp",
+  "output": "CMakeFiles/_ext.dir/bindings.cpp.o"
+},
+{
+  "directory": "/Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref/build/tiny_llm_ext_ref._ext",
+  "command": "/usr/bin/c++ -DNB_DOMAIN=mlx -D_ext_EXPORTS -I\"/Users/laiqixiao/Library/Application Support/pdm/python/cpython@3.12.13/include/python3.12\" -I/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/include -I/Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref -I/Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref/src -isystem /Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/mlx/include/metal_cpp -isystem /Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/mlx/include -O3 -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -fPIC -fvisibility=hidden -F/Applications/Xcode-26.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks  -fno-stack-protector -DACCELERATE_NEW_LAPACK -D_METAL_ -o CMakeFiles/_ext.dir/src/quantized_matmul.cpp.o -c /Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref/src/quantized_matmul.cpp",
+  "file": "/Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref/src/quantized_matmul.cpp",
+  "output": "CMakeFiles/_ext.dir/src/quantized_matmul.cpp.o"
+},
+{
+  "directory": "/Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref/build/tiny_llm_ext_ref._ext",
+  "command": "/usr/bin/c++ -DNB_DOMAIN=mlx -D_ext_EXPORTS -I\"/Users/laiqixiao/Library/Application Support/pdm/python/cpython@3.12.13/include/python3.12\" -I/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/include -I/Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref -I/Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref/src -isystem /Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/mlx/include/metal_cpp -isystem /Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/mlx/include -O3 -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -fPIC -fvisibility=hidden -F/Applications/Xcode-26.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks  -fno-stack-protector -DACCELERATE_NEW_LAPACK -D_METAL_ -o CMakeFiles/_ext.dir/src/flash_attention.cpp.o -c /Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref/src/flash_attention.cpp",
+  "file": "/Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref/src/flash_attention.cpp",
+  "output": "CMakeFiles/_ext.dir/src/flash_attention.cpp.o"
+},
+{
+  "directory": "/Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref/build/tiny_llm_ext_ref._ext",
+  "command": "/usr/bin/c++ -DNB_DOMAIN=mlx -D_ext_EXPORTS -I\"/Users/laiqixiao/Library/Application Support/pdm/python/cpython@3.12.13/include/python3.12\" -I/Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/nanobind/include -I/Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref -I/Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref/src -isystem /Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/mlx/include/metal_cpp -isystem /Users/laiqixiao/Documents/SiliconLLM/.venv/lib/python3.12/site-packages/mlx/include -O3 -DNDEBUG -std=gnu++17 -flto=thin -arch arm64 -fPIC -fvisibility=hidden -F/Applications/Xcode-26.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks  -fno-stack-protector -DACCELERATE_NEW_LAPACK -D_METAL_ -o CMakeFiles/_ext.dir/src/utils.cpp.o -c /Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref/src/utils.cpp",
+  "file": "/Users/laiqixiao/Documents/SiliconLLM/src/extensions_ref/src/utils.cpp",
+  "output": "CMakeFiles/_ext.dir/src/utils.cpp.o"
+}
+]
